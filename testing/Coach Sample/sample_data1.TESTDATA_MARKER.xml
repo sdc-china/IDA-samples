@@ -4746,7 +4746,8 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                     <delegate>
                       <com.ibm.cte.sdc.bpm.testing.model.cases.TestCase>
                         <id>670</id>
-                        <caseName>case1</caseName>
+                        <caseName>normalCase</caseName>
+                        <caseDescription></caseDescription>
                         <flow>[{&quot;PROCESSNAME&quot;:&quot;Start&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;StartNode&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;StartPoint&quot;},{&quot;PROCESSNAME&quot;:&quot;init&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.33c5ed37-965e-4f3a-8d3d-78d5f978f274&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;Script&quot;},{&quot;PROCESSNAME&quot;:&quot;Page1&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.42ec9dfd-695d-40a7-8750-20b284045361&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;CoachNG&quot;},{&quot;PROCESSNAME&quot;:&quot;Page2&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.f1b9098e-3549-48c5-ad9b-9fcacf4e8e0e&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;CoachNG&quot;},{&quot;PROCESSNAME&quot;:&quot;End&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.de1a114e-6bd2-4f5c-81a8-0d3a6f49ea33&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ExitPoint&quot;}]</flow>
                         <processType>SERVICE</processType>
                         <processName>Coach Test</processName>
@@ -4995,7 +4996,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                         <updater reference="../creator"/>
                         <executor reference="../creator"/>
                         <creationDate>2018-11-19 05:45:28.465 UTC</creationDate>
-                        <updateDate>2018-11-19 05:48:40.522 UTC</updateDate>
+                        <updateDate>2018-11-19 07:05:57.803 UTC</updateDate>
                         <project reference="../../../../../../../../../../.."/>
                         <caseSteps class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                           <unserializable-parents/>
@@ -7256,14 +7257,14 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   </fieldsArray>
                                   <valuesArray>
                                     <long>670</long>
-                                    <null/>
-                                    <string>case1</string>
+                                    <string></string>
+                                    <string>normalCase</string>
                                     <sql-timestamp>2018-11-19 05:45:28.465</sql-timestamp>
                                     <string>Failed</string>
                                     <string>[{&quot;PROCESSNAME&quot;:&quot;Start&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;StartNode&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;StartPoint&quot;},{&quot;PROCESSNAME&quot;:&quot;init&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.33c5ed37-965e-4f3a-8d3d-78d5f978f274&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;Script&quot;},{&quot;PROCESSNAME&quot;:&quot;Page1&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.42ec9dfd-695d-40a7-8750-20b284045361&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;CoachNG&quot;},{&quot;PROCESSNAME&quot;:&quot;Page2&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.f1b9098e-3549-48c5-ad9b-9fcacf4e8e0e&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;CoachNG&quot;},{&quot;PROCESSNAME&quot;:&quot;End&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.de1a114e-6bd2-4f5c-81a8-0d3a6f49ea33&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ExitPoint&quot;}]</string>
                                     <string>Coach Test</string>
                                     <string>SERVICE</string>
-                                    <sql-timestamp>2018-11-19 05:48:40.522</sql-timestamp>
+                                    <sql-timestamp>2018-11-19 07:05:57.803</sql-timestamp>
                                     <long>22</long>
                                     <null/>
                                     <long>22</long>

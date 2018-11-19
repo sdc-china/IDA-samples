@@ -4746,7 +4746,8 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                     <delegate>
                       <com.ibm.cte.sdc.bpm.testing.model.cases.TestCase>
                         <id>642</id>
-                        <caseName>case1</caseName>
+                        <caseName>normalCase</caseName>
+                        <caseDescription></caseDescription>
                         <flow>[{&quot;PROCESSNAME&quot;:&quot;Start&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;13582946-97aa-4bda-a7e5-c29d7c1006d2&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;StartPoint&quot;},{&quot;PROCESSNAME&quot;:&quot;Step 1&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.0dd28aa2-a600-4c69-aa4f-a734d70b9d0f&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;Step 2&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.3daef544-fa68-47a7-8ac8-d01eef66f7ba&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;End&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;421ca6e0-7dfa-4b89-a2a5-9b435b0a4fd3&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ExitPoint&quot;}]</flow>
                         <processType>SERVICE</processType>
                         <processName>Responsive Coach Test</processName>
@@ -4995,7 +4996,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                         <updater reference="../creator"/>
                         <executor reference="../creator"/>
                         <creationDate>2018-11-19 05:30:41.88 UTC</creationDate>
-                        <updateDate>2018-11-19 05:30:41.88 UTC</updateDate>
+                        <updateDate>2018-11-19 07:00:17.768 UTC</updateDate>
                         <project reference="../../../../../../../../../../.."/>
                         <caseSteps class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                           <unserializable-parents/>
@@ -9556,14 +9557,14 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   </fieldsArray>
                                   <valuesArray>
                                     <long>642</long>
-                                    <null/>
-                                    <string>case1</string>
+                                    <string></string>
+                                    <string>normalCase</string>
                                     <sql-timestamp>2018-11-19 05:30:41.088</sql-timestamp>
                                     <string>Passed</string>
                                     <string>[{&quot;PROCESSNAME&quot;:&quot;Start&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;13582946-97aa-4bda-a7e5-c29d7c1006d2&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;StartPoint&quot;},{&quot;PROCESSNAME&quot;:&quot;Step 1&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.0dd28aa2-a600-4c69-aa4f-a734d70b9d0f&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;Step 2&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.3daef544-fa68-47a7-8ac8-d01eef66f7ba&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;End&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;421ca6e0-7dfa-4b89-a2a5-9b435b0a4fd3&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ExitPoint&quot;}]</string>
                                     <string>Responsive Coach Test</string>
                                     <string>SERVICE</string>
-                                    <sql-timestamp>2018-11-19 05:30:41.088</sql-timestamp>
+                                    <sql-timestamp>2018-11-19 07:00:17.768</sql-timestamp>
                                     <long>22</long>
                                     <null/>
                                     <long>22</long>

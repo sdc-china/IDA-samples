@@ -4742,7 +4742,8 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                   <delegate>
                     <com.ibm.cte.sdc.bpm.testing.model.cases.TestCase>
                       <id>650</id>
-                      <caseName>case1</caseName>
+                      <caseName>normalCase</caseName>
+                      <caseDescription></caseDescription>
                       <flow>[{&quot;PROCESSNAME&quot;:&quot;Start&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;208aa5b1-75c2-437c-bc9f-31bf05cfca8f&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;StartPoint&quot;},{&quot;PROCESSNAME&quot;:&quot;Init&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.3c7c02b1-9b49-4634-8bca-6cb721bad9ff&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ScriptTask&quot;},{&quot;PROCESSNAME&quot;:&quot;Page 1&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.3c36cef0-432c-433c-87b1-f9a8f538e116&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;Page 2&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.d2431741-55f3-4368-8ff9-74be6facf9c3&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;End&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;e4783280-68ee-474a-b5b2-f47c4607391b&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ExitPoint&quot;}]</flow>
                       <processType>SERVICE</processType>
                       <processName>BPM UI Test</processName>
@@ -4990,7 +4991,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                       </creator>
                       <updater reference="../creator"/>
                       <creationDate>2018-11-19 05:36:50.181 UTC</creationDate>
-                      <updateDate>2018-11-19 05:36:50.181 UTC</updateDate>
+                      <updateDate>2018-11-19 07:00:32.881 UTC</updateDate>
                       <project reference="../../../../../../../../../../.."/>
                       <caseSteps class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                         <unserializable-parents/>
@@ -9147,14 +9148,14 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                 </fieldsArray>
                                 <valuesArray>
                                   <long>650</long>
-                                  <null/>
-                                  <string>case1</string>
+                                  <string></string>
+                                  <string>normalCase</string>
                                   <sql-timestamp>2018-11-19 05:36:50.181</sql-timestamp>
                                   <string>Passed</string>
                                   <string>[{&quot;PROCESSNAME&quot;:&quot;Start&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;208aa5b1-75c2-437c-bc9f-31bf05cfca8f&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;StartPoint&quot;},{&quot;PROCESSNAME&quot;:&quot;Init&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.3c7c02b1-9b49-4634-8bca-6cb721bad9ff&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ScriptTask&quot;},{&quot;PROCESSNAME&quot;:&quot;Page 1&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.3c36cef0-432c-433c-87b1-f9a8f538e116&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;Page 2&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.d2431741-55f3-4368-8ff9-74be6facf9c3&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;End&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;e4783280-68ee-474a-b5b2-f47c4607391b&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ExitPoint&quot;}]</string>
                                   <string>BPM UI Test</string>
                                   <string>SERVICE</string>
-                                  <sql-timestamp>2018-11-19 05:36:50.181</sql-timestamp>
+                                  <sql-timestamp>2018-11-19 07:00:32.881</sql-timestamp>
                                   <long>22</long>
                                   <null/>
                                   <null/>
@@ -9475,14 +9476,15 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                   <delegate>
                     <com.ibm.cte.sdc.bpm.testing.model.cases.TestCase>
                       <id>652</id>
-                      <caseName>case1</caseName>
+                      <caseName>normalCase</caseName>
+                      <caseDescription></caseDescription>
                       <flow>[{&quot;PROCESSNAME&quot;:&quot;Start&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;fb382184-f22c-4031-affd-659afd161e74&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;StartPoint&quot;},{&quot;PROCESSNAME&quot;:&quot;Coach&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.79e19621-a2b8-4486-921b-ecc8045756bb&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;End&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;5d727286-faf4-42d3-a81b-cb5e80e30979&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ExitPoint&quot;}]</flow>
                       <processType>SERVICE</processType>
                       <processName>File Upload</processName>
                       <creator reference="../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/creator"/>
                       <updater reference="../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/creator"/>
                       <creationDate>2018-11-19 05:36:53.349 UTC</creationDate>
-                      <updateDate>2018-11-19 05:36:53.349 UTC</updateDate>
+                      <updateDate>2018-11-19 07:23:28.277 UTC</updateDate>
                       <project reference="../../../../../../../../../../.."/>
                       <caseSteps class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                         <unserializable-parents/>
@@ -10036,14 +10038,14 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                 <fieldsArray reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
                                 <valuesArray>
                                   <long>652</long>
-                                  <null/>
-                                  <string>case1</string>
+                                  <string></string>
+                                  <string>normalCase</string>
                                   <sql-timestamp>2018-11-19 05:36:53.349</sql-timestamp>
                                   <string>Passed</string>
                                   <string>[{&quot;PROCESSNAME&quot;:&quot;Start&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;fb382184-f22c-4031-affd-659afd161e74&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;StartPoint&quot;},{&quot;PROCESSNAME&quot;:&quot;Coach&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.79e19621-a2b8-4486-921b-ecc8045756bb&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;End&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;5d727286-faf4-42d3-a81b-cb5e80e30979&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ExitPoint&quot;}]</string>
                                   <string>File Upload</string>
                                   <string>SERVICE</string>
-                                  <sql-timestamp>2018-11-19 05:36:53.349</sql-timestamp>
+                                  <sql-timestamp>2018-11-19 07:23:28.277</sql-timestamp>
                                   <long>22</long>
                                   <null/>
                                   <null/>
@@ -10132,174 +10134,6 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                       <testSuite reference="../../../../../.."/>
                       <executionStatus>Passed</executionStatus>
                     </com.ibm.cte.sdc.bpm.testing.model.cases.TestCase>
-                    <com.ibm.cte.sdc.bpm.testing.model.cases.TestCase>
-                      <id>653</id>
-                      <caseName>case2</caseName>
-                      <processType>SERVICE</processType>
-                      <processName>File Upload</processName>
-                      <creator reference="../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/creator"/>
-                      <updater reference="../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/creator"/>
-                      <creationDate>2018-11-19 05:36:54.192 UTC</creationDate>
-                      <updateDate>2018-11-19 05:36:54.192 UTC</updateDate>
-                      <project reference="../../../../../../../../../../.."/>
-                      <caseSteps class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                        <unserializable-parents/>
-                        <vector>
-                          <default>
-                            <capacityIncrement>0</capacityIncrement>
-                            <elementCount>0</elementCount>
-                            <elementData/>
-                          </default>
-                        </vector>
-                        <org.eclipse.persistence.indirection.IndirectList>
-                          <default>
-                            <initialCapacity>10</initialCapacity>
-                            <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                            <isRegistered>true</isRegistered>
-                            <useLazyInstantiation>true</useLazyInstantiation>
-                            <delegate>
-                              <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                <id>9290</id>
-                                <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[5]/command"/>
-                                <comment></comment>
-                                <parameters>{&quot;user&quot;:&quot;&quot;,&quot;service&quot;:&quot;File Upload&quot;,&quot;params&quot;:&quot;&quot;,&quot;toolkitName&quot;:&quot;&quot;}</parameters>
-                                <index>1</index>
-                                <testCase reference="../../../../../.."/>
-                                <testResult>{&quot;url&quot;:&quot;https:\/\/9.30.160.68:9444\/teamworks\/redirect-login.jsp?j_forward=executecf%3FmodelID%3D1.1fa3f421-c019-4fa9-88a0-83d00c0ac225%26branchID%3D2063.0ca07eaf-244e-4b9f-997a-dbe5275dc2f3&amp;credentials=ZGVhZG1pbg%3D%3D%3AZGVhZG1pbg%3D%3D&quot;}</testResult>
-                                <executionStatus>Passed</executionStatus>
-                              </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                              <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                <id>9291</id>
-                                <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[15]/command"/>
-                                <comment></comment>
-                                <parameters>{&quot;log&quot;:&quot;&quot;}</parameters>
-                                <index>2</index>
-                                <testCase reference="../../../../../.."/>
-                                <testResult>{&quot;logTrace&quot;:&quot;Debug log is :&quot;}</testResult>
-                                <executionStatus>Passed</executionStatus>
-                                <exceptionTrace>Debug log is :</exceptionTrace>
-                              </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                            </delegate>
-                            <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
-                              <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                <unserializable-parents/>
-                                <vector>
-                                  <default>
-                                    <capacityIncrement>0</capacityIncrement>
-                                    <elementCount>0</elementCount>
-                                    <elementData/>
-                                  </default>
-                                </vector>
-                                <org.eclipse.persistence.indirection.IndirectList>
-                                  <default>
-                                    <initialCapacity>2</initialCapacity>
-                                    <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                    <isRegistered>false</isRegistered>
-                                    <useLazyInstantiation>true</useLazyInstantiation>
-                                    <delegate reference="../../../../../delegate"/>
-                                    <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
-                                      <value class="vector" reference="../../../../../../delegate"/>
-                                      <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                      <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
-                                    </valueHolder>
-                                  </default>
-                                </org.eclipse.persistence.indirection.IndirectList>
-                              </value>
-                              <isInstantiated>true</isInstantiated>
-                              <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
-                                <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
-                                <size>16</size>
-                                <nullValueInFields>false</nullValueInFields>
-                                <fieldsArray reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
-                                <valuesArray>
-                                  <long>653</long>
-                                  <null/>
-                                  <string>case2</string>
-                                  <sql-timestamp>2018-11-19 05:36:54.192</sql-timestamp>
-                                  <string>Passed</string>
-                                  <null/>
-                                  <string>File Upload</string>
-                                  <string>SERVICE</string>
-                                  <sql-timestamp>2018-11-19 05:36:54.192</sql-timestamp>
-                                  <long>22</long>
-                                  <null/>
-                                  <null/>
-                                  <long>245</long>
-                                  <long>358</long>
-                                  <long>22</long>
-                                  <null/>
-                                </valuesArray>
-                              </row>
-                              <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                              <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
-                                <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                  <unserializable-parents/>
-                                  <vector>
-                                    <default>
-                                      <capacityIncrement>0</capacityIncrement>
-                                      <elementCount>0</elementCount>
-                                      <elementData/>
-                                    </default>
-                                  </vector>
-                                  <org.eclipse.persistence.indirection.IndirectList>
-                                    <default>
-                                      <initialCapacity>2</initialCapacity>
-                                      <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                      <isRegistered>false</isRegistered>
-                                      <useLazyInstantiation>true</useLazyInstantiation>
-                                      <delegate>
-                                        <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep reference="../../../../../../../delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep"/>
-                                        <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep reference="../../../../../../../delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[2]"/>
-                                      </delegate>
-                                      <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
-                                        <value class="vector" reference="../../delegate"/>
-                                        <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                        <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
-                                      </valueHolder>
-                                    </default>
-                                  </org.eclipse.persistence.indirection.IndirectList>
-                                </value>
-                                <isInstantiated>true</isInstantiated>
-                                <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
-                              </backupValueHolder>
-                              <sourceAttributeName>caseSteps</sourceAttributeName>
-                            </valueHolder>
-                          </default>
-                        </org.eclipse.persistence.indirection.IndirectList>
-                      </caseSteps>
-                      <testResult class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                        <unserializable-parents/>
-                        <vector>
-                          <default>
-                            <capacityIncrement>0</capacityIncrement>
-                            <elementCount>0</elementCount>
-                            <elementData/>
-                          </default>
-                        </vector>
-                        <org.eclipse.persistence.indirection.IndirectList>
-                          <default>
-                            <initialCapacity>10</initialCapacity>
-                            <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                            <isRegistered>true</isRegistered>
-                            <useLazyInstantiation>true</useLazyInstantiation>
-                            <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
-                              <isInstantiated>false</isInstantiated>
-                              <row class="org.eclipse.persistence.internal.sessions.ArrayRecord" reference="../../../../../caseSteps/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row"/>
-                              <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                              <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
-                                <isInstantiated>false</isInstantiated>
-                                <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
-                              </backupValueHolder>
-                              <sourceAttributeName>testResult</sourceAttributeName>
-                            </valueHolder>
-                          </default>
-                        </org.eclipse.persistence.indirection.IndirectList>
-                      </testResult>
-                      <testSuite reference="../../../../../.."/>
-                      <executionStatus>Passed</executionStatus>
-                    </com.ibm.cte.sdc.bpm.testing.model.cases.TestCase>
                   </delegate>
                   <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
                     <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
@@ -10313,7 +10147,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                       </vector>
                       <org.eclipse.persistence.indirection.IndirectList>
                         <default>
-                          <initialCapacity>2</initialCapacity>
+                          <initialCapacity>1</initialCapacity>
                           <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
                           <isRegistered>false</isRegistered>
                           <useLazyInstantiation>true</useLazyInstantiation>
@@ -10352,13 +10186,12 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                         </vector>
                         <org.eclipse.persistence.indirection.IndirectList>
                           <default>
-                            <initialCapacity>2</initialCapacity>
+                            <initialCapacity>1</initialCapacity>
                             <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
                             <isRegistered>false</isRegistered>
                             <useLazyInstantiation>true</useLazyInstantiation>
                             <delegate>
                               <com.ibm.cte.sdc.bpm.testing.model.cases.TestCase reference="../../../../../../../delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase"/>
-                              <com.ibm.cte.sdc.bpm.testing.model.cases.TestCase reference="../../../../../../../delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase[2]"/>
                             </delegate>
                             <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
                               <value class="vector" reference="../../delegate"/>
