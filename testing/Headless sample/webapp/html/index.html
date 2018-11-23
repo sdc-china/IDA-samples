@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sample web for headless BPM">
+    <meta name="author" content="lmming@cn.ibm.com">
+
+    <title>Headless BPM Sample</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/sample.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Headless Sample</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Run As <span id="current-user"></span><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li ><a id="requestor-menu" href="#">Requestor</a></li>
+                            <li ><a id="reviewer-menu" href="#">Reviewer</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li id="new-request-button"><a href="#">New Request</a></li>
+                    <li id="inbox-button"><a href="#">Inbox</a></li>
+                </ul>
+            </div>
+
+            <div id="loading-div" style="display: none" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">Loading Data</div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                <div id="bpm-ui" style="display: none">
+                    BPM UI
+                </div>
+                <div id="custom-ui" style="display: none">
+                    Custom UI
+                </div>
+                <div id="task-table" class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Task Subject</th>
+                                <th>Process Instance</th>
+                                <th>Due Date</th>
+                                <th>Operation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1,001</td>
+                                <td>Lorem</td>
+                                <td>ipsum</td>
+                                <td>dolor</td>
+                                <td><button type="button" class="btn btn-link">BPM UI</button>
+                                    <button type="button" class="btn btn-link">Custom UI</button></td>
+                            </tr>
+                            <tr>
+                                <td>1,014</td>
+                                <td>per</td>
+                                <td>inceptos</td>
+                                <td>himenaeos</td>
+                                <td><button type="button" class="btn btn-link">BPM UI</button>
+                                    <button type="button" class="btn btn-link">Custom UI</button></td>
+                            </tr>
+                            <tr>
+                                <td>1,015</td>
+                                <td>sodales</td>
+                                <td>ligula</td>
+                                <td>in</td>
+                                <td><button type="button" class="btn btn-link">BPM UI</button>
+                                    <button type="button" class="btn btn-link">Custom UI</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap-3.3.5.js"></script>
+    <script src="js/sample.js"></script>
+</body>
+
+</html>
