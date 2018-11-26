@@ -16,7 +16,6 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -35,8 +34,8 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                             aria-expanded="false">Run As <span id="current-user"></span><span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li ><a id="requestor-menu" href="#">Requestor</a></li>
-                            <li ><a id="reviewer-menu" href="#">Reviewer</a></li>
+                            <li><a id="requestor-menu" href="#">Requestor</a></li>
+                            <li><a id="reviewer-menu" href="#">Reviewer</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -49,18 +48,55 @@
             <div class="col-sm-3 col-md-2 sidebar">
                 <ul class="nav nav-sidebar">
                     <li id="new-request-button"><a href="#">New Request</a></li>
-                    <li id="inbox-button"><a href="#">Inbox</a></li>
+                    <li id="inbox-button"><a href="#">Inbox<span class="badge">0</span></a></li>
                 </ul>
             </div>
 
-            <div id="loading-div" style="display: none" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">Loading Data</div>
-            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <div id="loading-div" style="display: none" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">Loading
+                Data</div>
+            <div id='main' class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
                 <div id="bpm-ui" style="display: none">
-                    BPM UI
+                    <iframe src="#" frameborder="0" style="height:88vh"></iframe>
                 </div>
                 <div id="custom-ui" style="display: none">
-                    Custom UI
+                    <div id="for-requestor" style="display:none">
+                        <div class="form-group">
+                            <label for="request-type">Type</label>
+                            <select class="form-control" id="request-type" placeholder="Select Type">
+                                <option value="Hardware">Hardware</option>
+                                <option value="Software">Software</option>
+                                <option value="Service">Service</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="amount">Amount</label>
+                            <input type="input" class="form-control" id="amount" placeholder="input the amount">
+                        </div>
+                        <div class="form-group">
+                            <label>Reviewer's comments:</label>
+                            <p class="help-block"></p>
+                        </div>
+                        <button id="submit" type="button" class="btn btn-default">Submit</button>
+                    </div>
+                    <div id="for-reviewer" class="display:none">
+                        <div class="form-group">
+                            <label>Type</label>
+                            <p class="help-block"></p>
+                        </div>
+                        <div class="form-group">
+                            <label>Amount</label>
+                            <p class="help-block"></p>
+                        </div>
+                        <div class="form-group">
+                            <label for="comments">Comments</label>
+                            <textarea class="form-control" id="comments" placeholder="input the amount"></textarea>
+                        </div>
+                        <button id="reject" type="button" class="btn btn-default ">Reject</button>
+                        <button id="approve" type="button" class="btn btn-default ">Approve</button>
+                    </div>
+
                 </div>
+
                 <div id="task-table" class="table-responsive">
                     <table class="table table-striped">
                         <thead>
@@ -73,30 +109,6 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>1,001</td>
-                                <td>Lorem</td>
-                                <td>ipsum</td>
-                                <td>dolor</td>
-                                <td><button type="button" class="btn btn-link">BPM UI</button>
-                                    <button type="button" class="btn btn-link">Custom UI</button></td>
-                            </tr>
-                            <tr>
-                                <td>1,014</td>
-                                <td>per</td>
-                                <td>inceptos</td>
-                                <td>himenaeos</td>
-                                <td><button type="button" class="btn btn-link">BPM UI</button>
-                                    <button type="button" class="btn btn-link">Custom UI</button></td>
-                            </tr>
-                            <tr>
-                                <td>1,015</td>
-                                <td>sodales</td>
-                                <td>ligula</td>
-                                <td>in</td>
-                                <td><button type="button" class="btn btn-link">BPM UI</button>
-                                    <button type="button" class="btn btn-link">Custom UI</button></td>
-                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -110,6 +122,7 @@
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap-3.3.5.js"></script>
     <script src="js/sample.js"></script>
+    <script src="js/custom-ui.js"></script>
 </body>
 
 </html>
