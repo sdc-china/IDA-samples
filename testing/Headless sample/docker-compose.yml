@@ -1,0 +1,10 @@
+version: "2"
+services:
+  headlessSample:
+    build: ./webapp
+    image: sdc/headless:1.0
+    ports:
+      - "8443:8443"
+    environment:
+      - BPM_ROOT=https://9.30.160.68:9444/
+    command: /bin/bash -c "envsubst < /etc/nginx/conf.d/mysite.template > /etc/nginx/conf.d/default.conf && exec nginx -g 'daemon off;'"
