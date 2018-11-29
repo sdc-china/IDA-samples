@@ -31,11 +31,13 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                            aria-expanded="false">Run As <span id="current-user"></span><span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a id="requestor-menu" href="#">Requestor</a></li>
-                            <li><a id="reviewer-menu" href="#">Reviewer</a></li>
+                        <a id="run-as-btn" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-haspopup="true" aria-expanded="false">Run As <span id="current-role"></span><span
+                                class="caret"></span></a>
+                        <ul id="run-as-menu" class="dropdown-menu">
+                            <li><a id="hiring-manager-menu" data-role="hiringManager" href="#">Hiring Manager</a></li>
+                            <li><a id="general-manager-menu" data-role="generalManager" href="#">General Manager</a></li>
+                            <li><a id="human-resource-menu" data-role="humanResource" href="#">Human Resource</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -43,7 +45,10 @@
         </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="well">
+        Please select current role from top-right Run As button
+    </div>
+    <div class="container-fluid" style="display: none">
         <div class="row">
             <div class="col-sm-3 col-md-2 sidebar">
                 <ul class="nav nav-sidebar">
@@ -56,29 +61,161 @@
                 Data</div>
             <div id='main' class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
                 <div id="bpm-ui" style="display: none">
-                    <iframe src="#" frameborder="0" style="height:88vh"></iframe>
+                    <iframe src="#" frameborder="0" style="height:88vh;width: 100%"></iframe>
                 </div>
                 <div id="custom-ui" style="display: none">
-                    <div id="for-requestor" style="display:none">
-                        <div class="form-group">
-                            <label for="request-type">Type</label>
-                            <select class="form-control" id="request-type" placeholder="Select Type">
-                                <option value="Hardware">Hardware</option>
-                                <option value="Software">Software</option>
-                                <option value="Service">Service</option>
-                            </select>
+                    <div id="hiring-request-panel" class="panel panel-primary" style="display:none">
+                        <div class="panel-heading">Position Request</div>
+                        <div class="panel-body">
+                            <h4>Requisition number</h4>
+                            <p id="requisition-number">1141</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div id="request-panel" class="panel panel-primary">
+                                        <div class="panel-heading">Request data</div>
+                                        <div class="panel-body">
+                                            <div class="form-group">
+                                                <label for="employment-type">Employment type</label>
+                                                <select class="form-control" id="employment-type" placeholder="Select"></select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="department">Department</label>
+                                                <select class="form-control" id="department">
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="hiringManagerInput">Hiring manager</label>
+                                                <input type="text" class="form-control" id="hiringManagerInput" value="Tom Miller">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="numberOfEmployee">Number of employees</label>
+                                                <input type="number" class="form-control" id="numberOfEmployee" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div id="position-panel" class="panel panel-primary">
+                                        <div class="panel-heading">Position data</div>
+                                        <div class="panel-body">
+                                            <div class="form-group">
+                                                <label for="position-type">Position type</label>
+                                                <select class="form-control" disabled id="position-type">
+                                                    <option value="New" selected>New</option>
+                                                    <!-- <option value="Existing">Existing</option> -->
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="location">Location</label>
+                                                <select class="form-control" id="location">
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="title">Title</label>
+                                                <input id="title" type="text" class="form-control" value="Head of Product Development">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="date">Starting date</label>
+                                                <input id="date" type="date" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="qualification-panel" class="panel panel-primary">
+                                <div class="panel-heading">Qualifications</div>
+                                <div class="panel-body">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active"><a href="#education-pane" aria-controls="education-pane"
+                                                role="tab" data-toggle="tab">Education</a></li>
+                                        <li role="presentation"><a href="#skills-pane" aria-controls="skills-pane" role="tab"
+                                                data-toggle="tab">Skills</a></li>
+                                        <li role="presentation"><a href="#experience" aria-controls="experience" role="tab"
+                                                data-toggle="tab">Experience</a></li>
+                                    </ul>
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="education-pane">
+                                            <select id="education" multiple class="form-control" style="height: 130px">
+                                            </select></div>
+                                        <div role="tabpanel" class="tab-pane" id="skills-pane"><select style="height:180px"
+                                                id="skills" multiple class="form-control">
+                                            </select></div>
+                                        <div role="tabpanel" class="tab-pane" id="experience">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button id="submitRequest" class="btn btn-primary">Submit Request</button>
+                            <button id="findCandidatesBtn" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Find
+                                Candidates</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                                    aria-hidden="true">&times;</span></button>
+                                            <h4 class="modal-title" id="myModalLabel">Candidates</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <ul id="candidates" class="list-group">
+                                                <li class="list-group-item">Cras justo odio<span class="glyphicon glyphicon-remove-sign pull-right"></span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button id="submitCandidates" type="button" class="btn btn-primary">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="amount">Amount</label>
-                            <input type="input" class="form-control" id="amount" placeholder="input the amount">
+                    </div>
+                    <div id="approvePanel" class="panel panel-primary">
+                        <div class="panel-heading">Approval</div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label>Approved?</label>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="approved" value="approved">Approved
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="approved">Rejected
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="gmComments">GM Comment</label>
+                                <textarea type="text" class="form-control" id="gmComments"></textarea>
+                            </div>
+                            <button id="submitApproval" class="btn btn-primary">Submit</button>
                         </div>
+                    </div>
+                    <div id="task2" style="display:none">
+                        <h1>General Manager</h1>
                         <div class="form-group">
-                            <label>Reviewer's comments:</label>
+                            <label>Type</label>
                             <p class="help-block"></p>
                         </div>
-                        <button id="submit" type="button" class="btn btn-default">Submit</button>
+                        <div class="form-group">
+                            <label>Amount</label>
+                            <p class="help-block"></p>
+                        </div>
+                        <div class="form-group">
+                            <label for="comments">Comments</label>
+                            <textarea class="form-control" id="comments" placeholder="input the amount"></textarea>
+                        </div>
+                        <button id="reject" type="button" class="btn btn-default ">Reject</button>
+                        <button id="approve" type="button" class="btn btn-default ">Approve</button>
                     </div>
-                    <div id="for-reviewer" class="display:none">
+                    <div id="task3" style="display:none">
+                        <h1>Human Resource</h1>
                         <div class="form-group">
                             <label>Type</label>
                             <p class="help-block"></p>
@@ -121,8 +258,9 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap-3.3.5.js"></script>
-    <script src="js/sample.js"></script>
+    <script src="js/common.js"></script>
     <script src="js/custom-ui.js"></script>
+    <script src="js/sample.js"></script>
 </body>
 
 </html>

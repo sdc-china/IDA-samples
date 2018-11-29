@@ -1,10 +1,12 @@
-(function () {
-    const server = '9.30.160.68'
-    const port = 9444
-    const requestor = 'requestor'
-    const reviewer = 'reviewer'
-    // let root = 'https://9.30.160.68:9444/'
-    let root = '/'
+(function (customUI, common) {
+
+    let currentRole = {}
+    let bpmApp = {
+        bpdId: '25.9fce27c5-542b-4948-885c-72613733cfbc',
+        branchId: '2063.0ca07eaf-244e-4b9f-997a-dbe5275dc2f3',
+        acronym: 'TS',
+        bpdName: 'HR Open New Position'
+    }
 
     let showLoading = function () {
         $('#loading-div').show()
@@ -15,18 +17,10 @@
         $('#main').show()
     }
     let loginAs = function (username) {
-        currentUser = username
         // show loading
         showLoading()
-        // update available menu
-        $('#current-user').text(username)
-        if (username === 'requestor') {
-            $('#new-request-button').show()
-        } else {
-            $('#new-request-button').hide()
-        }
         // login user with api
-        $.post(`${root}ProcessPortal/j_security_check?j_username=${username}&j_password=123456`).done(() => {
+        $.post(`${common.root}ProcessPortal/j_security_check?j_username=${username}&j_password=123456`).done(() => {
             // update the task list
             loadTasks()
         })
@@ -54,7 +48,7 @@
     }
     let loadTasks = function () {
         $.ajax({
-            url: `${root}rest/bpm/wle/v1/tasks`,
+            url: `${common.root}rest/bpm/wle/v1/tasks`,
             type: 'PUT',
             contentType: 'application/json',
             dataType: 'json',
@@ -69,7 +63,11 @@
                 conditions: [{
                     field: "instanceProcessApp",
                     operator: "Equals",
-                    value: "HEADLES"
+                    value: bpmApp.acronym
+                }, {
+                    field: "bpdName",
+                    operator: "Equals",
+                    value: bpmApp.bpdName
                 }],
                 fields: [
                     "taskSubject",
@@ -104,7 +102,7 @@
         // show loading
         showLoading()
         // submit new request
-        $.post(`${root}rest/bpm/wle/v1/process?action=start&bpdId=25.ec1b8876-0056-4c4b-a8e0-4115831c3ba2&branchId=2063.c1225bd2-171c-4347-bdb6-33264dd43c1f&parts=header%7CexcludeTaskData%7CexcludeDocs`).done((data) => {
+        $.post(`${common.root}rest/bpm/wle/v1/process?action=start&bpdId=${bpmApp.bpdId}&branchId=${bpmApp.branchId}&parts=header%7CexcludeTaskData%7CexcludeDocs`).done((data) => {
             console.log(data)
             // show task list
             loadTasks()
@@ -115,133 +113,61 @@
         $('#task-table').hide()
         // show iframe div
         $('#bpm-ui').show()
-        $('#bpm-ui > iframe').attr('src', `${root}teamworks/process.lsw?zWorkflowState=1&zTaskId=${task['TASK.TKIID']}&zResetContext=true`)
+        $('#bpm-ui > iframe').attr('src', `${common.root}teamworks/process.lsw?zWorkflowState=1&zTaskId=${task['TASK.TKIID']}&zResetContext=true`)
     }
     let showInCustom = function (task) {
         // hide task lis
         $('#task-table').hide()
         // show custom ui
         $('#custom-ui').show()
-        if (task.TAD_DISPLAY_NAME === 'Step: Order Request') {
-            customuiForRequestor(task)
-        } else {
-            customuiForReviewer(task)
-        }
-    }
-    let customuiForReviewer = function (task) {
-        let taskId = task['TASK.TKIID']
-        $('#reject').data('taskId', taskId)
-        $('#approve').data('taskId', taskId)
-        $(`#for-${requestor}`).hide()
-        if (!task.OWNER) {
-            $.ajax({
-                url: `${root}rest/bpm/wle/v1/task?action=claim&taskIDs=${taskId}`,
-                type: 'PUT'
-            }).done(() => {
-                updateForReviewer(taskId)
-            })
-        } else {
-            updateForReviewer(taskId)
-        }
-    }
-    let updateForReviewer = function (taskId) {
-        $.get(`${root}rest/bpm/wle/v1/task/${
-    taskId
-  }?action=getData&fields=amount%2Ctype`).done(data => {
-            $('#for-reviewer > div:nth-child(1) > p').text(data.data.resultMap.type)
-            $('#for-reviewer > div:nth-child(2) > p').text(data.data.resultMap.amount)
-            $('#comments').val('')
-            $(`#for-${reviewer}`).show()
-        })
-    }
-    let customuiForRequestor = function (task) {
-        $(`#for-${reviewer}`).hide()
-        let taskId = task['TASK.TKIID']
-        $('#submit').data('taskId', taskId)
-        $.get(`${root}rest/bpm/wle/v1/task/${
-    taskId
-  }?action=getData&fields=amount%2Ctype%2Cmessage`).done(data => {
-            if (data.data.resultMap.type) {
-                $('#request-type').val(data.data.resultMap.type)
-            }
-            $('#amount').val(data.data.resultMap.amount)
-            $('#for-requestor > div:nth-child(3) > p').text(data.data.resultMap.message)
-            $(`#for-${requestor}`).show()
-        })
-    }
-    let submitRequest = function () {
-        let taskId = $('#submit').data('taskId')
-        let type = $('#request-type').val()
-        let amount = $('#amount').val()
-        $.ajax({
-            url: `${root}rest/bpm/wle/v1/task/${taskId}/?action=finish&parts=all&params=${encodeURI(
-                JSON.stringify({
-                    amount,
-                    type
-                })
-              )}`,
-            type: 'PUT'
-        }).done(() => {
-            showTasks()
-        })
-    }
-    let reject = function () {
-        let taskId = $('#reject').data('taskId')
-        let comment = $('#comments').val()
-        let approved = false
-        $.ajax({
-            url: `${root}rest/bpm/wle/v1/task/${taskId}/?action=finish&parts=all&params=${encodeURI(
-                JSON.stringify({
-                    comment,
-                    approved
-                })
-              )}`,
-            type: 'PUT'
-        }).done(() => {
-            showTasks()
-        })
-    }
-    let approve = function () {
-        let comment = $('#comments').val()
-        let approved = true
-        let taskId = $('#approve').data('taskId')
-        $.ajax({
-            url: `${root}rest/bpm/wle/v1/task/${taskId}/?action=finish&parts=all&params=${encodeURI(
-                JSON.stringify({
-                    comment,
-                    approved
-                })
-              )}`,
-            type: 'PUT'
-        }).done(() => {
-            showTasks()
-        })
+        customUI.showTask(task, currentRole)
     }
     let showTasks = function () {
         showLoading()
         loadTasks()
     }
 
+    let showMainPage = function () {
+        $('.well').hide()
+        $('.container-fluid').show()
+    }
     // binding event
-    $('#requestor-menu').on('click', function () {
-        loginAs(requestor)
+    $('document').ready(function () {
+        $('#run-as-menu > li > a').on('click', function (event) {
+            $('#current-role').text($(this).text())
+            let roleName = $(this).data('role')
+            if (roleName === 'hiringManager') {
+                $('#new-request-button').show()
+            } else {
+                $('#new-request-button').hide()
+            }
+            currentRole = common.roles[roleName]
+            loginAs(currentRole.defaultUser)
+            showMainPage()
+        })
+        $('#new-request-button').on('click', function () {
+            newRequest()
+        })
+        $('#inbox-button').on('click', function () {
+            showTasks()
+        })
+        customUI.setup()
+        $(`#${customUI.customEvents.requestSubmitted.element}`).on(`${customUI.customEvents.requestSubmitted.name}`, function () {
+            showTasks()
+        })
+        $(`#${customUI.customEvents.approvalSubmitted.element}`).on(`${customUI.customEvents.approvalSubmitted.name}`, function () {
+            showTasks()
+        })
+        $(`#${customUI.customEvents.candidatesSubmitted.element}`).on(`${customUI.customEvents.candidatesSubmitted.name}`, function () {
+            showTasks()
+        })
+        // for testing
+        // showMainPage()
+        // $('#task-table').hide()
+        // $('#custom-ui').show()
+        // customUI.showTask({
+        //     OWNER: 'david',
+        //     'TASK.TKIID': "17490"
+        // }, common.roles.hiringManager)
     })
-    $('#reviewer-menu').on('click', function () {
-        loginAs(reviewer)
-    })
-    $('#new-request-button').on('click', function () {
-        newRequest()
-    })
-    $('#inbox-button').on('click', function () {
-        showTasks()
-    })
-    $('#submit').on('click', function () {
-        submitRequest()
-    })
-    $('#reject').on('click', function () {
-        reject()
-    })
-    $('#approve').on('click', function () {
-        approve()
-    })
-})()
+})(customUI, common)
