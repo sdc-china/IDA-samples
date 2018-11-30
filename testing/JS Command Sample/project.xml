@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <com.ibm.cte.sdc.bpm.testing.model.project.Project>
-  <id>247</id>
+  <id>250</id>
   <name>JS Command Sample</name>
   <description></description>
   <bpmConfigs class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
@@ -599,7 +599,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
             </bpmUsers>
             <organization>
               <id>1</id>
-              <companyName>Keter</companyName>
+              <companyName>IDA</companyName>
               <active>true</active>
               <users class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                 <unserializable-parents/>
@@ -725,7 +725,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                         <valuesArray>
                           <long>1</long>
                           <int>1</int>
-                          <string>Keter</string>
+                          <string>IDA</string>
                         </valuesArray>
                       </row>
                       <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
@@ -995,12 +995,11 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
               <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[7]"/>
             </fieldsArray>
             <valuesArray>
-              <long>247</long>
+              <long>250</long>
               <int>1</int>
               <string></string>
               <string>JS Command Sample</string>
               <string>&lt;com.ibm.cte.sdc.bpm.testing.model.bpm.ProcessAppData&gt;
-  &lt;projectId&gt;247&lt;/projectId&gt;
   &lt;processConfig&gt;
     &lt;isToolkit&gt;false&lt;/isToolkit&gt;
     &lt;isTip&gt;true&lt;/isTip&gt;
@@ -1008,7 +1007,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
     &lt;processAppName&gt;Testing Sample&lt;/processAppName&gt;
     &lt;processAppAcronym&gt;TS&lt;/processAppAcronym&gt;
     &lt;snapshotId&gt;2064.f45df55e-1299-4ddf-b3e9-afe63e2441ea&lt;/snapshotId&gt;
-    &lt;tipSnapshotId&gt;2064.6c5e70b4-7447-4d1a-b914-2aded079c27d&lt;/tipSnapshotId&gt;
+    &lt;tipSnapshotId&gt;2064.32fd3549-692e-4081-ae25-0231139cec51&lt;/tipSnapshotId&gt;
     &lt;snapshotName&gt;0.0.1&lt;/snapshotName&gt;
     &lt;processAppId&gt;2066.95e7a074-735c-48ed-80de-cbf1de710693&lt;/processAppId&gt;
     &lt;branchId&gt;2063.0ca07eaf-244e-4b9f-997a-dbe5275dc2f3&lt;/branchId&gt;
@@ -1234,7 +1233,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
             &lt;/children&gt;
           &lt;/com.ibm.websphere.bpm.diagram.model.app.Lane&gt;
         &lt;/laneList&gt;
-        &lt;isChecked&gt;true&lt;/isChecked&gt;
+        &lt;isChecked&gt;false&lt;/isChecked&gt;
         &lt;toolkitName&gt;&lt;/toolkitName&gt;
       &lt;/com.ibm.websphere.bpm.diagram.model.ProcessItem&gt;
       &lt;com.ibm.websphere.bpm.diagram.model.ProcessItem&gt;
@@ -1376,7 +1375,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
         &lt;toolkitName&gt;&lt;/toolkitName&gt;
       &lt;/com.ibm.websphere.bpm.diagram.model.ProcessItem&gt;
       &lt;com.ibm.websphere.bpm.diagram.model.ProcessItem&gt;
-        &lt;bpmObjectId&gt;1.3d4064b3-816e-4095-8b50-710a0555cd3b&lt;/bpmObjectId&gt;
+        &lt;bpmObjectId&gt;1.f051da4b-5426-477c-9496-b495aa462b3c&lt;/bpmObjectId&gt;
         &lt;name&gt;Keter Utility&lt;/name&gt;
         &lt;twxFileName&gt;&lt;/twxFileName&gt;
         &lt;processType&gt;SERVICE&lt;/processType&gt;
@@ -1503,8 +1502,8 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
     &lt;/processList&gt;
   &lt;/processConfig&gt;
 &lt;/com.ibm.cte.sdc.bpm.testing.model.bpm.ProcessAppData&gt;</string>
-              <long>22</long>
-              <long>247</long>
+              <long>23</long>
+              <long>250</long>
             </valuesArray>
           </row>
           <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
@@ -1545,7 +1544,6 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
     </org.eclipse.persistence.indirection.IndirectList>
   </bpmConfigs>
   <processAppDataXml>&lt;com.ibm.cte.sdc.bpm.testing.model.bpm.ProcessAppData&gt;
-  &lt;projectId&gt;247&lt;/projectId&gt;
   &lt;processConfig&gt;
     &lt;isToolkit&gt;false&lt;/isToolkit&gt;
     &lt;isTip&gt;true&lt;/isTip&gt;
@@ -1553,7 +1551,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
     &lt;processAppName&gt;Testing Sample&lt;/processAppName&gt;
     &lt;processAppAcronym&gt;TS&lt;/processAppAcronym&gt;
     &lt;snapshotId&gt;2064.f45df55e-1299-4ddf-b3e9-afe63e2441ea&lt;/snapshotId&gt;
-    &lt;tipSnapshotId&gt;2064.6c5e70b4-7447-4d1a-b914-2aded079c27d&lt;/tipSnapshotId&gt;
+    &lt;tipSnapshotId&gt;2064.32fd3549-692e-4081-ae25-0231139cec51&lt;/tipSnapshotId&gt;
     &lt;snapshotName&gt;0.0.1&lt;/snapshotName&gt;
     &lt;processAppId&gt;2066.95e7a074-735c-48ed-80de-cbf1de710693&lt;/processAppId&gt;
     &lt;branchId&gt;2063.0ca07eaf-244e-4b9f-997a-dbe5275dc2f3&lt;/branchId&gt;
@@ -1779,7 +1777,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
             &lt;/children&gt;
           &lt;/com.ibm.websphere.bpm.diagram.model.app.Lane&gt;
         &lt;/laneList&gt;
-        &lt;isChecked&gt;true&lt;/isChecked&gt;
+        &lt;isChecked&gt;false&lt;/isChecked&gt;
         &lt;toolkitName&gt;&lt;/toolkitName&gt;
       &lt;/com.ibm.websphere.bpm.diagram.model.ProcessItem&gt;
       &lt;com.ibm.websphere.bpm.diagram.model.ProcessItem&gt;
@@ -1921,7 +1919,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
         &lt;toolkitName&gt;&lt;/toolkitName&gt;
       &lt;/com.ibm.websphere.bpm.diagram.model.ProcessItem&gt;
       &lt;com.ibm.websphere.bpm.diagram.model.ProcessItem&gt;
-        &lt;bpmObjectId&gt;1.3d4064b3-816e-4095-8b50-710a0555cd3b&lt;/bpmObjectId&gt;
+        &lt;bpmObjectId&gt;1.f051da4b-5426-477c-9496-b495aa462b3c&lt;/bpmObjectId&gt;
         &lt;name&gt;Keter Utility&lt;/name&gt;
         &lt;twxFileName&gt;&lt;/twxFileName&gt;
         &lt;processType&gt;SERVICE&lt;/processType&gt;
@@ -2049,7 +2047,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
   &lt;/processConfig&gt;
 &lt;/com.ibm.cte.sdc.bpm.testing.model.bpm.ProcessAppData&gt;</processAppDataXml>
   <testingConfig>
-    <id>247</id>
+    <id>250</id>
     <seleniumGirdConfig>
       <id>1</id>
       <serverName>Firefox Hub</serverName>
@@ -2293,7 +2291,9 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
           <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
           <isRegistered>true</isRegistered>
           <useLazyInstantiation>true</useLazyInstantiation>
-          <delegate/>
+          <delegate>
+            <com.ibm.cte.sdc.bpm.testing.model.config.SeleniumGridConfiguration reference="../../../../../seleniumGirdConfig"/>
+          </delegate>
           <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
             <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
               <unserializable-parents/>
@@ -2306,7 +2306,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
               </vector>
               <org.eclipse.persistence.indirection.IndirectList>
                 <default>
-                  <initialCapacity>0</initialCapacity>
+                  <initialCapacity>1</initialCapacity>
                   <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
                   <isRegistered>false</isRegistered>
                   <useLazyInstantiation>true</useLazyInstantiation>
@@ -2402,7 +2402,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                 <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[2]"/>
               </fieldsArray>
               <valuesArray>
-                <long>247</long>
+                <long>250</long>
                 <long>1</long>
               </valuesArray>
             </row>
@@ -2419,11 +2419,13 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                 </vector>
                 <org.eclipse.persistence.indirection.IndirectList>
                   <default>
-                    <initialCapacity>0</initialCapacity>
+                    <initialCapacity>1</initialCapacity>
                     <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
                     <isRegistered>false</isRegistered>
                     <useLazyInstantiation>true</useLazyInstantiation>
-                    <delegate/>
+                    <delegate>
+                      <com.ibm.cte.sdc.bpm.testing.model.config.SeleniumGridConfiguration reference="../../../../../../../../../../seleniumGirdConfig"/>
+                    </delegate>
                     <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
                       <value class="vector" reference="../../delegate"/>
                       <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
@@ -2459,7 +2461,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
         <useLazyInstantiation>true</useLazyInstantiation>
         <delegate>
           <com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite>
-            <id>377</id>
+            <id>381</id>
             <testSuiteName>Custom_Coach_Test</testSuiteName>
             <testSuiteType>userInterfaces</testSuiteType>
             <testcases class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
@@ -2479,18 +2481,18 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                   <useLazyInstantiation>true</useLazyInstantiation>
                   <delegate>
                     <com.ibm.cte.sdc.bpm.testing.model.cases.TestCase>
-                      <id>686</id>
+                      <id>690</id>
                       <caseName>normalCase</caseName>
-                      <caseDescription></caseDescription>
                       <flow>[{&quot;PROCESSNAME&quot;:&quot;Start&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;d0c51131-41e0-4d80-90e1-688d6ebf44cf&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;StartPoint&quot;},{&quot;PROCESSNAME&quot;:&quot;Custom Coach&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.b4069dfe-21aa-4089-ad47-29a4b5437b29&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;End&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;b77f4495-c251-44a5-9025-a32767986d27&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ExitPoint&quot;}]</flow>
                       <processType>SERVICE</processType>
                       <processName>Custom Coach Test</processName>
                       <creator>
-                        <id>22</id>
-                        <userName>keterTester2</userName>
-                        <password>3f6677061023fd939f9f2c9f848f6f53</password>
+                        <id>23</id>
+                        <userName>keterDemo</userName>
+                        <password>eb4eb21e2d7e387db627593aa61ae4d5</password>
                         <role>ADMIN</role>
                         <active>true</active>
+                        <token>XrrSfuo5G9TzGxt5grPeB5lxjuvKKFRPfxK8XchT2S1uzPEWDxAAHNsTfEMdS52F</token>
                         <organization reference="../../../../../../../../../../../../bpmConfigs/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.config.BpmConfiguration/organization"/>
                         <projects class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                           <unserializable-parents/>
@@ -2515,7 +2517,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                     <vector>
                                       <default>
                                         <capacityIncrement>0</capacityIncrement>
-                                        <elementCount>7</elementCount>
+                                        <elementCount>8</elementCount>
                                         <elementData>
                                           <org.eclipse.persistence.internal.helper.DatabaseField>
                                             <scale>0</scale>
@@ -2640,6 +2642,29 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                           </org.eclipse.persistence.internal.helper.DatabaseField>
                                           <org.eclipse.persistence.internal.helper.DatabaseField>
                                             <scale>0</scale>
+                                            <length>255</length>
+                                            <precision>0</precision>
+                                            <isUnique>false</isUnique>
+                                            <isNullable>true</isNullable>
+                                            <isUpdatable>true</isUpdatable>
+                                            <isInsertable>true</isInsertable>
+                                            <isCreatable>true</isCreatable>
+                                            <isPrimaryKey>false</isPrimaryKey>
+                                            <columnDefinition></columnDefinition>
+                                            <name>token</name>
+                                            <qualifiedName>user.token</qualifiedName>
+                                            <table reference="../../org.eclipse.persistence.internal.helper.DatabaseField/table"/>
+                                            <typeName>java.lang.String</typeName>
+                                            <sqlType>12</sqlType>
+                                            <index>5</index>
+                                            <useDelimiters>false</useDelimiters>
+                                            <nameForComparisons>TOKEN</nameForComparisons>
+                                            <useUpperCaseForComparisons>true</useUpperCaseForComparisons>
+                                            <isTranslated>false</isTranslated>
+                                            <keepInRow>false</keepInRow>
+                                          </org.eclipse.persistence.internal.helper.DatabaseField>
+                                          <org.eclipse.persistence.internal.helper.DatabaseField>
+                                            <scale>0</scale>
                                             <length>50</length>
                                             <precision>0</precision>
                                             <isUnique>false</isUnique>
@@ -2654,7 +2679,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                             <table reference="../../org.eclipse.persistence.internal.helper.DatabaseField/table"/>
                                             <typeName>java.lang.String</typeName>
                                             <sqlType>12</sqlType>
-                                            <index>5</index>
+                                            <index>6</index>
                                             <useDelimiters>false</useDelimiters>
                                             <nameForComparisons>USER_NAME</nameForComparisons>
                                             <useUpperCaseForComparisons>true</useUpperCaseForComparisons>
@@ -2677,14 +2702,13 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                             <table reference="../../org.eclipse.persistence.internal.helper.DatabaseField/table"/>
                                             <typeName>java.lang.Long</typeName>
                                             <sqlType>-5</sqlType>
-                                            <index>6</index>
+                                            <index>7</index>
                                             <useDelimiters>false</useDelimiters>
                                             <nameForComparisons>ORGANIZATION_ID</nameForComparisons>
                                             <useUpperCaseForComparisons>true</useUpperCaseForComparisons>
                                             <isTranslated>false</isTranslated>
                                             <keepInRow>false</keepInRow>
                                           </org.eclipse.persistence.internal.helper.DatabaseField>
-                                          <null/>
                                           <null/>
                                           <null/>
                                         </elementData>
@@ -2694,7 +2718,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                       <default/>
                                     </org.eclipse.persistence.internal.helper.NonSynchronizedVector>
                                   </fields>
-                                  <size>7</size>
+                                  <size>8</size>
                                   <nullValueInFields>false</nullValueInFields>
                                   <fieldsArray>
                                     <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField"/>
@@ -2704,14 +2728,16 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                     <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[5]"/>
                                     <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[6]"/>
                                     <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[7]"/>
+                                    <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[8]"/>
                                   </fieldsArray>
                                   <valuesArray>
-                                    <long>22</long>
+                                    <long>23</long>
                                     <int>1</int>
                                     <null/>
-                                    <string>3f6677061023fd939f9f2c9f848f6f53</string>
+                                    <string>eb4eb21e2d7e387db627593aa61ae4d5</string>
                                     <string>ADMIN</string>
-                                    <string>keterTester2</string>
+                                    <string>XrrSfuo5G9TzGxt5grPeB5lxjuvKKFRPfxK8XchT2S1uzPEWDxAAHNsTfEMdS52F</string>
+                                    <string>keterDemo</string>
                                     <long>1</long>
                                   </valuesArray>
                                 </row>
@@ -2728,9 +2754,8 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                         </projects>
                       </creator>
                       <updater reference="../creator"/>
-                      <executor reference="../creator"/>
-                      <creationDate>2018-11-19 06:29:09.748 UTC</creationDate>
-                      <updateDate>2018-11-19 07:22:17.524 UTC</updateDate>
+                      <creationDate>2018-11-19 09:11:04.689 UTC</creationDate>
+                      <updateDate>2018-11-19 09:11:04.689 UTC</updateDate>
                       <project reference="../../../../../../../../../../.."/>
                       <caseSteps class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                         <unserializable-parents/>
@@ -2749,17 +2774,17 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                             <useLazyInstantiation>true</useLazyInstantiation>
                             <delegate>
                               <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                <id>9832</id>
+                                <id>9915</id>
                                 <command>
-                                  <id>3</id>
-                                  <name>debug</name>
-                                  <description>Command for debug, case will stop at this step</description>
+                                  <id>24</id>
+                                  <name>selectWindow</name>
+                                  <description>Select window by the window info</description>
                                   <category>
-                                    <id>5</id>
-                                    <name>Utility</name>
-                                    <categoryType>JAVA_COMMAND</categoryType>
-                                    <description>Utility</description>
-                                    <sort>5</sort>
+                                    <id>2</id>
+                                    <name>UI</name>
+                                    <categoryType>JAVASCRIPT_COMMAND</categoryType>
+                                    <description>UI</description>
+                                    <sort>2</sort>
                                     <subCategories class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                                       <unserializable-parents/>
                                       <vector>
@@ -2997,12 +3022,12 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                                 <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[8]"/>
                                               </fieldsArray>
                                               <valuesArray>
-                                                <long>5</long>
-                                                <string>JAVA_COMMAND</string>
+                                                <long>2</long>
+                                                <string>JAVASCRIPT_COMMAND</string>
                                                 <null/>
-                                                <string>Utility</string>
-                                                <string>Utility</string>
-                                                <int>5</int>
+                                                <string>UI</string>
+                                                <string>UI</string>
+                                                <int>2</int>
                                                 <null/>
                                                 <null/>
                                               </valuesArray>
@@ -3399,16 +3424,16 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                               <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[12]"/>
                                             </fieldsArray>
                                             <valuesArray>
-                                              <long>3</long>
+                                              <long>24</long>
                                               <null/>
-                                              <string>Command for debug, case will stop at this step</string>
+                                              <string>Select window by the window info</string>
                                               <null/>
-                                              <string>debug</string>
+                                              <string>selectWindow</string>
                                               <null/>
-                                              <int>0</int>
+                                              <int>1</int>
                                               <null/>
-                                              <string>Debug {{Parameters.log}}.</string>
-                                              <long>5</long>
+                                              <string>Select window {{Parameters.info}}.</string>
+                                              <long>2</long>
                                               <null/>
                                               <null/>
                                             </valuesArray>
@@ -3424,7 +3449,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                       </default>
                                     </org.eclipse.persistence.indirection.IndirectList>
                                   </parameter>
-                                  <verbalization>Debug {{Parameters.log}}.</verbalization>
+                                  <verbalization>Select window {{Parameters.info}}.</verbalization>
                                   <groupCommands class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                                     <unserializable-parents/>
                                     <vector>
@@ -3503,258 +3528,17 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                       </default>
                                     </org.eclipse.persistence.indirection.IndirectList>
                                   </groupCommands>
-                                  <takeScreenshot>false</takeScreenshot>
+                                  <takeScreenshot>true</takeScreenshot>
                                 </command>
-                                <parameters>{}</parameters>
-                                <index>3</index>
+                                <parameters>{&quot;info&quot;:&quot;[\&quot;window-MAIN\&quot;,\&quot;iframe-0\&quot;]&quot;}</parameters>
+                                <index>2</index>
                                 <testCase reference="../../../../../.."/>
-                                <testResult>{&quot;logTrace&quot;:&quot;Debug log is :null&quot;}</testResult>
+                                <testResult>{&quot;workingWindowTraces&quot;:&quot;[\&quot;window-MAIN\&quot;,\&quot;iframe-0\&quot;]&quot;}</testResult>
                                 <executionStatus>Passed</executionStatus>
-                                <exceptionTrace>Debug log is :null</exceptionTrace>
+                                <screenshotPath>/var/keter/data/screenshots/standalone/Project-250/case-690/0c36e519-e283-4f91-9b53-0a6cc2b0bb20.png</screenshotPath>
                               </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                               <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                <id>9833</id>
-                                <command>
-                                  <id>52</id>
-                                  <name>startHumanService</name>
-                                  <description>Start a human service.</description>
-                                  <category>
-                                    <id>1</id>
-                                    <name>BPM</name>
-                                    <categoryType>JAVA_COMMAND</categoryType>
-                                    <description>BPM</description>
-                                    <sort>1</sort>
-                                    <subCategories class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                      <unserializable-parents/>
-                                      <vector>
-                                        <default>
-                                          <capacityIncrement>0</capacityIncrement>
-                                          <elementCount>0</elementCount>
-                                          <elementData/>
-                                        </default>
-                                      </vector>
-                                      <org.eclipse.persistence.indirection.IndirectList>
-                                        <default>
-                                          <initialCapacity>10</initialCapacity>
-                                          <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                          <isRegistered>true</isRegistered>
-                                          <useLazyInstantiation>true</useLazyInstantiation>
-                                          <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
-                                            <isInstantiated>false</isInstantiated>
-                                            <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
-                                              <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/category/subCategories/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
-                                              <size>8</size>
-                                              <nullValueInFields>false</nullValueInFields>
-                                              <fieldsArray reference="../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/category/subCategories/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
-                                              <valuesArray>
-                                                <long>1</long>
-                                                <string>JAVA_COMMAND</string>
-                                                <null/>
-                                                <string>BPM</string>
-                                                <string>BPM</string>
-                                                <int>1</int>
-                                                <null/>
-                                                <null/>
-                                              </valuesArray>
-                                            </row>
-                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                            <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
-                                              <isInstantiated>false</isInstantiated>
-                                              <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                              <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
-                                            </backupValueHolder>
-                                            <sourceAttributeName>subCategories</sourceAttributeName>
-                                          </valueHolder>
-                                        </default>
-                                      </org.eclipse.persistence.indirection.IndirectList>
-                                    </subCategories>
-                                    <commands class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                      <unserializable-parents/>
-                                      <vector>
-                                        <default>
-                                          <capacityIncrement>0</capacityIncrement>
-                                          <elementCount>0</elementCount>
-                                          <elementData/>
-                                        </default>
-                                      </vector>
-                                      <org.eclipse.persistence.indirection.IndirectList>
-                                        <default>
-                                          <initialCapacity>10</initialCapacity>
-                                          <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                          <isRegistered>true</isRegistered>
-                                          <useLazyInstantiation>true</useLazyInstantiation>
-                                          <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
-                                            <isInstantiated>false</isInstantiated>
-                                            <row class="org.eclipse.persistence.internal.sessions.ArrayRecord" reference="../../../../../subCategories/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row"/>
-                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                            <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
-                                              <isInstantiated>false</isInstantiated>
-                                              <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                              <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
-                                            </backupValueHolder>
-                                            <sourceAttributeName>commands</sourceAttributeName>
-                                          </valueHolder>
-                                        </default>
-                                      </org.eclipse.persistence.indirection.IndirectList>
-                                    </commands>
-                                  </category>
-                                  <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                    <unserializable-parents/>
-                                    <vector>
-                                      <default>
-                                        <capacityIncrement>0</capacityIncrement>
-                                        <elementCount>0</elementCount>
-                                        <elementData/>
-                                      </default>
-                                    </vector>
-                                    <org.eclipse.persistence.indirection.IndirectList>
-                                      <default>
-                                        <initialCapacity>10</initialCapacity>
-                                        <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                        <isRegistered>true</isRegistered>
-                                        <useLazyInstantiation>true</useLazyInstantiation>
-                                        <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
-                                          <isInstantiated>false</isInstantiated>
-                                          <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
-                                            <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
-                                            <size>12</size>
-                                            <nullValueInFields>false</nullValueInFields>
-                                            <fieldsArray reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
-                                            <valuesArray>
-                                              <long>52</long>
-                                              <null/>
-                                              <string>Start a human service.</string>
-                                              <null/>
-                                              <string>startHumanService</string>
-                                              <null/>
-                                              <int>0</int>
-                                              <null/>
-                                              <string>{{Step.BpmUser}} launches the human Service {{Parameters.service}}.</string>
-                                              <long>1</long>
-                                              <null/>
-                                              <null/>
-                                            </valuesArray>
-                                          </row>
-                                          <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                          <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
-                                            <isInstantiated>false</isInstantiated>
-                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                            <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
-                                          </backupValueHolder>
-                                          <sourceAttributeName>parameter</sourceAttributeName>
-                                        </valueHolder>
-                                      </default>
-                                    </org.eclipse.persistence.indirection.IndirectList>
-                                  </parameter>
-                                  <verbalization>{{Step.BpmUser}} launches the human Service {{Parameters.service}}.</verbalization>
-                                  <groupCommands class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                    <unserializable-parents/>
-                                    <vector>
-                                      <default>
-                                        <capacityIncrement>0</capacityIncrement>
-                                        <elementCount>0</elementCount>
-                                        <elementData/>
-                                      </default>
-                                    </vector>
-                                    <org.eclipse.persistence.indirection.IndirectList>
-                                      <default>
-                                        <initialCapacity>10</initialCapacity>
-                                        <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                        <isRegistered>true</isRegistered>
-                                        <useLazyInstantiation>true</useLazyInstantiation>
-                                        <delegate/>
-                                        <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
-                                          <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                            <unserializable-parents/>
-                                            <vector>
-                                              <default>
-                                                <capacityIncrement>0</capacityIncrement>
-                                                <elementCount>0</elementCount>
-                                                <elementData/>
-                                              </default>
-                                            </vector>
-                                            <org.eclipse.persistence.indirection.IndirectList>
-                                              <default>
-                                                <initialCapacity>0</initialCapacity>
-                                                <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                                <isRegistered>false</isRegistered>
-                                                <useLazyInstantiation>true</useLazyInstantiation>
-                                                <delegate reference="../../../../../delegate"/>
-                                                <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
-                                                  <value class="vector" reference="../../../../../../delegate"/>
-                                                  <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                                  <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
-                                                </valueHolder>
-                                              </default>
-                                            </org.eclipse.persistence.indirection.IndirectList>
-                                          </value>
-                                          <isInstantiated>true</isInstantiated>
-                                          <row class="org.eclipse.persistence.internal.sessions.ArrayRecord" reference="../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row"/>
-                                          <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                          <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
-                                            <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                              <unserializable-parents/>
-                                              <vector>
-                                                <default>
-                                                  <capacityIncrement>0</capacityIncrement>
-                                                  <elementCount>0</elementCount>
-                                                  <elementData/>
-                                                </default>
-                                              </vector>
-                                              <org.eclipse.persistence.indirection.IndirectList>
-                                                <default>
-                                                  <initialCapacity>0</initialCapacity>
-                                                  <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                                  <isRegistered>false</isRegistered>
-                                                  <useLazyInstantiation>true</useLazyInstantiation>
-                                                  <delegate/>
-                                                  <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
-                                                    <value class="vector" reference="../../delegate"/>
-                                                    <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                                    <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
-                                                  </valueHolder>
-                                                </default>
-                                              </org.eclipse.persistence.indirection.IndirectList>
-                                            </value>
-                                            <isInstantiated>true</isInstantiated>
-                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                            <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
-                                          </backupValueHolder>
-                                          <sourceAttributeName>groupCommands</sourceAttributeName>
-                                        </valueHolder>
-                                      </default>
-                                    </org.eclipse.persistence.indirection.IndirectList>
-                                  </groupCommands>
-                                  <takeScreenshot>false</takeScreenshot>
-                                </command>
-                                <comment></comment>
-                                <parameters>{&quot;user&quot;:&quot;&quot;,&quot;service&quot;:&quot;Custom Coach Test&quot;,&quot;params&quot;:&quot;&quot;,&quot;toolkitName&quot;:&quot;&quot;}</parameters>
-                                <index>1</index>
-                                <testCase reference="../../../../../.."/>
-                                <bpmUser>
-                                  <id>1</id>
-                                  <userName>deadmin</userName>
-                                  <userPassword>TI3RgKjbfOXU9i6rQAjzOg==</userPassword>
-                                  <displayName>deadmin</displayName>
-                                  <bpmConfiguration reference="../../../../../../../../../../../../../../../../../bpmConfigs/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.config.BpmConfiguration"/>
-                                </bpmUser>
-                                <testResult>{&quot;url&quot;:&quot;https:\/\/9.30.160.68:9444\/teamworks\/redirect-login.jsp?j_forward=executecf%3FmodelID%3D1.64f22d7a-b7a1-41ad-a772-51bbe139b291%26branchID%3D2063.0ca07eaf-244e-4b9f-997a-dbe5275dc2f3&amp;credentials=ZGVhZG1pbg%3D%3D%3AZGVhZG1pbg%3D%3D&quot;}</testResult>
-                                <executionStatus>Passed</executionStatus>
-                              </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                              <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                <id>9835</id>
-                                <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command"/>
-                                <comment></comment>
-                                <parameters>{&quot;log&quot;:&quot;&quot;}</parameters>
-                                <index>5</index>
-                                <testCase reference="../../../../../.."/>
-                                <bpmUser reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[2]/bpmUser"/>
-                                <testResult>{&quot;logTrace&quot;:&quot;Debug log is :&quot;}</testResult>
-                                <executionStatus>Passed</executionStatus>
-                                <exceptionTrace>Debug log is :</exceptionTrace>
-                              </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                              <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                <id>9836</id>
+                                <id>9916</id>
                                 <command>
                                   <id>37</id>
                                   <name>assertInputText</name>
@@ -3868,7 +3652,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                               <null/>
                                               <string>assertInputText</string>
                                               <null/>
-                                              <int>0</int>
+                                              <int>1</int>
                                               <null/>
                                               <string>Assert that the text {{Parameters.controlId}} value is {{Parameters.expectedValue}}.</string>
                                               <long>4</long>
@@ -3966,19 +3750,484 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                       </default>
                                     </org.eclipse.persistence.indirection.IndirectList>
                                   </groupCommands>
-                                  <takeScreenshot>false</takeScreenshot>
+                                  <takeScreenshot>true</takeScreenshot>
                                 </command>
                                 <comment></comment>
                                 <parameters>{&quot;controlId&quot;:&quot;&quot;,&quot;label&quot;:&quot;Custom Text:&quot;,&quot;elementId&quot;:&quot;customText&quot;,&quot;elementCss&quot;:&quot;&quot;,&quot;xpath&quot;:&quot;&quot;,&quot;expectedValue&quot;:&quot;custom text value&quot;,&quot;expectedMaxLength&quot;:&quot;&quot;}</parameters>
                                 <index>6</index>
                                 <testCase reference="../../../../../.."/>
-                                <bpmUser reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[2]/bpmUser"/>
+                                <bpmUser>
+                                  <id>1</id>
+                                  <userName>deadmin</userName>
+                                  <userPassword>TI3RgKjbfOXU9i6rQAjzOg==</userPassword>
+                                  <displayName>deadmin</displayName>
+                                  <bpmConfiguration reference="../../../../../../../../../../../../../../../../../bpmConfigs/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.config.BpmConfiguration"/>
+                                </bpmUser>
                                 <executionStatus>Passed</executionStatus>
+                                <screenshotPath>/var/keter/data/screenshots/standalone/Project-250/case-690/b64bf2eb-a2ae-4e2c-9222-a29ced1d1314.png</screenshotPath>
                               </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                               <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                <id>9837</id>
+                                <id>9917</id>
                                 <command>
-                                  <id>218</id>
+                                  <id>52</id>
+                                  <name>startHumanService</name>
+                                  <description>Start a human service.</description>
+                                  <category>
+                                    <id>1</id>
+                                    <name>BPM</name>
+                                    <categoryType>JAVA_COMMAND</categoryType>
+                                    <description>BPM</description>
+                                    <sort>1</sort>
+                                    <subCategories class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                      <unserializable-parents/>
+                                      <vector>
+                                        <default>
+                                          <capacityIncrement>0</capacityIncrement>
+                                          <elementCount>0</elementCount>
+                                          <elementData/>
+                                        </default>
+                                      </vector>
+                                      <org.eclipse.persistence.indirection.IndirectList>
+                                        <default>
+                                          <initialCapacity>10</initialCapacity>
+                                          <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                          <isRegistered>true</isRegistered>
+                                          <useLazyInstantiation>true</useLazyInstantiation>
+                                          <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
+                                            <isInstantiated>false</isInstantiated>
+                                            <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
+                                              <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/category/subCategories/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
+                                              <size>8</size>
+                                              <nullValueInFields>false</nullValueInFields>
+                                              <fieldsArray reference="../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/category/subCategories/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
+                                              <valuesArray>
+                                                <long>1</long>
+                                                <string>JAVA_COMMAND</string>
+                                                <null/>
+                                                <string>BPM</string>
+                                                <string>BPM</string>
+                                                <int>1</int>
+                                                <null/>
+                                                <null/>
+                                              </valuesArray>
+                                            </row>
+                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                            <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
+                                              <isInstantiated>false</isInstantiated>
+                                              <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                              <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
+                                            </backupValueHolder>
+                                            <sourceAttributeName>subCategories</sourceAttributeName>
+                                          </valueHolder>
+                                        </default>
+                                      </org.eclipse.persistence.indirection.IndirectList>
+                                    </subCategories>
+                                    <commands class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                      <unserializable-parents/>
+                                      <vector>
+                                        <default>
+                                          <capacityIncrement>0</capacityIncrement>
+                                          <elementCount>0</elementCount>
+                                          <elementData/>
+                                        </default>
+                                      </vector>
+                                      <org.eclipse.persistence.indirection.IndirectList>
+                                        <default>
+                                          <initialCapacity>10</initialCapacity>
+                                          <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                          <isRegistered>true</isRegistered>
+                                          <useLazyInstantiation>true</useLazyInstantiation>
+                                          <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
+                                            <isInstantiated>false</isInstantiated>
+                                            <row class="org.eclipse.persistence.internal.sessions.ArrayRecord" reference="../../../../../subCategories/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row"/>
+                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                            <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
+                                              <isInstantiated>false</isInstantiated>
+                                              <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                              <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
+                                            </backupValueHolder>
+                                            <sourceAttributeName>commands</sourceAttributeName>
+                                          </valueHolder>
+                                        </default>
+                                      </org.eclipse.persistence.indirection.IndirectList>
+                                    </commands>
+                                  </category>
+                                  <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                    <unserializable-parents/>
+                                    <vector>
+                                      <default>
+                                        <capacityIncrement>0</capacityIncrement>
+                                        <elementCount>0</elementCount>
+                                        <elementData/>
+                                      </default>
+                                    </vector>
+                                    <org.eclipse.persistence.indirection.IndirectList>
+                                      <default>
+                                        <initialCapacity>10</initialCapacity>
+                                        <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                        <isRegistered>true</isRegistered>
+                                        <useLazyInstantiation>true</useLazyInstantiation>
+                                        <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
+                                          <isInstantiated>false</isInstantiated>
+                                          <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
+                                            <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
+                                            <size>12</size>
+                                            <nullValueInFields>false</nullValueInFields>
+                                            <fieldsArray reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
+                                            <valuesArray>
+                                              <long>52</long>
+                                              <null/>
+                                              <string>Start a human service.</string>
+                                              <null/>
+                                              <string>startHumanService</string>
+                                              <null/>
+                                              <int>1</int>
+                                              <null/>
+                                              <string>{{Step.BpmUser}} launches the human Service {{Parameters.service}}.</string>
+                                              <long>1</long>
+                                              <null/>
+                                              <null/>
+                                            </valuesArray>
+                                          </row>
+                                          <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                          <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
+                                            <isInstantiated>false</isInstantiated>
+                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                            <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
+                                          </backupValueHolder>
+                                          <sourceAttributeName>parameter</sourceAttributeName>
+                                        </valueHolder>
+                                      </default>
+                                    </org.eclipse.persistence.indirection.IndirectList>
+                                  </parameter>
+                                  <verbalization>{{Step.BpmUser}} launches the human Service {{Parameters.service}}.</verbalization>
+                                  <groupCommands class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                    <unserializable-parents/>
+                                    <vector>
+                                      <default>
+                                        <capacityIncrement>0</capacityIncrement>
+                                        <elementCount>0</elementCount>
+                                        <elementData/>
+                                      </default>
+                                    </vector>
+                                    <org.eclipse.persistence.indirection.IndirectList>
+                                      <default>
+                                        <initialCapacity>10</initialCapacity>
+                                        <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                        <isRegistered>true</isRegistered>
+                                        <useLazyInstantiation>true</useLazyInstantiation>
+                                        <delegate/>
+                                        <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
+                                          <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                            <unserializable-parents/>
+                                            <vector>
+                                              <default>
+                                                <capacityIncrement>0</capacityIncrement>
+                                                <elementCount>0</elementCount>
+                                                <elementData/>
+                                              </default>
+                                            </vector>
+                                            <org.eclipse.persistence.indirection.IndirectList>
+                                              <default>
+                                                <initialCapacity>0</initialCapacity>
+                                                <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                                <isRegistered>false</isRegistered>
+                                                <useLazyInstantiation>true</useLazyInstantiation>
+                                                <delegate reference="../../../../../delegate"/>
+                                                <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
+                                                  <value class="vector" reference="../../../../../../delegate"/>
+                                                  <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                                  <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
+                                                </valueHolder>
+                                              </default>
+                                            </org.eclipse.persistence.indirection.IndirectList>
+                                          </value>
+                                          <isInstantiated>true</isInstantiated>
+                                          <row class="org.eclipse.persistence.internal.sessions.ArrayRecord" reference="../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row"/>
+                                          <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                          <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
+                                            <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                              <unserializable-parents/>
+                                              <vector>
+                                                <default>
+                                                  <capacityIncrement>0</capacityIncrement>
+                                                  <elementCount>0</elementCount>
+                                                  <elementData/>
+                                                </default>
+                                              </vector>
+                                              <org.eclipse.persistence.indirection.IndirectList>
+                                                <default>
+                                                  <initialCapacity>0</initialCapacity>
+                                                  <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                                  <isRegistered>false</isRegistered>
+                                                  <useLazyInstantiation>true</useLazyInstantiation>
+                                                  <delegate/>
+                                                  <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
+                                                    <value class="vector" reference="../../delegate"/>
+                                                    <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                                    <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
+                                                  </valueHolder>
+                                                </default>
+                                              </org.eclipse.persistence.indirection.IndirectList>
+                                            </value>
+                                            <isInstantiated>true</isInstantiated>
+                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                            <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
+                                          </backupValueHolder>
+                                          <sourceAttributeName>groupCommands</sourceAttributeName>
+                                        </valueHolder>
+                                      </default>
+                                    </org.eclipse.persistence.indirection.IndirectList>
+                                  </groupCommands>
+                                  <takeScreenshot>true</takeScreenshot>
+                                </command>
+                                <comment></comment>
+                                <parameters>{&quot;user&quot;:&quot;&quot;,&quot;service&quot;:&quot;Custom Coach Test&quot;,&quot;params&quot;:&quot;&quot;,&quot;toolkitName&quot;:&quot;&quot;}</parameters>
+                                <index>1</index>
+                                <testCase reference="../../../../../.."/>
+                                <bpmUser reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[2]/bpmUser"/>
+                                <testResult>{&quot;url&quot;:&quot;https:\/\/9.30.160.68:9444\/teamworks\/redirect-login.jsp?j_forward=executecf%3FmodelID%3D1.64f22d7a-b7a1-41ad-a772-51bbe139b291%26branchID%3D2063.0ca07eaf-244e-4b9f-997a-dbe5275dc2f3&amp;credentials=ZGVhZG1pbg%3D%3D%3AZGVhZG1pbg%3D%3D&quot;}</testResult>
+                                <executionStatus>Passed</executionStatus>
+                                <screenshotPath>/var/keter/data/screenshots/standalone/Project-250/case-690/163f1c4e-b569-4b95-b98f-dda4ce13e5b8.png</screenshotPath>
+                              </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
+                              <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
+                                <id>9918</id>
+                                <command>
+                                  <id>3</id>
+                                  <name>debug</name>
+                                  <description>Command for debug, case will stop at this step</description>
+                                  <category>
+                                    <id>5</id>
+                                    <name>Utility</name>
+                                    <categoryType>JAVA_COMMAND</categoryType>
+                                    <description>Utility</description>
+                                    <sort>5</sort>
+                                    <subCategories class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                      <unserializable-parents/>
+                                      <vector>
+                                        <default>
+                                          <capacityIncrement>0</capacityIncrement>
+                                          <elementCount>0</elementCount>
+                                          <elementData/>
+                                        </default>
+                                      </vector>
+                                      <org.eclipse.persistence.indirection.IndirectList>
+                                        <default>
+                                          <initialCapacity>10</initialCapacity>
+                                          <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                          <isRegistered>true</isRegistered>
+                                          <useLazyInstantiation>true</useLazyInstantiation>
+                                          <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
+                                            <isInstantiated>false</isInstantiated>
+                                            <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
+                                              <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/category/subCategories/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
+                                              <size>8</size>
+                                              <nullValueInFields>false</nullValueInFields>
+                                              <fieldsArray reference="../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/category/subCategories/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
+                                              <valuesArray>
+                                                <long>5</long>
+                                                <string>JAVA_COMMAND</string>
+                                                <null/>
+                                                <string>Utility</string>
+                                                <string>Utility</string>
+                                                <int>5</int>
+                                                <null/>
+                                                <null/>
+                                              </valuesArray>
+                                            </row>
+                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                            <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
+                                              <isInstantiated>false</isInstantiated>
+                                              <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                              <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
+                                            </backupValueHolder>
+                                            <sourceAttributeName>subCategories</sourceAttributeName>
+                                          </valueHolder>
+                                        </default>
+                                      </org.eclipse.persistence.indirection.IndirectList>
+                                    </subCategories>
+                                    <commands class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                      <unserializable-parents/>
+                                      <vector>
+                                        <default>
+                                          <capacityIncrement>0</capacityIncrement>
+                                          <elementCount>0</elementCount>
+                                          <elementData/>
+                                        </default>
+                                      </vector>
+                                      <org.eclipse.persistence.indirection.IndirectList>
+                                        <default>
+                                          <initialCapacity>10</initialCapacity>
+                                          <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                          <isRegistered>true</isRegistered>
+                                          <useLazyInstantiation>true</useLazyInstantiation>
+                                          <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
+                                            <isInstantiated>false</isInstantiated>
+                                            <row class="org.eclipse.persistence.internal.sessions.ArrayRecord" reference="../../../../../subCategories/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row"/>
+                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                            <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
+                                              <isInstantiated>false</isInstantiated>
+                                              <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                              <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
+                                            </backupValueHolder>
+                                            <sourceAttributeName>commands</sourceAttributeName>
+                                          </valueHolder>
+                                        </default>
+                                      </org.eclipse.persistence.indirection.IndirectList>
+                                    </commands>
+                                  </category>
+                                  <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                    <unserializable-parents/>
+                                    <vector>
+                                      <default>
+                                        <capacityIncrement>0</capacityIncrement>
+                                        <elementCount>0</elementCount>
+                                        <elementData/>
+                                      </default>
+                                    </vector>
+                                    <org.eclipse.persistence.indirection.IndirectList>
+                                      <default>
+                                        <initialCapacity>10</initialCapacity>
+                                        <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                        <isRegistered>true</isRegistered>
+                                        <useLazyInstantiation>true</useLazyInstantiation>
+                                        <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
+                                          <isInstantiated>false</isInstantiated>
+                                          <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
+                                            <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
+                                            <size>12</size>
+                                            <nullValueInFields>false</nullValueInFields>
+                                            <fieldsArray reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
+                                            <valuesArray>
+                                              <long>3</long>
+                                              <null/>
+                                              <string>Command for debug, case will stop at this step</string>
+                                              <null/>
+                                              <string>debug</string>
+                                              <null/>
+                                              <int>0</int>
+                                              <null/>
+                                              <string>Debug {{Parameters.log}}.</string>
+                                              <long>5</long>
+                                              <null/>
+                                              <null/>
+                                            </valuesArray>
+                                          </row>
+                                          <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                          <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
+                                            <isInstantiated>false</isInstantiated>
+                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                            <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
+                                          </backupValueHolder>
+                                          <sourceAttributeName>parameter</sourceAttributeName>
+                                        </valueHolder>
+                                      </default>
+                                    </org.eclipse.persistence.indirection.IndirectList>
+                                  </parameter>
+                                  <verbalization>Debug {{Parameters.log}}.</verbalization>
+                                  <groupCommands class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                    <unserializable-parents/>
+                                    <vector>
+                                      <default>
+                                        <capacityIncrement>0</capacityIncrement>
+                                        <elementCount>0</elementCount>
+                                        <elementData/>
+                                      </default>
+                                    </vector>
+                                    <org.eclipse.persistence.indirection.IndirectList>
+                                      <default>
+                                        <initialCapacity>10</initialCapacity>
+                                        <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                        <isRegistered>true</isRegistered>
+                                        <useLazyInstantiation>true</useLazyInstantiation>
+                                        <delegate/>
+                                        <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
+                                          <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                            <unserializable-parents/>
+                                            <vector>
+                                              <default>
+                                                <capacityIncrement>0</capacityIncrement>
+                                                <elementCount>0</elementCount>
+                                                <elementData/>
+                                              </default>
+                                            </vector>
+                                            <org.eclipse.persistence.indirection.IndirectList>
+                                              <default>
+                                                <initialCapacity>0</initialCapacity>
+                                                <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                                <isRegistered>false</isRegistered>
+                                                <useLazyInstantiation>true</useLazyInstantiation>
+                                                <delegate reference="../../../../../delegate"/>
+                                                <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
+                                                  <value class="vector" reference="../../../../../../delegate"/>
+                                                  <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                                  <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
+                                                </valueHolder>
+                                              </default>
+                                            </org.eclipse.persistence.indirection.IndirectList>
+                                          </value>
+                                          <isInstantiated>true</isInstantiated>
+                                          <row class="org.eclipse.persistence.internal.sessions.ArrayRecord" reference="../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row"/>
+                                          <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                          <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
+                                            <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                              <unserializable-parents/>
+                                              <vector>
+                                                <default>
+                                                  <capacityIncrement>0</capacityIncrement>
+                                                  <elementCount>0</elementCount>
+                                                  <elementData/>
+                                                </default>
+                                              </vector>
+                                              <org.eclipse.persistence.indirection.IndirectList>
+                                                <default>
+                                                  <initialCapacity>0</initialCapacity>
+                                                  <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                                  <isRegistered>false</isRegistered>
+                                                  <useLazyInstantiation>true</useLazyInstantiation>
+                                                  <delegate/>
+                                                  <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
+                                                    <value class="vector" reference="../../delegate"/>
+                                                    <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                                    <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
+                                                  </valueHolder>
+                                                </default>
+                                              </org.eclipse.persistence.indirection.IndirectList>
+                                            </value>
+                                            <isInstantiated>true</isInstantiated>
+                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                            <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
+                                          </backupValueHolder>
+                                          <sourceAttributeName>groupCommands</sourceAttributeName>
+                                        </valueHolder>
+                                      </default>
+                                    </org.eclipse.persistence.indirection.IndirectList>
+                                  </groupCommands>
+                                  <takeScreenshot>false</takeScreenshot>
+                                </command>
+                                <comment></comment>
+                                <parameters>{&quot;log&quot;:&quot;&quot;}</parameters>
+                                <index>5</index>
+                                <testCase reference="../../../../../.."/>
+                                <bpmUser reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[2]/bpmUser"/>
+                                <testResult>{&quot;logTrace&quot;:&quot;Debug log is :&quot;}</testResult>
+                                <executionStatus>Passed</executionStatus>
+                                <exceptionTrace>Debug log is :</exceptionTrace>
+                              </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
+                              <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
+                                <id>9919</id>
+                                <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[4]/command"/>
+                                <parameters>{}</parameters>
+                                <index>3</index>
+                                <testCase reference="../../../../../.."/>
+                                <testResult>{&quot;logTrace&quot;:&quot;Debug log is :null&quot;}</testResult>
+                                <executionStatus>Passed</executionStatus>
+                                <exceptionTrace>Debug log is :null</exceptionTrace>
+                              </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
+                              <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
+                                <id>9920</id>
+                                <command>
+                                  <id>220</id>
                                   <name>customText</name>
                                   <description></description>
                                   <category>
@@ -4084,8 +4333,8 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                             <nullValueInFields>false</nullValueInFields>
                                             <fieldsArray reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
                                             <valuesArray>
-                                              <long>218</long>
-                                              <null/>
+                                              <long>220</long>
+                                              <sql-timestamp>2018-11-19 09:11:04.751</sql-timestamp>
                                               <string></string>
                                               <string>JAVASCRIPT_COMMAND</string>
                                               <string>customText</string>
@@ -4100,8 +4349,8 @@ return bta.util.callback();</string>
                                               <null/>
                                               <string>set {{Parameters.value}} to text through {{Parameters.id}}</string>
                                               <long>6</long>
-                                              <null/>
-                                              <long>247</long>
+                                              <long>23</long>
+                                              <long>250</long>
                                             </valuesArray>
                                           </row>
                                           <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
@@ -4195,6 +4444,8 @@ return bta.util.callback();</string>
                                       </default>
                                     </org.eclipse.persistence.indirection.IndirectList>
                                   </groupCommands>
+                                  <creator reference="../../../../../../../creator"/>
+                                  <creationDate>2018-11-19 09:11:04.751 UTC</creationDate>
                                   <takeScreenshot>false</takeScreenshot>
                                   <script>var value = this.jsonObject.value;&#xd;
 var id = this.jsonObject.id;&#xd;
@@ -4210,228 +4461,6 @@ return bta.util.callback();</script>
                                 <index>4</index>
                                 <testCase reference="../../../../../.."/>
                                 <bpmUser reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[2]/bpmUser"/>
-                                <executionStatus>Passed</executionStatus>
-                              </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                              <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                <id>9838</id>
-                                <command>
-                                  <id>24</id>
-                                  <name>selectWindow</name>
-                                  <description>Select window by the window info</description>
-                                  <category>
-                                    <id>2</id>
-                                    <name>UI</name>
-                                    <categoryType>JAVASCRIPT_COMMAND</categoryType>
-                                    <description>UI</description>
-                                    <sort>2</sort>
-                                    <subCategories class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                      <unserializable-parents/>
-                                      <vector>
-                                        <default>
-                                          <capacityIncrement>0</capacityIncrement>
-                                          <elementCount>0</elementCount>
-                                          <elementData/>
-                                        </default>
-                                      </vector>
-                                      <org.eclipse.persistence.indirection.IndirectList>
-                                        <default>
-                                          <initialCapacity>10</initialCapacity>
-                                          <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                          <isRegistered>true</isRegistered>
-                                          <useLazyInstantiation>true</useLazyInstantiation>
-                                          <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
-                                            <isInstantiated>false</isInstantiated>
-                                            <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
-                                              <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/category/subCategories/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
-                                              <size>8</size>
-                                              <nullValueInFields>false</nullValueInFields>
-                                              <fieldsArray reference="../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/category/subCategories/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
-                                              <valuesArray>
-                                                <long>2</long>
-                                                <string>JAVASCRIPT_COMMAND</string>
-                                                <null/>
-                                                <string>UI</string>
-                                                <string>UI</string>
-                                                <int>2</int>
-                                                <null/>
-                                                <null/>
-                                              </valuesArray>
-                                            </row>
-                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                            <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
-                                              <isInstantiated>false</isInstantiated>
-                                              <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                              <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
-                                            </backupValueHolder>
-                                            <sourceAttributeName>subCategories</sourceAttributeName>
-                                          </valueHolder>
-                                        </default>
-                                      </org.eclipse.persistence.indirection.IndirectList>
-                                    </subCategories>
-                                    <commands class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                      <unserializable-parents/>
-                                      <vector>
-                                        <default>
-                                          <capacityIncrement>0</capacityIncrement>
-                                          <elementCount>0</elementCount>
-                                          <elementData/>
-                                        </default>
-                                      </vector>
-                                      <org.eclipse.persistence.indirection.IndirectList>
-                                        <default>
-                                          <initialCapacity>10</initialCapacity>
-                                          <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                          <isRegistered>true</isRegistered>
-                                          <useLazyInstantiation>true</useLazyInstantiation>
-                                          <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
-                                            <isInstantiated>false</isInstantiated>
-                                            <row class="org.eclipse.persistence.internal.sessions.ArrayRecord" reference="../../../../../subCategories/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row"/>
-                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                            <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
-                                              <isInstantiated>false</isInstantiated>
-                                              <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                              <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
-                                            </backupValueHolder>
-                                            <sourceAttributeName>commands</sourceAttributeName>
-                                          </valueHolder>
-                                        </default>
-                                      </org.eclipse.persistence.indirection.IndirectList>
-                                    </commands>
-                                  </category>
-                                  <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                    <unserializable-parents/>
-                                    <vector>
-                                      <default>
-                                        <capacityIncrement>0</capacityIncrement>
-                                        <elementCount>0</elementCount>
-                                        <elementData/>
-                                      </default>
-                                    </vector>
-                                    <org.eclipse.persistence.indirection.IndirectList>
-                                      <default>
-                                        <initialCapacity>10</initialCapacity>
-                                        <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                        <isRegistered>true</isRegistered>
-                                        <useLazyInstantiation>true</useLazyInstantiation>
-                                        <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
-                                          <isInstantiated>false</isInstantiated>
-                                          <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
-                                            <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
-                                            <size>12</size>
-                                            <nullValueInFields>false</nullValueInFields>
-                                            <fieldsArray reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
-                                            <valuesArray>
-                                              <long>24</long>
-                                              <null/>
-                                              <string>Select window by the window info</string>
-                                              <null/>
-                                              <string>selectWindow</string>
-                                              <null/>
-                                              <int>0</int>
-                                              <null/>
-                                              <string>Select window {{Parameters.info}}.</string>
-                                              <long>2</long>
-                                              <null/>
-                                              <null/>
-                                            </valuesArray>
-                                          </row>
-                                          <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                          <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
-                                            <isInstantiated>false</isInstantiated>
-                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                            <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
-                                          </backupValueHolder>
-                                          <sourceAttributeName>parameter</sourceAttributeName>
-                                        </valueHolder>
-                                      </default>
-                                    </org.eclipse.persistence.indirection.IndirectList>
-                                  </parameter>
-                                  <verbalization>Select window {{Parameters.info}}.</verbalization>
-                                  <groupCommands class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                    <unserializable-parents/>
-                                    <vector>
-                                      <default>
-                                        <capacityIncrement>0</capacityIncrement>
-                                        <elementCount>0</elementCount>
-                                        <elementData/>
-                                      </default>
-                                    </vector>
-                                    <org.eclipse.persistence.indirection.IndirectList>
-                                      <default>
-                                        <initialCapacity>10</initialCapacity>
-                                        <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                        <isRegistered>true</isRegistered>
-                                        <useLazyInstantiation>true</useLazyInstantiation>
-                                        <delegate/>
-                                        <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
-                                          <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                            <unserializable-parents/>
-                                            <vector>
-                                              <default>
-                                                <capacityIncrement>0</capacityIncrement>
-                                                <elementCount>0</elementCount>
-                                                <elementData/>
-                                              </default>
-                                            </vector>
-                                            <org.eclipse.persistence.indirection.IndirectList>
-                                              <default>
-                                                <initialCapacity>0</initialCapacity>
-                                                <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                                <isRegistered>false</isRegistered>
-                                                <useLazyInstantiation>true</useLazyInstantiation>
-                                                <delegate reference="../../../../../delegate"/>
-                                                <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
-                                                  <value class="vector" reference="../../../../../../delegate"/>
-                                                  <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                                  <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
-                                                </valueHolder>
-                                              </default>
-                                            </org.eclipse.persistence.indirection.IndirectList>
-                                          </value>
-                                          <isInstantiated>true</isInstantiated>
-                                          <row class="org.eclipse.persistence.internal.sessions.ArrayRecord" reference="../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row"/>
-                                          <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                          <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
-                                            <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                              <unserializable-parents/>
-                                              <vector>
-                                                <default>
-                                                  <capacityIncrement>0</capacityIncrement>
-                                                  <elementCount>0</elementCount>
-                                                  <elementData/>
-                                                </default>
-                                              </vector>
-                                              <org.eclipse.persistence.indirection.IndirectList>
-                                                <default>
-                                                  <initialCapacity>0</initialCapacity>
-                                                  <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                                  <isRegistered>false</isRegistered>
-                                                  <useLazyInstantiation>true</useLazyInstantiation>
-                                                  <delegate/>
-                                                  <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
-                                                    <value class="vector" reference="../../delegate"/>
-                                                    <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                                    <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
-                                                  </valueHolder>
-                                                </default>
-                                              </org.eclipse.persistence.indirection.IndirectList>
-                                            </value>
-                                            <isInstantiated>true</isInstantiated>
-                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                            <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
-                                          </backupValueHolder>
-                                          <sourceAttributeName>groupCommands</sourceAttributeName>
-                                        </valueHolder>
-                                      </default>
-                                    </org.eclipse.persistence.indirection.IndirectList>
-                                  </groupCommands>
-                                  <takeScreenshot>false</takeScreenshot>
-                                </command>
-                                <parameters>{&quot;info&quot;:&quot;[\&quot;window-MAIN\&quot;,\&quot;iframe-0\&quot;]&quot;}</parameters>
-                                <caseData>{&quot;bpmRecordWindow&quot;:{&quot;url&quot;:&quot;https:\/\/9.30.160.68:9444\/teamworks\/executecf?modelID=1.64f22d7a-b7a1-41ad-a772-51bbe139b291&amp;branchID=2063.0ca07eaf-244e-4b9f-997a-dbe5275dc2f3&quot;,&quot;info&quot;:[&quot;window-MAIN&quot;,&quot;iframe-0&quot;]},&quot;bpmRecordData&quot;:[{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/input[1]&quot;,&quot;elementId&quot;:&quot;customText&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;text&quot;,&quot;event&quot;:&quot;blur&quot;,&quot;command&quot;:&quot;UI.text&quot;,&quot;value&quot;:&quot;&quot;}]}</caseData>
-                                <index>2</index>
-                                <testCase reference="../../../../../.."/>
-                                <testResult>{&quot;workingWindowTraces&quot;:&quot;[\&quot;window-MAIN\&quot;,\&quot;iframe-0\&quot;]&quot;}</testResult>
                                 <executionStatus>Passed</executionStatus>
                               </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                             </delegate>
@@ -4875,21 +4904,21 @@ return bta.util.callback();</script>
                                   <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[16]"/>
                                 </fieldsArray>
                                 <valuesArray>
-                                  <long>686</long>
-                                  <string></string>
+                                  <long>690</long>
+                                  <null/>
                                   <string>normalCase</string>
-                                  <sql-timestamp>2018-11-19 06:29:09.748</sql-timestamp>
+                                  <sql-timestamp>2018-11-19 09:11:04.689</sql-timestamp>
                                   <string>Passed</string>
                                   <string>[{&quot;PROCESSNAME&quot;:&quot;Start&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;d0c51131-41e0-4d80-90e1-688d6ebf44cf&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;StartPoint&quot;},{&quot;PROCESSNAME&quot;:&quot;Custom Coach&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.b4069dfe-21aa-4089-ad47-29a4b5437b29&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;End&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;b77f4495-c251-44a5-9025-a32767986d27&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ExitPoint&quot;}]</string>
                                   <string>Custom Coach Test</string>
                                   <string>SERVICE</string>
-                                  <sql-timestamp>2018-11-19 07:22:17.524</sql-timestamp>
-                                  <long>22</long>
+                                  <sql-timestamp>2018-11-19 09:11:04.689</sql-timestamp>
+                                  <long>23</long>
                                   <null/>
-                                  <long>22</long>
-                                  <long>247</long>
-                                  <long>377</long>
-                                  <long>22</long>
+                                  <null/>
+                                  <long>250</long>
+                                  <long>381</long>
+                                  <long>23</long>
                                   <null/>
                                 </valuesArray>
                               </row>
@@ -5122,10 +5151,10 @@ return bta.util.callback();</script>
                         <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[4]"/>
                       </fieldsArray>
                       <valuesArray>
-                        <long>377</long>
+                        <long>381</long>
                         <string>Custom_Coach_Test</string>
                         <string>userInterfaces</string>
-                        <long>247</long>
+                        <long>250</long>
                       </valuesArray>
                     </row>
                     <isCoordinatedWithProperty>false</isCoordinatedWithProperty>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <com.ibm.cte.sdc.bpm.testing.model.command.Command>
-  <id>220</id>
-  <name>customText</name>
-  <description></description>
+  <id>242</id>
+  <name>HRSample_UT_OK</name>
+  <description>sdfsdf</description>
   <category>
     <id>6</id>
     <name>Custom</name>
@@ -648,23 +648,21 @@
               <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[12]"/>
             </fieldsArray>
             <valuesArray>
-              <long>220</long>
-              <sql-timestamp>2018-11-19 09:11:04.751</sql-timestamp>
-              <string></string>
+              <long>242</long>
+              <null/>
+              <string>sdfsdf</string>
               <string>JAVASCRIPT_COMMAND</string>
-              <string>customText</string>
-              <string>var value = this.jsonObject.value;&#xd;
-var id = this.jsonObject.id;&#xd;
-//TODO Add your JavaScript implementation here&#xd;
-&#xd;
-bta.util.getElementById(id).value = value;&#xd;
-//A JavaScript command must return a callback as below&#xd;
-return bta.util.callback();</string>
+              <string>HRSample_UT_OK</string>
+              <string>//TODO Add your JavaScript implementation here
+
+//A JavaScript command must return a callback as below
+return bta.util.callback();
+</string>
               <int>0</int>
               <null/>
-              <string>set {{Parameters.value}} to text through {{Parameters.id}}</string>
+              <string>·~！@#￥%……&amp;*（）——+</string>
               <long>6</long>
-              <long>23</long>
+              <null/>
               <long>250</long>
             </valuesArray>
           </row>
@@ -679,7 +677,7 @@ return bta.util.callback();</string>
       </default>
     </org.eclipse.persistence.indirection.IndirectList>
   </parameter>
-  <verbalization>set {{Parameters.value}} to text through {{Parameters.id}}</verbalization>
+  <verbalization>·~！@#￥%……&amp;*（）——+</verbalization>
   <project>
     <id>250</id>
     <name>JS Command Sample</name>
@@ -3558,10 +3556,56 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                           <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
                                             <isInstantiated>false</isInstantiated>
                                             <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
-                                              <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
+                                              <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" serialization="custom">
+                                                <unserializable-parents/>
+                                                <vector>
+                                                  <default>
+                                                    <capacityIncrement>0</capacityIncrement>
+                                                    <elementCount>12</elementCount>
+                                                    <elementData>
+                                                      <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField"/>
+                                                      <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[2]"/>
+                                                      <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[3]"/>
+                                                      <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[4]"/>
+                                                      <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[5]"/>
+                                                      <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[6]"/>
+                                                      <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[7]"/>
+                                                      <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[8]"/>
+                                                      <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[9]"/>
+                                                      <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[10]"/>
+                                                      <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[11]"/>
+                                                      <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[12]"/>
+                                                      <null/>
+                                                      <null/>
+                                                      <null/>
+                                                      <null/>
+                                                      <null/>
+                                                      <null/>
+                                                      <null/>
+                                                      <null/>
+                                                    </elementData>
+                                                  </default>
+                                                </vector>
+                                                <org.eclipse.persistence.internal.helper.NonSynchronizedVector>
+                                                  <default/>
+                                                </org.eclipse.persistence.internal.helper.NonSynchronizedVector>
+                                              </fields>
                                               <size>12</size>
                                               <nullValueInFields>false</nullValueInFields>
-                                              <fieldsArray reference="../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
+                                              <fieldsArray>
+                                                <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField"/>
+                                                <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[2]"/>
+                                                <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[3]"/>
+                                                <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[4]"/>
+                                                <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[5]"/>
+                                                <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[6]"/>
+                                                <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[7]"/>
+                                                <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[8]"/>
+                                                <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[9]"/>
+                                                <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[10]"/>
+                                                <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[11]"/>
+                                                <org.eclipse.persistence.internal.helper.DatabaseField reference="../../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[12]"/>
+                                              </fieldsArray>
                                               <valuesArray>
                                                 <long>24</long>
                                                 <null/>
@@ -3780,10 +3824,10 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                           <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
                                             <isInstantiated>false</isInstantiated>
                                             <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
-                                              <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
+                                              <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
                                               <size>12</size>
                                               <nullValueInFields>false</nullValueInFields>
-                                              <fieldsArray reference="../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
+                                              <fieldsArray reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
                                               <valuesArray>
                                                 <long>37</long>
                                                 <null/>
@@ -4009,10 +4053,10 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                           <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
                                             <isInstantiated>false</isInstantiated>
                                             <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
-                                              <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
+                                              <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
                                               <size>12</size>
                                               <nullValueInFields>false</nullValueInFields>
-                                              <fieldsArray reference="../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
+                                              <fieldsArray reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
                                               <valuesArray>
                                                 <long>52</long>
                                                 <null/>
@@ -4233,10 +4277,10 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                           <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
                                             <isInstantiated>false</isInstantiated>
                                             <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
-                                              <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
+                                              <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
                                               <size>12</size>
                                               <nullValueInFields>false</nullValueInFields>
-                                              <fieldsArray reference="../../../../../../../../../../../../../../../../../../../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
+                                              <fieldsArray reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
                                               <valuesArray>
                                                 <long>3</long>
                                                 <null/>
@@ -4365,7 +4409,157 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                   <id>9920</id>
-                                  <command reference="../../../../../../../../../../../../../../../../.."/>
+                                  <command>
+                                    <id>220</id>
+                                    <name>customText</name>
+                                    <description></description>
+                                    <category reference="../../../../../../../../../../../../../../../../../../category"/>
+                                    <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                      <unserializable-parents/>
+                                      <vector>
+                                        <default>
+                                          <capacityIncrement>0</capacityIncrement>
+                                          <elementCount>0</elementCount>
+                                          <elementData/>
+                                        </default>
+                                      </vector>
+                                      <org.eclipse.persistence.indirection.IndirectList>
+                                        <default>
+                                          <initialCapacity>10</initialCapacity>
+                                          <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                          <isRegistered>true</isRegistered>
+                                          <useLazyInstantiation>true</useLazyInstantiation>
+                                          <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
+                                            <isInstantiated>false</isInstantiated>
+                                            <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
+                                              <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
+                                              <size>12</size>
+                                              <nullValueInFields>false</nullValueInFields>
+                                              <fieldsArray reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
+                                              <valuesArray>
+                                                <long>220</long>
+                                                <sql-timestamp>2018-11-19 09:11:04.751</sql-timestamp>
+                                                <string></string>
+                                                <string>JAVASCRIPT_COMMAND</string>
+                                                <string>customText</string>
+                                                <string>var value = this.jsonObject.value;&#xd;
+var id = this.jsonObject.id;&#xd;
+//TODO Add your JavaScript implementation here&#xd;
+&#xd;
+bta.util.getElementById(id).value = value;&#xd;
+//A JavaScript command must return a callback as below&#xd;
+return bta.util.callback();</string>
+                                                <int>0</int>
+                                                <null/>
+                                                <string>set {{Parameters.value}} to text through {{Parameters.id}}</string>
+                                                <long>6</long>
+                                                <long>23</long>
+                                                <long>250</long>
+                                              </valuesArray>
+                                            </row>
+                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                            <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
+                                              <isInstantiated>false</isInstantiated>
+                                              <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                              <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
+                                            </backupValueHolder>
+                                            <sourceAttributeName>parameter</sourceAttributeName>
+                                          </valueHolder>
+                                        </default>
+                                      </org.eclipse.persistence.indirection.IndirectList>
+                                    </parameter>
+                                    <verbalization>set {{Parameters.value}} to text through {{Parameters.id}}</verbalization>
+                                    <project reference="../../../../../../../../../../../../../../../../.."/>
+                                    <groupCommands class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                      <unserializable-parents/>
+                                      <vector>
+                                        <default>
+                                          <capacityIncrement>0</capacityIncrement>
+                                          <elementCount>0</elementCount>
+                                          <elementData/>
+                                        </default>
+                                      </vector>
+                                      <org.eclipse.persistence.indirection.IndirectList>
+                                        <default>
+                                          <initialCapacity>10</initialCapacity>
+                                          <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                          <isRegistered>true</isRegistered>
+                                          <useLazyInstantiation>true</useLazyInstantiation>
+                                          <delegate/>
+                                          <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
+                                            <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                              <unserializable-parents/>
+                                              <vector>
+                                                <default>
+                                                  <capacityIncrement>0</capacityIncrement>
+                                                  <elementCount>0</elementCount>
+                                                  <elementData/>
+                                                </default>
+                                              </vector>
+                                              <org.eclipse.persistence.indirection.IndirectList>
+                                                <default>
+                                                  <initialCapacity>0</initialCapacity>
+                                                  <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                                  <isRegistered>false</isRegistered>
+                                                  <useLazyInstantiation>true</useLazyInstantiation>
+                                                  <delegate reference="../../../../../delegate"/>
+                                                  <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
+                                                    <value class="vector" reference="../../../../../../delegate"/>
+                                                    <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                                    <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
+                                                  </valueHolder>
+                                                </default>
+                                              </org.eclipse.persistence.indirection.IndirectList>
+                                            </value>
+                                            <isInstantiated>true</isInstantiated>
+                                            <row class="org.eclipse.persistence.internal.sessions.ArrayRecord" reference="../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row"/>
+                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                            <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
+                                              <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                                <unserializable-parents/>
+                                                <vector>
+                                                  <default>
+                                                    <capacityIncrement>0</capacityIncrement>
+                                                    <elementCount>0</elementCount>
+                                                    <elementData/>
+                                                  </default>
+                                                </vector>
+                                                <org.eclipse.persistence.indirection.IndirectList>
+                                                  <default>
+                                                    <initialCapacity>0</initialCapacity>
+                                                    <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                                    <isRegistered>false</isRegistered>
+                                                    <useLazyInstantiation>true</useLazyInstantiation>
+                                                    <delegate/>
+                                                    <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
+                                                      <value class="vector" reference="../../delegate"/>
+                                                      <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                                      <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
+                                                    </valueHolder>
+                                                  </default>
+                                                </org.eclipse.persistence.indirection.IndirectList>
+                                              </value>
+                                              <isInstantiated>true</isInstantiated>
+                                              <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                              <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
+                                            </backupValueHolder>
+                                            <sourceAttributeName>groupCommands</sourceAttributeName>
+                                          </valueHolder>
+                                        </default>
+                                      </org.eclipse.persistence.indirection.IndirectList>
+                                    </groupCommands>
+                                    <creator reference="../../../../../../../creator"/>
+                                    <creationDate>2018-11-19 09:11:04.751 UTC</creationDate>
+                                    <takeScreenshot>false</takeScreenshot>
+                                    <script>var value = this.jsonObject.value;&#xd;
+var id = this.jsonObject.id;&#xd;
+//TODO Add your JavaScript implementation here&#xd;
+&#xd;
+bta.util.getElementById(id).value = value;&#xd;
+//A JavaScript command must return a callback as below&#xd;
+return bta.util.callback();</script>
+                                    <executionType>JAVASCRIPT_COMMAND</executionType>
+                                  </command>
                                   <comment></comment>
                                   <parameters>{&quot;value&quot;:&quot;custom text value&quot;,&quot;id&quot;:&quot;customText&quot;}</parameters>
                                   <index>4</index>
@@ -5282,15 +5476,11 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
       </default>
     </org.eclipse.persistence.indirection.IndirectList>
   </groupCommands>
-  <creator reference="../project/testSuites/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/creator"/>
-  <creationDate>2018-11-19 09:11:04.751 UTC</creationDate>
   <takeScreenshot>false</takeScreenshot>
-  <script>var value = this.jsonObject.value;&#xd;
-var id = this.jsonObject.id;&#xd;
-//TODO Add your JavaScript implementation here&#xd;
-&#xd;
-bta.util.getElementById(id).value = value;&#xd;
-//A JavaScript command must return a callback as below&#xd;
-return bta.util.callback();</script>
+  <script>//TODO Add your JavaScript implementation here
+
+//A JavaScript command must return a callback as below
+return bta.util.callback();
+</script>
   <executionType>JAVASCRIPT_COMMAND</executionType>
 </com.ibm.cte.sdc.bpm.testing.model.command.Command>
