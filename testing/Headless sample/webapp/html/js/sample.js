@@ -133,6 +133,11 @@
     }
     // binding event
     $('document').ready(function () {
+        if(document.location.origin === 'file://'){
+            common.root = 'https://9.30.160.68:9444/'
+        }else{
+            common.root = '/'
+        }
         $('#run-as-menu > li > a').on('click', function (event) {
             $('#current-role').text($(this).text())
             let roleName = $(this).data('role')
@@ -161,13 +166,5 @@
         $(`#${customUI.customEvents.candidatesSubmitted.element}`).on(`${customUI.customEvents.candidatesSubmitted.name}`, function () {
             showTasks()
         })
-        // for testing
-        // showMainPage()
-        // $('#task-table').hide()
-        // $('#custom-ui').show()
-        // customUI.showTask({
-        //     OWNER: 'david',
-        //     'TASK.TKIID': "17490"
-        // }, common.roles.hiringManager)
     })
 })(customUI, common)

@@ -149,6 +149,20 @@ let customUI = (function (common) {
             }
         })
     }
+    let populateQualificationTable = function (qualification) {
+        let result = $('<table>', {
+            class: 'table'
+        })
+        let head = $('<thead>')
+        let body = $('<tbody>')
+        $('<tr>').append('<th>education</th>', '<th>skills</th>', '<th>experience</th>').appendTo(head)
+        $('<tr>').append(
+            `<td>${qualification.education}</td>`,
+            `<td>${qualification.skills}</td>`,
+            `<td>${qualification.experience}</td>`).appendTo(body)
+        result.append(head, body)
+        return result
+    }
     let taskUiForHumanResource = function (taskId) {
         // load current position
         // updateUiWitCurrentPosition()
@@ -167,7 +181,7 @@ let customUI = (function (common) {
             removeBtn.on('click', function () {
                 $(this).parent().remove()
             })
-            item.append(removeBtn)
+            item.append(removeBtn, populateQualificationTable(candidate.qualifications))
             $('#candidates').append(item)
         })
         $.get(`${common.root}rest/bpm/wle/v1/task/${
@@ -266,8 +280,8 @@ let customUI = (function (common) {
                 candidates: []
             }
             candidates.forEach(candidate => {
-                let classSelector = candidate.name.replace(' ','.')
-                if($(`#candidates li.${classSelector}`).length >0){
+                let classSelector = candidate.name.replace(' ', '.')
+                if ($(`#candidates li.${classSelector}`).length > 0) {
                     result.candidates.push(candidate)
                 }
             })

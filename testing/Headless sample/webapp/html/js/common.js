@@ -1,5 +1,4 @@
 let common = {
-    // root: 'https://9.30.160.68:9444/',
     root: '/',
     roles: {
         hiringManager: {
