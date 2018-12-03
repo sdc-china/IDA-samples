@@ -24,4 +24,6 @@ This sample demos how to test Headless BPM with IDA, it include:
 ## Run the IDA to test against the Headless Sample application
 
 1. Import the test project *Headless Sample.zip* under *test* folder into IDA
-2. Run the test cases from the **Headless Sample** test project from IDA
+2. Make sure the value for **Server** and **Process App** are correct in your environment
+3. Update the value of **URL** for first step in each test cases to correct URL that point to your headless sample(i.e. *https://<your_server>:8443* in previous section)
+4. Run the test cases from the **Headless Sample** test project from IDA
