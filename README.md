@@ -1,4 +1,4 @@
 # IBM Deployment Accelerator for Business Automation Workflow
 
-## Testing sample
-Please refer to testing folder for more detail
+## Testing
+- A set of sample projects for testing of IDA
