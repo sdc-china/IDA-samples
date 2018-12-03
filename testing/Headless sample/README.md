@@ -2,21 +2,26 @@
 
 This sample demos how to test Headless BPM with IDA, it include:
 
-1. A sample BPM application
-2. Sample Headless Webapp invoke the BPM application
-3. Test project for IDA to test the sample Headless webapp
+1. Sample Headless Webapp invoke the BPM application
+2. Exported testing project for IDA to test the sample Headless webapp
 
-## Prepare
+## Configure BPM
 
-1. Create 3 sample users(david, bob and jane) with password 123456
-2. Import the *Testing Sample* twx
+1. Create 3 sample users(david, bob and jane) with password 123456 in your BPM Process Center
+2. Import the *Testing Sample* twx into your BPM Process Center
 3. Add the sample users to corresponding teams and remove tw_allusers from the User Groups in the *Testing Sample* application
    + HiringManagers: david
    + GeneralManagers: bob
    + Human Resources: jane
 
-## Usage
+## Configure the Headless Sample application
 
-1. Update the value of environment variable **BPM_ROOT** in file *docker-compose.yml*
-2. Run the docker-compose command to build and start a cantainer for the sample. For example `docker-compose up --build`
-3. Access the sample at https://localhost:8443 from web browser
+1. Update the value of environment variable **BPM_ROOT** in file *docker-compose.yml* to point to your Process Center
+2. Install Docker and Docker-compose on your server that will run the Headless Sample application. **Note**: *the sample app is a pure html/javascript page, you can also run it on any server instead of Docker*
+3. Run the docker-compose command to build and start a cantainer for the sample. For example `docker-compose up --build`
+4. Access the sample at *https://<your_server>:8443* from web browser to verify the sample app is working
+
+## Run the IDA to test against the Headless Sample application
+
+1. Import the test project *Headless Sample.zip* under *test* folder into IDA
+2. Run the test cases from the **Headless Sample** test project from IDA
