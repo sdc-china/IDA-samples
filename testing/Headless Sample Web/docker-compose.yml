@@ -1,7 +1,7 @@
 version: "2"
 services:
   headlessSample:
-    build: ./webapp
+    build: .
     image: sdc/headless:1.0
     ports:
       - "8443:8443"
