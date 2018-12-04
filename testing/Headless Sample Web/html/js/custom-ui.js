@@ -115,6 +115,8 @@ let customUI = (function (common) {
     }
     let showTask = function (task, role) {
         let taskId = task['TASK.TKIID']
+        let piid = task['PROCESS_INSTANCE.PIID']
+        $('#requisition-number').text(piid)
         if (!task.OWNER) {
             claimTask(taskId, role)
         } else {

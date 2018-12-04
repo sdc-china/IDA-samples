@@ -33,24 +33,22 @@
         })
     }
     let newTaskRow = function (task) {
-        let result = $(`<tr id="${task['PROCESS_INSTANCE.PIID']}"></tr>`)
-        result.append(`<td>${task['TASK.TKIID']}</td>`)
-        result.append(`<td>${task.TAD_DISPLAY_NAME}</td>`)
-        result.append(`<td>${task.PI_NAME}</td>`)
-        result.append(`<td>${task.DUE}</td>`)
-        let bpmBtn = $('<button type="button" class="btn btn-link">BPM UI</button>')
-        bpmBtn.on('click', {
-            task
-        }, function (event) {
-            showInIframe(event.data.task)
-        })
-        let customBtn = $('<button type="button" class="btn btn-link">Custom UI</button>')
+        let taskCell = $('<td>')
+        let text = `${task.TAD_DISPLAY_NAME} for instance ${task['PROCESS_INSTANCE.PIID']}`
+        let customBtn = $('<button type="button" class="btn btn-link"></button>')
+        customBtn.css('padding-top','0')
+        customBtn.append(text)
         customBtn.on('click', {
             task
         }, function (event) {
             showInCustom(event.data.task)
         })
-        $('<td></td>').append(bpmBtn, customBtn).appendTo(result)
+        taskCell.append(customBtn)
+        let result = $(`<tr id="${task['PROCESS_INSTANCE.PIID']}"></tr>`)
+        result.append(`<td>${task['TASK.TKIID']}</td>`)
+        result.append(taskCell)
+        result.append(`<td>${task.PI_NAME}</td>`)
+        result.append(`<td>${task.DUE}</td>`)
         return result
     }
     let loadTasks = function () {
