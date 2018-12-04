@@ -2,12 +2,10 @@
 
     let currentRole = {}
     let bpmApp = {
-        bpdId: '25.9fce27c5-542b-4948-885c-72613733cfbc',
-        branchId: '2063.0ca07eaf-244e-4b9f-997a-dbe5275dc2f3',
+        startUrl: '',
         acronym: 'TS',
         bpdName: 'HR Open New Position'
     }
-
     let showLoading = function () {
         $('#loading-div').show()
         $('#main').hide()
@@ -21,12 +19,21 @@
         showLoading()
         // login user with api
         $.post(`${common.root}ProcessPortal/j_security_check?j_username=${username}&j_password=123456`).done(() => {
+            if (!bpmApp.startUrl) {
+                $.get(`${common.root}rest/bpm/wle/v1/exposed?includeServiceSubtypes=process&excludeProcessStartUrl=false`).done(resp => {
+                    resp.data.exposedItemsList.forEach(item => {
+                        if (item.processAppAcronym === bpmApp.acronym && item.display === bpmApp.bpdName) {
+                            bpmApp.startUrl = common.root + item.startURL.substring(1)
+                        }
+                    })
+                })
+            }
             // update the task list
             loadTasks()
         })
     }
     let newTaskRow = function (task) {
-        let result = $('<tr></tr>')
+        let result = $(`<tr id="${task['PROCESS_INSTANCE.PIID']}"></tr>`)
         result.append(`<td>${task['TASK.TKIID']}</td>`)
         result.append(`<td>${task.TAD_DISPLAY_NAME}</td>`)
         result.append(`<td>${task.PI_NAME}</td>`)
@@ -102,8 +109,12 @@
         // show loading
         showLoading()
         // submit new request
-        $.post(`${common.root}rest/bpm/wle/v1/process?action=start&bpdId=${bpmApp.bpdId}&branchId=${bpmApp.branchId}&parts=header%7CexcludeTaskData%7CexcludeDocs`).done((data) => {
-            console.log(data)
+        $.post(`${bpmApp.startUrl}&parts=header%7CexcludeTaskData%7CexcludeDocs`).done((data) => {
+            // console.log(data)
+            let piid = data.data.piid
+            if (piid) {
+                $('#last-instance-id').val(piid)
+            }
             // show task list
             loadTasks()
         })
@@ -133,11 +144,13 @@
     }
     // binding event
     $('document').ready(function () {
-        if(document.location.origin === 'file://'){
+        // initial
+        if (document.location.origin === 'file://') {
             common.root = 'https://9.30.160.68:9444/'
-        }else{
+        } else {
             common.root = '/'
         }
+
         $('#run-as-menu > li > a').on('click', function (event) {
             $('#current-role').text($(this).text())
             let roleName = $(this).data('role')
