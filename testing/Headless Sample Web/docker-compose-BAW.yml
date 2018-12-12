@@ -4,7 +4,8 @@ services:
     build: .
     image: sdc/headless:1.0
     ports:
-      - "8445:8443"
+      - "8445:8445"
     environment:
       - BPM_ROOT=https://9.46.65.136:9443/
+      - WEB_PORT=8445
     command: /bin/bash -c "envsubst < /etc/nginx/conf.d/mysite.template > /etc/nginx/conf.d/default.conf && exec nginx -g 'daemon off;'"
