@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <com.ibm.cte.sdc.bpm.testing.model.testdata.ExternalTestData>
-  <id>65</id>
+  <id>129</id>
   <name>sample_data1.csv</name>
   <content>&quot;datasetName&quot;,&quot;requester&quot;,&quot;approver&quot;,&quot;managerName&quot;,&quot;num&quot;,&quot;title&quot;
 &quot;dataset1&quot;,&quot;hrm1&quot;,&quot;gm1&quot;,&quot;Sam&quot;,&quot;9&quot;,&quot;Dev&quot;
@@ -8,8 +8,8 @@
 </content>
   <type>csv</type>
   <project>
-    <id>65</id>
-    <name>BPM UI Sample test</name>
+    <id>194</id>
+    <name>BPM UI Sample new</name>
     <description></description>
     <bpmConfigs class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
       <unserializable-parents/>
@@ -1371,7 +1371,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                 <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[18]"/>
               </fieldsArray>
               <valuesArray>
-                <long>65</long>
+                <long>194</long>
                 <boolean>true</boolean>
                 <null/>
                 <null/>
@@ -1379,7 +1379,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                 <null/>
                 <null/>
                 <string></string>
-                <string>BPM UI Sample test</string>
+                <string>BPM UI Sample new</string>
                 <string>&lt;com.ibm.cte.sdc.bpm.testing.model.bpm.ProcessAppData&gt;
   &lt;processConfig&gt;
     &lt;isToolkit&gt;false&lt;/isToolkit&gt;
@@ -1387,9 +1387,9 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
     &lt;isHeadless&gt;false&lt;/isHeadless&gt;
     &lt;processAppName&gt;Testing Sample&lt;/processAppName&gt;
     &lt;processAppAcronym&gt;TS&lt;/processAppAcronym&gt;
-    &lt;snapshotId&gt;2064.68bde215-9301-4bae-8120-03f18975d661&lt;/snapshotId&gt;
-    &lt;tipSnapshotId&gt;2064.5086ad21-5c6c-42b7-983d-84e2ddc5c542&lt;/tipSnapshotId&gt;
-    &lt;snapshotName&gt;0.0.9&lt;/snapshotName&gt;
+    &lt;snapshotId&gt;2064.75d47fa9-bdc6-4343-b7b9-1fdcee5e5d49&lt;/snapshotId&gt;
+    &lt;tipSnapshotId&gt;2064.75d47fa9-bdc6-4343-b7b9-1fdcee5e5d49&lt;/tipSnapshotId&gt;
+    &lt;snapshotName&gt;0.1.0&lt;/snapshotName&gt;
     &lt;processAppId&gt;2066.95e7a074-735c-48ed-80de-cbf1de710693&lt;/processAppId&gt;
     &lt;branchId&gt;2063.0ca07eaf-244e-4b9f-997a-dbe5275dc2f3&lt;/branchId&gt;
     &lt;branchName&gt;Main&lt;/branchName&gt;
@@ -3550,7 +3550,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                 <long>1</long>
                 <long>1</long>
                 <null/>
-                <long>65</long>
+                <long>194</long>
               </valuesArray>
             </row>
             <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
@@ -3597,9 +3597,9 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
     &lt;isHeadless&gt;false&lt;/isHeadless&gt;
     &lt;processAppName&gt;Testing Sample&lt;/processAppName&gt;
     &lt;processAppAcronym&gt;TS&lt;/processAppAcronym&gt;
-    &lt;snapshotId&gt;2064.68bde215-9301-4bae-8120-03f18975d661&lt;/snapshotId&gt;
-    &lt;tipSnapshotId&gt;2064.5086ad21-5c6c-42b7-983d-84e2ddc5c542&lt;/tipSnapshotId&gt;
-    &lt;snapshotName&gt;0.0.9&lt;/snapshotName&gt;
+    &lt;snapshotId&gt;2064.75d47fa9-bdc6-4343-b7b9-1fdcee5e5d49&lt;/snapshotId&gt;
+    &lt;tipSnapshotId&gt;2064.75d47fa9-bdc6-4343-b7b9-1fdcee5e5d49&lt;/tipSnapshotId&gt;
+    &lt;snapshotName&gt;0.1.0&lt;/snapshotName&gt;
     &lt;processAppId&gt;2066.95e7a074-735c-48ed-80de-cbf1de710693&lt;/processAppId&gt;
     &lt;branchId&gt;2063.0ca07eaf-244e-4b9f-997a-dbe5275dc2f3&lt;/branchId&gt;
     &lt;branchName&gt;Main&lt;/branchName&gt;
@@ -5754,7 +5754,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
   &lt;/processConfig&gt;
 &lt;/com.ibm.cte.sdc.bpm.testing.model.bpm.ProcessAppData&gt;</processAppDataXml>
     <testingConfig>
-      <id>65</id>
+      <id>194</id>
       <seleniumGirdConfig>
         <id>1</id>
         <serverName>Firefox Hub</serverName>
@@ -6136,7 +6136,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                   <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[2]"/>
                 </fieldsArray>
                 <valuesArray>
-                  <long>65</long>
+                  <long>194</long>
                   <long>1</long>
                 </valuesArray>
               </row>
@@ -6193,7 +6193,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
           <useLazyInstantiation>true</useLazyInstantiation>
           <delegate>
             <com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite>
-              <id>65</id>
+              <id>227</id>
               <testSuiteName>BPM_UI_Test</testSuiteName>
               <testSuiteType>userInterfaces</testSuiteType>
               <testcases class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
@@ -6213,7 +6213,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                     <useLazyInstantiation>true</useLazyInstantiation>
                     <delegate>
                       <com.ibm.cte.sdc.bpm.testing.model.cases.TestCase>
-                        <id>65</id>
+                        <id>261</id>
                         <caseName>normalCase</caseName>
                         <flow>[{&quot;PROCESSNAME&quot;:&quot;Start&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;208aa5b1-75c2-437c-bc9f-31bf05cfca8f&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;StartPoint&quot;},{&quot;PROCESSNAME&quot;:&quot;Init&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.3c7c02b1-9b49-4634-8bca-6cb721bad9ff&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ScriptTask&quot;},{&quot;PROCESSNAME&quot;:&quot;Page 1&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.3c36cef0-432c-433c-87b1-f9a8f538e116&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;Page 2&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.d2431741-55f3-4368-8ff9-74be6facf9c3&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;End&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;e4783280-68ee-474a-b5b2-f47c4607391b&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ExitPoint&quot;}]</flow>
                         <processType>SERVICE</processType>
@@ -6577,8 +6577,9 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                           </roles>
                         </creator>
                         <updater reference="../creator"/>
-                        <creationDate>2019-06-10 06:03:53.886 UTC</creationDate>
-                        <updateDate>2019-06-10 06:23:12.417 UTC</updateDate>
+                        <executor reference="../creator"/>
+                        <creationDate>2019-06-13 08:19:46.416 UTC</creationDate>
+                        <updateDate>2019-06-13 09:14:35.356 UTC</updateDate>
                         <project reference="../../../../../../../../../../.."/>
                         <caseSteps class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                           <unserializable-parents/>
@@ -6597,7 +6598,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                               <useLazyInstantiation>true</useLazyInstantiation>
                               <delegate>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>489</id>
+                                  <id>2176</id>
                                   <command>
                                     <id>51</id>
                                     <name>startHumanService</name>
@@ -7404,11 +7405,12 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   <parameters>{&quot;service&quot;:&quot;BPM UI Test&quot;,&quot;params&quot;:&quot;{\r\n\&quot;integer\&quot;:0,\r\n\&quot;decimal\&quot;:0,\r\n\&quot;text\&quot;:\&quot;\&quot;,\r\n\&quot;textArea\&quot;:\&quot;\&quot;,\r\n\&quot;textReader\&quot;:\&quot;\&quot;,\r\n\&quot;textAheadText\&quot;:\&quot;\&quot;,\r\n\&quot;password\&quot;:\&quot;\&quot;,\r\n\&quot;checkbox\&quot;:false,\r\n\&quot;switchButton\&quot;:false,\r\n\&quot;textEditor\&quot;:\&quot;\&quot;,\r\n\&quot;date\&quot;:\&quot;2018-10-19T00:00:00Z\&quot;,\r\n\&quot;radioButton\&quot;:\&quot;\&quot;\r\n}&quot;,&quot;expectedOutput&quot;:null}</parameters>
                                   <index>1</index>
                                   <testCase reference="../../../../../.."/>
+                                  <testResult>{&quot;url&quot;:&quot;https:\/\/9.30.160.68:9444\/teamworks\/redirect-login.jsp?j_forward=executecf%3FmodelID%3D1.ed30c632-c927-41f4-8397-00dc2a56da58%26branchID%3D2063.0ca07eaf-244e-4b9f-997a-dbe5275dc2f3%26tw.local.integer%3D0%26tw.local.decimal%3D0%26tw.local.text%3D%26tw.local.textArea%3D%26tw.local.textReader%3D%26tw.local.textAheadText%3D%26tw.local.password%3D%26tw.local.checkbox%3Dfalse%26tw.local.switchButton%3Dfalse%26tw.local.textEditor%3D%26tw.local.date%3D2018-10-19T00%3A00%3A00Z%26tw.local.radioButton%3D&amp;credentials=ZGVhZG1pbg%3D%3D%3AZGVhZG1pbg%3D%3D&quot;}</testResult>
                                   <executionStatus>Passed</executionStatus>
                                   <exceptionTrace></exceptionTrace>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>500</id>
+                                  <id>2187</id>
                                   <command>
                                     <id>47</id>
                                     <name>loginBPMoC</name>
@@ -7556,13 +7558,15 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                     <displayName>administrator</displayName>
                                     <bpmConfiguration reference="../../../../../../../../../../../../../../../../../bpmConfigs/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.config.BpmConfiguration"/>
                                   </bpmUser>
+                                  <testResult>{&quot;BPMOC&quot;:false}</testResult>
                                   <executionStatus>Passed</executionStatus>
                                   <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/643bd617-e86b-4f09-9280-566430812dde.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>499</id>
+                                  <id>2189</id>
                                   <command>
-                                    <id>97</id>
+                                    <id>225</id>
                                     <name>firstStep</name>
                                     <description></description>
                                     <category>
@@ -7693,7 +7697,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                               <nullValueInFields>false</nullValueInFields>
                                               <fieldsArray reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
                                               <valuesArray>
-                                                <long>97</long>
+                                                <long>225</long>
                                                 <null/>
                                                 <null/>
                                                 <string></string>
@@ -7706,7 +7710,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                                 <string></string>
                                                 <long>6</long>
                                                 <null/>
-                                                <long>65</long>
+                                                <long>194</long>
                                               </valuesArray>
                                             </row>
                                             <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
@@ -7763,7 +7767,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                           <useLazyInstantiation>true</useLazyInstantiation>
                                           <delegate>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>467</id>
+                                              <id>2163</id>
                                               <command>
                                                 <id>23</id>
                                                 <name>selectWindow</name>
@@ -7984,7 +7988,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>461</id>
+                                              <id>2152</id>
                                               <command>
                                                 <id>26</id>
                                                 <name>waitTextPresent</name>
@@ -8127,7 +8131,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>462</id>
+                                              <id>2151</id>
                                               <command>
                                                 <id>7</id>
                                                 <name>randomNumber</name>
@@ -8351,7 +8355,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                               <exceptionTrace></exceptionTrace>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>473</id>
+                                              <id>2169</id>
                                               <command>
                                                 <id>24</id>
                                                 <name>text</name>
@@ -8494,7 +8498,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>472</id>
+                                              <id>2172</id>
                                               <command>
                                                 <id>6</id>
                                                 <name>randomString</name>
@@ -8639,14 +8643,14 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                               <exceptionTrace></exceptionTrace>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>465</id>
+                                              <id>2165</id>
                                               <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[4]/command"/>
                                               <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[2]\/div[1]\/div[1]\/input[1]&quot;,&quot;elementId&quot;:&quot;Decimal_div_3_1_1_1_1_2&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;text&quot;,&quot;event&quot;:&quot;blur&quot;,&quot;command&quot;:&quot;UI.text&quot;,&quot;value&quot;:&quot;222&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Tab_Section1.Vertical_Layout1.Decimal1&quot;,&quot;label&quot;:&quot;Decimal&quot;}</parameters>
                                               <index>6</index>
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>464</id>
+                                              <id>2159</id>
                                               <command>
                                                 <id>21</id>
                                                 <name>saveText</name>
@@ -8789,7 +8793,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>475</id>
+                                              <id>2158</id>
                                               <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[4]/command"/>
                                               <comment></comment>
                                               <parameters>{&quot;controlId&quot;:&quot;BPM_UI_Test1.Tab_Section1.Vertical_Layout1.Text1&quot;,&quot;elementCss&quot;:&quot;&quot;,&quot;elementId&quot;:&quot;Text_div_3_1_1_1_1_3&quot;,&quot;label&quot;:&quot;Text&quot;,&quot;value&quot;:&quot;${RANDOM_STRING}&quot;,&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[3]\/div[1]\/div[1]\/input[1]&quot;}</parameters>
@@ -8797,7 +8801,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>476</id>
+                                              <id>2166</id>
                                               <command>
                                                 <id>22</id>
                                                 <name>select</name>
@@ -8939,35 +8943,28 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>469</id>
+                                              <id>2153</id>
                                               <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[4]/command"/>
                                               <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[5]\/div[1]\/div[1]\/textarea[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;textarea&quot;,&quot;event&quot;:&quot;blur&quot;,&quot;command&quot;:&quot;UI.text&quot;,&quot;value&quot;:&quot;text area&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Tab_Section1.Vertical_Layout1.Text_Area1&quot;,&quot;label&quot;:&quot;Text Area&quot;}</parameters>
                                               <index>10</index>
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>470</id>
+                                              <id>2164</id>
                                               <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[4]/command"/>
-                                              <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[6]\/div[1]\/div[1]\/div[1]\/input[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;text&quot;,&quot;event&quot;:&quot;blur&quot;,&quot;command&quot;:&quot;UI.text&quot;,&quot;value&quot;:&quot;10\/19\/2018&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Tab_Section1.Vertical_Layout1.Date_Time_Picker1&quot;,&quot;label&quot;:&quot;Date Time Picker&quot;}</parameters>
+                                              <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[6]\/div[1]\/div[1]\/div[1]\/input[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;text&quot;,&quot;event&quot;:&quot;blur&quot;,&quot;command&quot;:&quot;UI.text&quot;,&quot;value&quot;:&quot;10\/26\/2018&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Tab_Section1.Vertical_Layout1.Date_Time_Picker1&quot;,&quot;label&quot;:&quot;Date Time Picker&quot;}</parameters>
                                               <index>11</index>
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>483</id>
-                                              <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[4]/command"/>
-                                              <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[6]\/div[1]\/div[1]\/div[1]\/input[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;text&quot;,&quot;event&quot;:&quot;blur&quot;,&quot;command&quot;:&quot;UI.text&quot;,&quot;value&quot;:&quot;10\/26\/2018&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Tab_Section1.Vertical_Layout1.Date_Time_Picker1&quot;,&quot;label&quot;:&quot;Date Time Picker&quot;}</parameters>
+                                              <id>2157</id>
+                                              <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command"/>
+                                              <parameters>{&quot;info&quot;:&quot;[\&quot;window-MAIN\&quot;,\&quot;iframe-0\&quot;]&quot;}</parameters>
                                               <index>12</index>
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>477</id>
-                                              <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command"/>
-                                              <parameters>{&quot;info&quot;:&quot;[\&quot;window-MAIN\&quot;,\&quot;iframe-0\&quot;]&quot;}</parameters>
-                                              <index>13</index>
-                                              <groupCommand reference="../../../../../.."/>
-                                            </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                            <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>474</id>
+                                              <id>2171</id>
                                               <command>
                                                 <id>11</id>
                                                 <name>click</name>
@@ -9105,11 +9102,11 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                                 <takeScreenshot>true</takeScreenshot>
                                               </command>
                                               <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/ul[1]\/li[2]\/a[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;a&quot;,&quot;event&quot;:&quot;mouseup&quot;,&quot;command&quot;:&quot;UI.click&quot;,&quot;value&quot;:&quot;Tab 2&quot;,&quot;type&quot;:&quot;Link&quot;}</parameters>
-                                              <index>14</index>
+                                              <index>13</index>
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>471</id>
+                                              <id>2150</id>
                                               <command>
                                                 <id>25</id>
                                                 <name>waitElement</name>
@@ -9248,39 +9245,183 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                               </command>
                                               <comment></comment>
                                               <parameters>{&quot;elementCss&quot;:&quot;&quot;,&quot;elementId&quot;:&quot;Text_div_3_1_1_2_1_2&quot;,&quot;timeout&quot;:&quot;5&quot;,&quot;type&quot;:&quot;Editable&quot;,&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[2]\/div[1]\/div[2]\/div[1]\/div[1]\/input[1]&quot;}</parameters>
+                                              <index>14</index>
+                                              <groupCommand reference="../../../../../.."/>
+                                            </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
+                                            <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
+                                              <id>2167</id>
+                                              <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[4]/command"/>
+                                              <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[2]\/div[1]\/div[2]\/div[1]\/div[1]\/input[1]&quot;,&quot;elementId&quot;:&quot;Text_div_3_1_1_2_1_2&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;text&quot;,&quot;event&quot;:&quot;blur&quot;,&quot;command&quot;:&quot;UI.text&quot;,&quot;value&quot;:&quot;type ahead text&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Tab_Section1.Vertical_Layout2.Type_Ahead_Text1&quot;,&quot;label&quot;:&quot;Type Ahead Text&quot;}</parameters>
                                               <index>15</index>
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>480</id>
+                                              <id>2162</id>
                                               <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[4]/command"/>
-                                              <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[2]\/div[1]\/div[2]\/div[1]\/div[1]\/input[1]&quot;,&quot;elementId&quot;:&quot;Text_div_3_1_1_2_1_2&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;text&quot;,&quot;event&quot;:&quot;blur&quot;,&quot;command&quot;:&quot;UI.text&quot;,&quot;value&quot;:&quot;type ahead text&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Tab_Section1.Vertical_Layout2.Type_Ahead_Text1&quot;,&quot;label&quot;:&quot;Type Ahead Text&quot;}</parameters>
+                                              <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[2]\/div[1]\/div[3]\/div[1]\/div[1]\/input[1]&quot;,&quot;elementId&quot;:&quot;Text_div_3_1_1_2_1_3&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;password&quot;,&quot;event&quot;:&quot;blur&quot;,&quot;command&quot;:&quot;UI.text&quot;,&quot;value&quot;:&quot;password&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Tab_Section1.Vertical_Layout2.Password1&quot;,&quot;label&quot;:&quot;Password&quot;}</parameters>
                                               <index>16</index>
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>478</id>
-                                              <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[4]/command"/>
-                                              <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[2]\/div[1]\/div[3]\/div[1]\/div[1]\/input[1]&quot;,&quot;elementId&quot;:&quot;Text_div_3_1_1_2_1_3&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;password&quot;,&quot;event&quot;:&quot;blur&quot;,&quot;command&quot;:&quot;UI.text&quot;,&quot;value&quot;:&quot;password&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Tab_Section1.Vertical_Layout2.Password1&quot;,&quot;label&quot;:&quot;Password&quot;}</parameters>
+                                              <id>2215</id>
+                                              <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[13]/command"/>
+                                              <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/ul[1]\/li[3]\/a[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;a&quot;,&quot;event&quot;:&quot;mouseup&quot;,&quot;command&quot;:&quot;UI.click&quot;,&quot;value&quot;:&quot;Tab 3&quot;,&quot;type&quot;:&quot;Link&quot;}</parameters>
+                                              <caseData>{&quot;bpmRecordWindow&quot;:{&quot;url&quot;:&quot;https:\/\/9.30.160.68:9444\/teamworks\/executecf?modelID=1.ed30c632-c927-41f4-8397-00dc2a56da58&amp;branchID=2063.0ca07eaf-244e-4b9f-997a-dbe5275dc2f3&amp;tw.local.integer=0&amp;tw.local.decimal=0&amp;tw.local.text=&amp;tw.local.textArea=&amp;tw.local.textReader=&amp;tw.local.textAheadText=&amp;tw.local.password=&amp;tw.local.checkbox=false&amp;tw.local.switchButton=false&amp;tw.local.textEditor=&amp;tw.local.date=2018-10-19T00:00:00Z&amp;tw.local.radioButton=&quot;,&quot;info&quot;:[&quot;window-MAIN&quot;,&quot;iframe-0&quot;]},&quot;bpmRecordData&quot;:[{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/ul[1]\/li[3]\/a[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;a&quot;,&quot;event&quot;:&quot;mouseup&quot;,&quot;command&quot;:&quot;UI.click&quot;,&quot;value&quot;:&quot;Tab 3&quot;,&quot;type&quot;:&quot;Link&quot;}]}</caseData>
                                               <index>17</index>
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>463</id>
-                                              <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[9]/command"/>
-                                              <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[2]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/select[1]&quot;,&quot;elementId&quot;:&quot;SSelect_div_1_1_1_1_1&quot;,&quot;tagName&quot;:&quot;select&quot;,&quot;event&quot;:&quot;change&quot;,&quot;command&quot;:&quot;UI.select&quot;,&quot;value&quot;:&quot;[\&quot;Option 1\&quot;]&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Panel1.Horizontal_Layout1.Multi_Select1&quot;,&quot;label&quot;:&quot;Multi Select&quot;}</parameters>
+                                              <id>2216</id>
+                                              <command>
+                                                <id>12</id>
+                                                <name>coachControl</name>
+                                                <description>Set Coach Control value by control ID</description>
+                                                <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/category"/>
+                                                <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                                  <unserializable-parents/>
+                                                  <vector>
+                                                    <default>
+                                                      <capacityIncrement>0</capacityIncrement>
+                                                      <elementCount>0</elementCount>
+                                                      <elementData/>
+                                                    </default>
+                                                  </vector>
+                                                  <org.eclipse.persistence.indirection.IndirectList>
+                                                    <default>
+                                                      <initialCapacity>10</initialCapacity>
+                                                      <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                                      <isRegistered>true</isRegistered>
+                                                      <useLazyInstantiation>true</useLazyInstantiation>
+                                                      <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
+                                                        <isInstantiated>false</isInstantiated>
+                                                        <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
+                                                          <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
+                                                          <size>14</size>
+                                                          <nullValueInFields>false</nullValueInFields>
+                                                          <fieldsArray reference="../../../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
+                                                          <valuesArray>
+                                                            <long>12</long>
+                                                            <null/>
+                                                            <null/>
+                                                            <string>Set Coach Control value by control ID</string>
+                                                            <null/>
+                                                            <null/>
+                                                            <string>coachControl</string>
+                                                            <null/>
+                                                            <boolean>true</boolean>
+                                                            <null/>
+                                                            <string>Set {{Parameters.value}} to coach control {{Parameters.controlId}}.</string>
+                                                            <long>2</long>
+                                                            <null/>
+                                                            <null/>
+                                                          </valuesArray>
+                                                        </row>
+                                                        <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                                        <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
+                                                          <isInstantiated>false</isInstantiated>
+                                                          <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                                          <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
+                                                        </backupValueHolder>
+                                                        <sourceAttributeName>parameter</sourceAttributeName>
+                                                      </valueHolder>
+                                                    </default>
+                                                  </org.eclipse.persistence.indirection.IndirectList>
+                                                </parameter>
+                                                <verbalization>Set {{Parameters.value}} to coach control {{Parameters.controlId}}.</verbalization>
+                                                <groupCommands class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                                  <unserializable-parents/>
+                                                  <vector>
+                                                    <default>
+                                                      <capacityIncrement>0</capacityIncrement>
+                                                      <elementCount>0</elementCount>
+                                                      <elementData/>
+                                                    </default>
+                                                  </vector>
+                                                  <org.eclipse.persistence.indirection.IndirectList>
+                                                    <default>
+                                                      <initialCapacity>10</initialCapacity>
+                                                      <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                                      <isRegistered>true</isRegistered>
+                                                      <useLazyInstantiation>true</useLazyInstantiation>
+                                                      <delegate/>
+                                                      <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
+                                                        <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                                          <unserializable-parents/>
+                                                          <vector>
+                                                            <default>
+                                                              <capacityIncrement>0</capacityIncrement>
+                                                              <elementCount>0</elementCount>
+                                                              <elementData/>
+                                                            </default>
+                                                          </vector>
+                                                          <org.eclipse.persistence.indirection.IndirectList>
+                                                            <default>
+                                                              <initialCapacity>0</initialCapacity>
+                                                              <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                                              <isRegistered>false</isRegistered>
+                                                              <useLazyInstantiation>true</useLazyInstantiation>
+                                                              <delegate reference="../../../../../delegate"/>
+                                                              <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
+                                                                <value class="vector" reference="../../../../../../delegate"/>
+                                                                <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                                                <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
+                                                              </valueHolder>
+                                                            </default>
+                                                          </org.eclipse.persistence.indirection.IndirectList>
+                                                        </value>
+                                                        <isInstantiated>true</isInstantiated>
+                                                        <row class="org.eclipse.persistence.internal.sessions.ArrayRecord" reference="../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row"/>
+                                                        <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                                        <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
+                                                          <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                                            <unserializable-parents/>
+                                                            <vector>
+                                                              <default>
+                                                                <capacityIncrement>0</capacityIncrement>
+                                                                <elementCount>0</elementCount>
+                                                                <elementData/>
+                                                              </default>
+                                                            </vector>
+                                                            <org.eclipse.persistence.indirection.IndirectList>
+                                                              <default>
+                                                                <initialCapacity>0</initialCapacity>
+                                                                <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                                                <isRegistered>false</isRegistered>
+                                                                <useLazyInstantiation>true</useLazyInstantiation>
+                                                                <delegate/>
+                                                                <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
+                                                                  <value class="vector" reference="../../delegate"/>
+                                                                  <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                                                  <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
+                                                                </valueHolder>
+                                                              </default>
+                                                            </org.eclipse.persistence.indirection.IndirectList>
+                                                          </value>
+                                                          <isInstantiated>true</isInstantiated>
+                                                          <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                                          <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
+                                                        </backupValueHolder>
+                                                        <sourceAttributeName>groupCommands</sourceAttributeName>
+                                                      </valueHolder>
+                                                    </default>
+                                                  </org.eclipse.persistence.indirection.IndirectList>
+                                                </groupCommands>
+                                                <takeScreenshot>true</takeScreenshot>
+                                              </command>
+                                              <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[3]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;div&quot;,&quot;command&quot;:&quot;UI.coachControl&quot;,&quot;value&quot;:&quot;46.95&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Tab_Section1.Tab_Section2.Slider1&quot;}</parameters>
+                                              <caseData>{&quot;bpmRecordWindow&quot;:{&quot;url&quot;:&quot;https:\/\/9.30.160.68:9444\/teamworks\/executecf?modelID=1.ed30c632-c927-41f4-8397-00dc2a56da58&amp;branchID=2063.0ca07eaf-244e-4b9f-997a-dbe5275dc2f3&amp;tw.local.integer=0&amp;tw.local.decimal=0&amp;tw.local.text=&amp;tw.local.textArea=&amp;tw.local.textReader=&amp;tw.local.textAheadText=&amp;tw.local.password=&amp;tw.local.checkbox=false&amp;tw.local.switchButton=false&amp;tw.local.textEditor=&amp;tw.local.date=2018-10-19T00:00:00Z&amp;tw.local.radioButton=&quot;,&quot;info&quot;:[&quot;window-MAIN&quot;,&quot;iframe-0&quot;]},&quot;bpmRecordData&quot;:[{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[3]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;div&quot;,&quot;command&quot;:&quot;UI.coachControl&quot;,&quot;value&quot;:&quot;46.95&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Tab_Section1.Tab_Section2.Slider1&quot;}]}</caseData>
                                               <index>18</index>
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>481</id>
+                                              <id>2156</id>
                                               <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[9]/command"/>
                                               <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[2]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/select[1]&quot;,&quot;elementId&quot;:&quot;SSelect_div_1_1_1_1_1&quot;,&quot;tagName&quot;:&quot;select&quot;,&quot;event&quot;:&quot;change&quot;,&quot;command&quot;:&quot;UI.select&quot;,&quot;value&quot;:&quot;[\&quot;Option 1\&quot;,\&quot;Option 4\&quot;]&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Panel1.Horizontal_Layout1.Multi_Select1&quot;,&quot;label&quot;:&quot;Multi Select&quot;}</parameters>
                                               <index>19</index>
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>466</id>
+                                              <id>2160</id>
                                               <command>
                                                 <id>10</id>
                                                 <name>checkbox</name>
@@ -9422,159 +9563,17 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>468</id>
+                                              <id>2161</id>
                                               <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[20]/command"/>
-                                              <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[2]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[3]\/div[1]\/div[1]\/span[2]\/input[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;checkbox&quot;,&quot;event&quot;:&quot;change&quot;,&quot;command&quot;:&quot;UI.checkbox&quot;,&quot;value&quot;:&quot;Option 2&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Panel1.Horizontal_Layout1.Checkbox_Group1&quot;,&quot;label&quot;:&quot;Check Box Group&quot;}</parameters>
+                                              <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[2]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[3]\/div[1]\/div[1]\/span[4]\/input[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;checkbox&quot;,&quot;event&quot;:&quot;change&quot;,&quot;command&quot;:&quot;UI.checkbox&quot;,&quot;value&quot;:&quot;Option 2\r\nOption 4&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Panel1.Horizontal_Layout1.Checkbox_Group1&quot;,&quot;label&quot;:&quot;Check Box Group&quot;}</parameters>
                                               <index>21</index>
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                             <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>482</id>
-                                              <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[20]/command"/>
-                                              <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[2]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[3]\/div[1]\/div[1]\/span[4]\/input[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;checkbox&quot;,&quot;event&quot;:&quot;change&quot;,&quot;command&quot;:&quot;UI.checkbox&quot;,&quot;value&quot;:&quot;Option 2\r\nOption 4&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Panel1.Horizontal_Layout1.Checkbox_Group1&quot;,&quot;label&quot;:&quot;Check Box Group&quot;}</parameters>
-                                              <index>22</index>
-                                              <groupCommand reference="../../../../../.."/>
-                                            </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                            <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                              <id>479</id>
-                                              <command>
-                                                <id>12</id>
-                                                <name>coachControl</name>
-                                                <description>Set Coach Control value by control ID</description>
-                                                <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/category"/>
-                                                <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                                  <unserializable-parents/>
-                                                  <vector>
-                                                    <default>
-                                                      <capacityIncrement>0</capacityIncrement>
-                                                      <elementCount>0</elementCount>
-                                                      <elementData/>
-                                                    </default>
-                                                  </vector>
-                                                  <org.eclipse.persistence.indirection.IndirectList>
-                                                    <default>
-                                                      <initialCapacity>10</initialCapacity>
-                                                      <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                                      <isRegistered>true</isRegistered>
-                                                      <useLazyInstantiation>true</useLazyInstantiation>
-                                                      <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
-                                                        <isInstantiated>false</isInstantiated>
-                                                        <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
-                                                          <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
-                                                          <size>14</size>
-                                                          <nullValueInFields>false</nullValueInFields>
-                                                          <fieldsArray reference="../../../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
-                                                          <valuesArray>
-                                                            <long>12</long>
-                                                            <null/>
-                                                            <null/>
-                                                            <string>Set Coach Control value by control ID</string>
-                                                            <null/>
-                                                            <null/>
-                                                            <string>coachControl</string>
-                                                            <null/>
-                                                            <boolean>true</boolean>
-                                                            <null/>
-                                                            <string>Set {{Parameters.value}} to coach control {{Parameters.controlId}}.</string>
-                                                            <long>2</long>
-                                                            <null/>
-                                                            <null/>
-                                                          </valuesArray>
-                                                        </row>
-                                                        <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                                        <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
-                                                          <isInstantiated>false</isInstantiated>
-                                                          <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                                          <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
-                                                        </backupValueHolder>
-                                                        <sourceAttributeName>parameter</sourceAttributeName>
-                                                      </valueHolder>
-                                                    </default>
-                                                  </org.eclipse.persistence.indirection.IndirectList>
-                                                </parameter>
-                                                <verbalization>Set {{Parameters.value}} to coach control {{Parameters.controlId}}.</verbalization>
-                                                <groupCommands class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                                  <unserializable-parents/>
-                                                  <vector>
-                                                    <default>
-                                                      <capacityIncrement>0</capacityIncrement>
-                                                      <elementCount>0</elementCount>
-                                                      <elementData/>
-                                                    </default>
-                                                  </vector>
-                                                  <org.eclipse.persistence.indirection.IndirectList>
-                                                    <default>
-                                                      <initialCapacity>10</initialCapacity>
-                                                      <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                                      <isRegistered>true</isRegistered>
-                                                      <useLazyInstantiation>true</useLazyInstantiation>
-                                                      <delegate/>
-                                                      <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
-                                                        <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                                          <unserializable-parents/>
-                                                          <vector>
-                                                            <default>
-                                                              <capacityIncrement>0</capacityIncrement>
-                                                              <elementCount>0</elementCount>
-                                                              <elementData/>
-                                                            </default>
-                                                          </vector>
-                                                          <org.eclipse.persistence.indirection.IndirectList>
-                                                            <default>
-                                                              <initialCapacity>0</initialCapacity>
-                                                              <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                                              <isRegistered>false</isRegistered>
-                                                              <useLazyInstantiation>true</useLazyInstantiation>
-                                                              <delegate reference="../../../../../delegate"/>
-                                                              <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
-                                                                <value class="vector" reference="../../../../../../delegate"/>
-                                                                <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                                                <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
-                                                              </valueHolder>
-                                                            </default>
-                                                          </org.eclipse.persistence.indirection.IndirectList>
-                                                        </value>
-                                                        <isInstantiated>true</isInstantiated>
-                                                        <row class="org.eclipse.persistence.internal.sessions.ArrayRecord" reference="../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row"/>
-                                                        <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                                        <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
-                                                          <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
-                                                            <unserializable-parents/>
-                                                            <vector>
-                                                              <default>
-                                                                <capacityIncrement>0</capacityIncrement>
-                                                                <elementCount>0</elementCount>
-                                                                <elementData/>
-                                                              </default>
-                                                            </vector>
-                                                            <org.eclipse.persistence.indirection.IndirectList>
-                                                              <default>
-                                                                <initialCapacity>0</initialCapacity>
-                                                                <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
-                                                                <isRegistered>false</isRegistered>
-                                                                <useLazyInstantiation>true</useLazyInstantiation>
-                                                                <delegate/>
-                                                                <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
-                                                                  <value class="vector" reference="../../delegate"/>
-                                                                  <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                                                  <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
-                                                                </valueHolder>
-                                                              </default>
-                                                            </org.eclipse.persistence.indirection.IndirectList>
-                                                          </value>
-                                                          <isInstantiated>true</isInstantiated>
-                                                          <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
-                                                          <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
-                                                        </backupValueHolder>
-                                                        <sourceAttributeName>groupCommands</sourceAttributeName>
-                                                      </valueHolder>
-                                                    </default>
-                                                  </org.eclipse.persistence.indirection.IndirectList>
-                                                </groupCommands>
-                                                <takeScreenshot>true</takeScreenshot>
-                                              </command>
+                                              <id>2155</id>
+                                              <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[18]/command"/>
                                               <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[2]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[4]\/div[1]\/div[2]\/div[2]&quot;,&quot;elementId&quot;:&quot;sw_21_790264&quot;,&quot;tagName&quot;:&quot;div&quot;,&quot;event&quot;:&quot;mouseup&quot;,&quot;command&quot;:&quot;UI.coachControl&quot;,&quot;value&quot;:&quot;true&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Panel1.Horizontal_Layout1.Switch1&quot;,&quot;valueType&quot;:&quot;Boolean&quot;}</parameters>
-                                              <index>23</index>
+                                              <index>22</index>
                                               <groupCommand reference="../../../../../.."/>
                                             </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                           </delegate>
@@ -9590,7 +9589,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                               </vector>
                                               <org.eclipse.persistence.indirection.IndirectList>
                                                 <default>
-                                                  <initialCapacity>23</initialCapacity>
+                                                  <initialCapacity>22</initialCapacity>
                                                   <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
                                                   <isRegistered>false</isRegistered>
                                                   <useLazyInstantiation>true</useLazyInstantiation>
@@ -9618,7 +9617,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                                 </vector>
                                                 <org.eclipse.persistence.indirection.IndirectList>
                                                   <default>
-                                                    <initialCapacity>23</initialCapacity>
+                                                    <initialCapacity>22</initialCapacity>
                                                     <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
                                                     <isRegistered>false</isRegistered>
                                                     <useLazyInstantiation>true</useLazyInstantiation>
@@ -9645,7 +9644,6 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                                       <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep reference="../../../../../../../delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[20]"/>
                                                       <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep reference="../../../../../../../delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[21]"/>
                                                       <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep reference="../../../../../../../delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[22]"/>
-                                                      <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep reference="../../../../../../../delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[23]"/>
                                                     </delegate>
                                                     <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
                                                       <value class="vector" reference="../../delegate"/>
@@ -9671,9 +9669,10 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   <parameters>{}</parameters>
                                   <index>3</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>488</id>
+                                  <id>2178</id>
                                   <command>
                                     <id>19</id>
                                     <name>radio</name>
@@ -9813,98 +9812,127 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[2]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[5]\/div[1]\/div[2]\/span[1]\/input[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;radio&quot;,&quot;event&quot;:&quot;change&quot;,&quot;command&quot;:&quot;UI.radio&quot;,&quot;value&quot;:&quot;No&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Panel1.Horizontal_Layout1.Vertical_Layout3.Radio_Button2&quot;}</parameters>
                                   <index>4</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/3f95ca63-3421-4408-a475-8fddfb6a9826.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>512</id>
+                                  <id>2184</id>
                                   <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[4]/command"/>
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[2]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[6]\/div[1]\/div[1]\/span[2]\/input[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;radio&quot;,&quot;event&quot;:&quot;change&quot;,&quot;command&quot;:&quot;UI.radio&quot;,&quot;value&quot;:&quot;Option 2&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Panel1.Horizontal_Layout1.Radio_Button_Group1&quot;,&quot;label&quot;:&quot;Radio Button Group&quot;}</parameters>
                                   <index>5</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/911c1f49-648a-4961-b647-0e548a77cebd.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>496</id>
-                                  <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[23]/command"/>
+                                  <id>2180</id>
+                                  <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[18]/command"/>
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[3]\/div[1]\/div[1]\/div[2]\/div[1]\/div[3]\/iframe[1]&quot;,&quot;elementId&quot;:&quot;TextEditor_div_3_2_ifr&quot;,&quot;tagName&quot;:&quot;iframe&quot;,&quot;event&quot;:&quot;focus&quot;,&quot;command&quot;:&quot;UI.coachControl&quot;,&quot;value&quot;:&quot;&lt;p&gt;text editor&lt;\/p&gt;&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Text_Editor1&quot;,&quot;label&quot;:&quot;Text Editor&quot;}</parameters>
                                   <index>6</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/f3d0573b-8e6a-4e07-abeb-8373f0161b0f.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>485</id>
-                                  <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[14]/command"/>
+                                  <id>2185</id>
+                                  <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[13]/command"/>
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[4]\/div[2]\/div[4]\/button[1]\/span[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;span&quot;,&quot;event&quot;:&quot;mouseup&quot;,&quot;command&quot;:&quot;UI.click&quot;,&quot;value&quot;:&quot;&quot;,&quot;type&quot;:&quot;Button&quot;}</parameters>
                                   <index>7</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/7a21da54-ffbf-454f-ad45-ff3f37896cfa.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>487</id>
+                                  <id>2173</id>
                                   <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[4]/command"/>
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[4]\/div[2]\/div[3]\/div[1]\/table[1]\/tbody[1]\/tr[1]\/td[2]\/div[1]\/div[1]\/div[1]\/input[1]&quot;,&quot;elementId&quot;:&quot;Text_div_3_3_1_1_r1&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;text&quot;,&quot;event&quot;:&quot;blur&quot;,&quot;command&quot;:&quot;UI.text&quot;,&quot;value&quot;:&quot;first name&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Table1.Text2&quot;,&quot;label&quot;:&quot;First Name&quot;}</parameters>
                                   <index>8</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/99315ec5-5ae7-4441-b5f8-bc73073c14d4.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>510</id>
+                                  <id>2192</id>
                                   <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[4]/command"/>
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[4]\/div[2]\/div[3]\/div[1]\/table[1]\/tbody[1]\/tr[1]\/td[3]\/div[1]\/div[1]\/div[1]\/input[1]&quot;,&quot;elementId&quot;:&quot;Text_div_3_3_1_2_r2&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;text&quot;,&quot;event&quot;:&quot;blur&quot;,&quot;command&quot;:&quot;UI.text&quot;,&quot;value&quot;:&quot;last name&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Table1.Text3&quot;,&quot;label&quot;:&quot;Last Name&quot;}</parameters>
                                   <index>9</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/bb84c73c-d293-41d6-9e04-4b243a142fe3.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>508</id>
+                                  <id>2197</id>
                                   <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[9]/command"/>
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[4]\/div[2]\/div[3]\/div[1]\/table[1]\/tbody[1]\/tr[1]\/td[4]\/div[1]\/div[1]\/div[1]\/select[1]&quot;,&quot;elementId&quot;:&quot;SSelect_div_3_3_1_3_r3&quot;,&quot;tagName&quot;:&quot;select&quot;,&quot;event&quot;:&quot;change&quot;,&quot;command&quot;:&quot;UI.select&quot;,&quot;value&quot;:&quot;type 1&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Table1.Single_Select2&quot;,&quot;label&quot;:&quot;Pay Type&quot;}</parameters>
                                   <index>10</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/b4a53eec-fef1-4c85-8f5b-e07999b2e554.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>502</id>
+                                  <id>2195</id>
                                   <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[4]/command"/>
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[4]\/div[2]\/div[3]\/div[1]\/table[1]\/tbody[1]\/tr[1]\/td[6]\/div[1]\/div[1]\/div[1]\/span[1]\/input[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;radio&quot;,&quot;event&quot;:&quot;change&quot;,&quot;command&quot;:&quot;UI.radio&quot;,&quot;value&quot;:&quot;Yes&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Table1.Vertical_Layout4.Radio_Button4&quot;}</parameters>
                                   <index>11</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/947180ed-9b99-483f-88c3-cfce1f39555c.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>509</id>
-                                  <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[14]/command"/>
+                                  <id>2188</id>
+                                  <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[13]/command"/>
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[4]\/div[2]\/div[3]\/div[1]\/table[1]\/tbody[1]\/tr[1]\/td[8]\/div[1]\/button[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;button&quot;,&quot;event&quot;:&quot;mouseup&quot;,&quot;command&quot;:&quot;UI.click&quot;,&quot;value&quot;:&quot;clickButton&quot;,&quot;type&quot;:&quot;Button&quot;}</parameters>
                                   <index>12</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/ce874676-bab7-4825-a343-c5f616ed7980.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>527</id>
+                                  <id>2198</id>
                                   <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[20]/command"/>
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[4]\/div[2]\/div[3]\/div[1]\/table[1]\/tbody[1]\/tr[1]\/td[7]\/div[1]\/span[1]\/input[1]&quot;,&quot;elementId&quot;:&quot;Checkbox_div_3_3_1_6_r6&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;checkbox&quot;,&quot;event&quot;:&quot;change&quot;,&quot;command&quot;:&quot;UI.checkbox&quot;,&quot;value&quot;:&quot;Check Box 2&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Table1.Checkbox2&quot;,&quot;label&quot;:&quot;Check Box 2&quot;}</parameters>
-                                  <caseData>{&quot;bpmRecordWindow&quot;:{&quot;url&quot;:&quot;https:\/\/9.30.160.68:9444\/teamworks\/executecf?modelID=1.ed30c632-c927-41f4-8397-00dc2a56da58&amp;branchID=2063.0ca07eaf-244e-4b9f-997a-dbe5275dc2f3&amp;tw.local.integer=0&amp;tw.local.decimal=0&amp;tw.local.text=&amp;tw.local.textArea=&amp;tw.local.textReader=&amp;tw.local.textAheadText=&amp;tw.local.password=&amp;tw.local.checkbox=false&amp;tw.local.switchButton=false&amp;tw.local.textEditor=&amp;tw.local.date=2018-10-19T00:00:00Z&amp;tw.local.radioButton=&quot;,&quot;info&quot;:[&quot;window-MAIN&quot;,&quot;iframe-0&quot;]},&quot;bpmRecordData&quot;:[{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[4]\/div[2]\/div[3]\/div[1]\/table[1]\/tbody[1]\/tr[1]\/td[7]\/div[1]\/span[1]\/input[1]&quot;,&quot;elementId&quot;:&quot;Checkbox_div_3_3_1_6_r6&quot;,&quot;tagName&quot;:&quot;input&quot;,&quot;type&quot;:&quot;checkbox&quot;,&quot;event&quot;:&quot;change&quot;,&quot;command&quot;:&quot;UI.checkbox&quot;,&quot;value&quot;:&quot;Check Box 2&quot;,&quot;controlId&quot;:&quot;BPM_UI_Test1.Table1.Checkbox2&quot;,&quot;label&quot;:&quot;Check Box 2&quot;}]}</caseData>
                                   <index>13</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/af04dc66-0ae6-4aa7-a743-0c2aae7d35cd.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>506</id>
-                                  <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[14]/command"/>
+                                  <id>2201</id>
+                                  <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[13]/command"/>
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[3]\/button[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;button&quot;,&quot;event&quot;:&quot;mouseup&quot;,&quot;command&quot;:&quot;UI.click&quot;,&quot;value&quot;:&quot;Next&quot;,&quot;type&quot;:&quot;Button&quot;}</parameters>
                                   <index>14</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/d70cdb75-3d6f-4f9c-9247-cf3b194736f9.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>495</id>
-                                  <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[14]/command"/>
-                                  <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/ul[1]\/li[2]\/a[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;a&quot;,&quot;event&quot;:&quot;mouseup&quot;,&quot;command&quot;:&quot;UI.click&quot;,&quot;value&quot;:&quot;Tab 2&quot;,&quot;type&quot;:&quot;Link&quot;}</parameters>
+                                  <id>2194</id>
+                                  <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[13]/command"/>
+                                  <comment></comment>
+                                  <parameters>{&quot;value&quot;:&quot;Tab 3&quot;,&quot;type&quot;:&quot;Link&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;elementCss&quot;:&quot;&quot;,&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/ul[1]\/li[3]\/a[1]&quot;}</parameters>
                                   <index>15</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/bb528208-4406-42fd-bdef-e4c00f4ffa92.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>493</id>
-                                  <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[14]/command"/>
-                                  <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/ul[1]\/li[1]\/a[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;a&quot;,&quot;event&quot;:&quot;mouseup&quot;,&quot;command&quot;:&quot;UI.click&quot;,&quot;value&quot;:&quot;Tab 1&quot;,&quot;type&quot;:&quot;Link&quot;}</parameters>
-                                  <index>16</index>
-                                  <testCase reference="../../../../../.."/>
-                                </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>486</id>
+                                  <id>2217</id>
                                   <command>
-                                    <id>36</id>
-                                    <name>assertInputText</name>
-                                    <description>Assert Coach Text value, If you check the regular expression,it will use expected value as regular expression to match the actual value</description>
+                                    <id>33</id>
+                                    <name>assertCoachControl</name>
+                                    <description>Assert Coach Control binding value and visibility, it only supports String, Number, Date and Boolean type of binding value now. Either of controlId or label is required. The controlId is the coach view control id, label is the coach view label</description>
                                     <category>
                                       <id>4</id>
                                       <name>UIAssertion</name>
@@ -9985,6 +10013,163 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                         </org.eclipse.persistence.indirection.IndirectList>
                                       </commands>
                                     </category>
+                                    <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                      <unserializable-parents/>
+                                      <vector>
+                                        <default>
+                                          <capacityIncrement>0</capacityIncrement>
+                                          <elementCount>0</elementCount>
+                                          <elementData/>
+                                        </default>
+                                      </vector>
+                                      <org.eclipse.persistence.indirection.IndirectList>
+                                        <default>
+                                          <initialCapacity>10</initialCapacity>
+                                          <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                          <isRegistered>true</isRegistered>
+                                          <useLazyInstantiation>true</useLazyInstantiation>
+                                          <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
+                                            <isInstantiated>false</isInstantiated>
+                                            <row class="org.eclipse.persistence.internal.sessions.ArrayRecord">
+                                              <fields class="org.eclipse.persistence.internal.helper.NonSynchronizedVector" reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fields"/>
+                                              <size>14</size>
+                                              <nullValueInFields>false</nullValueInFields>
+                                              <fieldsArray reference="../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command/parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
+                                              <valuesArray>
+                                                <long>33</long>
+                                                <null/>
+                                                <null/>
+                                                <string>Assert Coach Control binding value and visibility, it only supports String, Number, Date and Boolean type of binding value now. Either of controlId or label is required. The controlId is the coach view control id, label is the coach view label</string>
+                                                <null/>
+                                                <null/>
+                                                <string>assertCoachControl</string>
+                                                <null/>
+                                                <boolean>true</boolean>
+                                                <null/>
+                                                <string>Assert that the control {{Parameters.label}} value is {{Parameters.expectedValue}}.</string>
+                                                <long>4</long>
+                                                <null/>
+                                                <null/>
+                                              </valuesArray>
+                                            </row>
+                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                            <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
+                                              <isInstantiated>false</isInstantiated>
+                                              <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                              <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
+                                            </backupValueHolder>
+                                            <sourceAttributeName>parameter</sourceAttributeName>
+                                          </valueHolder>
+                                        </default>
+                                      </org.eclipse.persistence.indirection.IndirectList>
+                                    </parameter>
+                                    <verbalization>Assert that the control {{Parameters.label}} value is {{Parameters.expectedValue}}.</verbalization>
+                                    <groupCommands class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                      <unserializable-parents/>
+                                      <vector>
+                                        <default>
+                                          <capacityIncrement>0</capacityIncrement>
+                                          <elementCount>0</elementCount>
+                                          <elementData/>
+                                        </default>
+                                      </vector>
+                                      <org.eclipse.persistence.indirection.IndirectList>
+                                        <default>
+                                          <initialCapacity>10</initialCapacity>
+                                          <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                          <isRegistered>true</isRegistered>
+                                          <useLazyInstantiation>true</useLazyInstantiation>
+                                          <delegate/>
+                                          <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
+                                            <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                              <unserializable-parents/>
+                                              <vector>
+                                                <default>
+                                                  <capacityIncrement>0</capacityIncrement>
+                                                  <elementCount>0</elementCount>
+                                                  <elementData/>
+                                                </default>
+                                              </vector>
+                                              <org.eclipse.persistence.indirection.IndirectList>
+                                                <default>
+                                                  <initialCapacity>0</initialCapacity>
+                                                  <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                                  <isRegistered>false</isRegistered>
+                                                  <useLazyInstantiation>true</useLazyInstantiation>
+                                                  <delegate reference="../../../../../delegate"/>
+                                                  <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
+                                                    <value class="vector" reference="../../../../../../delegate"/>
+                                                    <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                                    <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
+                                                  </valueHolder>
+                                                </default>
+                                              </org.eclipse.persistence.indirection.IndirectList>
+                                            </value>
+                                            <isInstantiated>true</isInstantiated>
+                                            <row class="org.eclipse.persistence.internal.sessions.ArrayRecord" reference="../../../../../parameter/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row"/>
+                                            <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                            <backupValueHolder class="org.eclipse.persistence.internal.indirection.BackupValueHolder">
+                                              <value class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
+                                                <unserializable-parents/>
+                                                <vector>
+                                                  <default>
+                                                    <capacityIncrement>0</capacityIncrement>
+                                                    <elementCount>0</elementCount>
+                                                    <elementData/>
+                                                  </default>
+                                                </vector>
+                                                <org.eclipse.persistence.indirection.IndirectList>
+                                                  <default>
+                                                    <initialCapacity>0</initialCapacity>
+                                                    <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
+                                                    <isRegistered>false</isRegistered>
+                                                    <useLazyInstantiation>true</useLazyInstantiation>
+                                                    <delegate/>
+                                                    <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
+                                                      <value class="vector" reference="../../delegate"/>
+                                                      <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                                      <isNewlyWeavedValueHolder>false</isNewlyWeavedValueHolder>
+                                                    </valueHolder>
+                                                  </default>
+                                                </org.eclipse.persistence.indirection.IndirectList>
+                                              </value>
+                                              <isInstantiated>true</isInstantiated>
+                                              <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
+                                              <unitOfWorkValueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder" reference="../.."/>
+                                            </backupValueHolder>
+                                            <sourceAttributeName>groupCommands</sourceAttributeName>
+                                          </valueHolder>
+                                        </default>
+                                      </org.eclipse.persistence.indirection.IndirectList>
+                                    </groupCommands>
+                                    <takeScreenshot>true</takeScreenshot>
+                                  </command>
+                                  <comment></comment>
+                                  <parameters>{&quot;controlId&quot;:&quot;BPM_UI_Test1.Tab_Section1.Tab_Section2.Slider1&quot;,&quot;label&quot;:&quot;&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;elementCss&quot;:&quot;&quot;,&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[3]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]&quot;,&quot;expectedValue&quot;:&quot;46.95&quot;,&quot;expectedValueType&quot;:&quot;Number&quot;,&quot;expectedVisibility&quot;:&quot;&quot;}</parameters>
+                                  <index>16</index>
+                                  <testCase reference="../../../../../.."/>
+                                  <bpmUser reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[2]/bpmUser"/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/762853c4-7566-4727-8963-ec8f71e1265a.png</screenshotPath>
+                                </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
+                                <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
+                                  <id>2182</id>
+                                  <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[13]/command"/>
+                                  <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/ul[1]\/li[1]\/a[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;a&quot;,&quot;event&quot;:&quot;mouseup&quot;,&quot;command&quot;:&quot;UI.click&quot;,&quot;value&quot;:&quot;Tab 1&quot;,&quot;type&quot;:&quot;Link&quot;}</parameters>
+                                  <index>17</index>
+                                  <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/1f6a097d-7887-48a4-80bb-b7b512796499.png</screenshotPath>
+                                </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
+                                <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
+                                  <id>2186</id>
+                                  <command>
+                                    <id>36</id>
+                                    <name>assertInputText</name>
+                                    <description>Assert Coach Text value, If you check the regular expression,it will use expected value as regular expression to match the actual value</description>
+                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[16]/command/category"/>
                                     <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                                       <unserializable-parents/>
                                       <vector>
@@ -10118,17 +10303,20 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   </command>
                                   <comment></comment>
                                   <parameters>{&quot;controlId&quot;:&quot;BPM_UI_Test1.Tab_Section1.Vertical_Layout1.Decimal1&quot;,&quot;elementCss&quot;:&quot;&quot;,&quot;elementId&quot;:&quot;Decimal_div_3_1_1_1_1_2&quot;,&quot;expectedMaxLength&quot;:&quot;&quot;,&quot;expectedValue&quot;:&quot;${Parameters.decimalValue}&quot;,&quot;label&quot;:&quot;Decimal&quot;,&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[2]\/div[1]\/div[1]\/input[1]&quot;}</parameters>
-                                  <index>17</index>
+                                  <index>18</index>
                                   <testCase reference="../../../../../.."/>
                                   <bpmUser reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[2]/bpmUser"/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/c7c7e20b-a2ac-46ce-8958-febe167ea3aa.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>513</id>
+                                  <id>2193</id>
                                   <command>
                                     <id>37</id>
                                     <name>assertOutputText</name>
                                     <description>Assert Output Text value</description>
-                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[17]/command/category"/>
+                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[16]/command/category"/>
                                     <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                                       <unserializable-parents/>
                                       <vector>
@@ -10262,24 +10450,30 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   </command>
                                   <comment></comment>
                                   <parameters>{&quot;controlId&quot;:&quot;&quot;,&quot;elementCss&quot;:&quot;&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;expectedValue&quot;:&quot;${RANDOM_STRING}&quot;,&quot;label&quot;:&quot;Output Text&quot;,&quot;xpath&quot;:&quot;&quot;}</parameters>
-                                  <index>18</index>
-                                  <testCase reference="../../../../../.."/>
-                                </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>490</id>
-                                  <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[17]/command"/>
-                                  <comment></comment>
-                                  <parameters>{&quot;controlId&quot;:&quot;&quot;,&quot;elementCss&quot;:&quot;&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;expectedMaxLength&quot;:&quot;&quot;,&quot;expectedValue&quot;:&quot;${RANDOM_NUMBER}&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;xpath&quot;:&quot;&quot;}</parameters>
                                   <index>19</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/fa6a90fd-bade-4c60-a9d0-e67aa4eaf865.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>511</id>
+                                  <id>2183</id>
+                                  <command reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[18]/command"/>
+                                  <comment></comment>
+                                  <parameters>{&quot;controlId&quot;:&quot;&quot;,&quot;elementCss&quot;:&quot;&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;expectedMaxLength&quot;:&quot;&quot;,&quot;expectedValue&quot;:&quot;${RANDOM_NUMBER}&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;xpath&quot;:&quot;&quot;}</parameters>
+                                  <index>20</index>
+                                  <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/359e7c3c-f519-4429-a0bb-817291cebb7a.png</screenshotPath>
+                                </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
+                                <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
+                                  <id>2199</id>
                                   <command>
                                     <id>39</id>
                                     <name>assertSelect</name>
                                     <description>Assert Select value</description>
-                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[17]/command/category"/>
+                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[16]/command/category"/>
                                     <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                                       <unserializable-parents/>
                                       <vector>
@@ -10413,16 +10607,19 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   </command>
                                   <comment></comment>
                                   <parameters>{&quot;controlId&quot;:&quot;&quot;,&quot;elementCss&quot;:&quot;&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;expectedOptions&quot;:&quot;Option 1\nOption 2\nOption 3\nOption 4&quot;,&quot;expectedValue&quot;:&quot;Option 1&quot;,&quot;label&quot;:&quot;Single Select&quot;,&quot;xpath&quot;:&quot;&quot;}</parameters>
-                                  <index>20</index>
+                                  <index>21</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/26bcad69-9209-4bdd-ae41-99e36137b4ea.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>494</id>
+                                  <id>2175</id>
                                   <command>
                                     <id>32</id>
                                     <name>assertCheckbox</name>
                                     <description>Assert checkbox value and options</description>
-                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[17]/command/category"/>
+                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[16]/command/category"/>
                                     <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                                       <unserializable-parents/>
                                       <vector>
@@ -10555,16 +10752,19 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                     <takeScreenshot>true</takeScreenshot>
                                   </command>
                                   <parameters>{&quot;controlId&quot;:&quot;&quot;,&quot;label&quot;:&quot;Check Box Group&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;elementCss&quot;:&quot;&quot;,&quot;xpath&quot;:&quot;&quot;,&quot;checkedLabels&quot;:&quot;Option 2\nOption 4&quot;,&quot;expectedOptions&quot;:&quot;Option 1\nOption 2\nOption 3\nOption 4&quot;}</parameters>
-                                  <index>21</index>
+                                  <index>22</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/f542b48f-e663-467f-bf64-86f594859992.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>484</id>
+                                  <id>2181</id>
                                   <command>
                                     <id>38</id>
                                     <name>assertRadio</name>
                                     <description>Assert Radio value and options</description>
-                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[17]/command/category"/>
+                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[16]/command/category"/>
                                     <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                                       <unserializable-parents/>
                                       <vector>
@@ -10697,16 +10897,19 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                     <takeScreenshot>true</takeScreenshot>
                                   </command>
                                   <parameters>{&quot;controlId&quot;:&quot;&quot;,&quot;label&quot;:&quot;Radio Button Group&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;elementCss&quot;:&quot;&quot;,&quot;xpath&quot;:&quot;&quot;,&quot;checkedLabel&quot;:&quot;Option 2&quot;,&quot;expectedOptions&quot;:&quot;Option 1\nOption 2\nOption 3\nOption 4&quot;}</parameters>
-                                  <index>22</index>
+                                  <index>23</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/c614c0c1-b670-43fa-b998-238578198979.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>501</id>
+                                  <id>2177</id>
                                   <command>
                                     <id>40</id>
                                     <name>assertSwitch</name>
                                     <description>Assert Switch Button value</description>
-                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[17]/command/category"/>
+                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[16]/command/category"/>
                                     <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                                       <unserializable-parents/>
                                       <vector>
@@ -10839,16 +11042,19 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                     <takeScreenshot>true</takeScreenshot>
                                   </command>
                                   <parameters>{&quot;controlId&quot;:&quot;Switch1&quot;,&quot;label&quot;:&quot;&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;elementCss&quot;:&quot;&quot;,&quot;xpath&quot;:&quot;&quot;,&quot;expectedValue&quot;:&quot;On&quot;}</parameters>
-                                  <index>23</index>
+                                  <index>24</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/613a417d-e7cf-411d-a96a-17ec5de76bd3.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>504</id>
+                                  <id>2200</id>
                                   <command>
                                     <id>31</id>
                                     <name>assertButtons</name>
                                     <description>Asset button text</description>
-                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[17]/command/category"/>
+                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[16]/command/category"/>
                                     <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                                       <unserializable-parents/>
                                       <vector>
@@ -10981,16 +11187,19 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                     <takeScreenshot>true</takeScreenshot>
                                   </command>
                                   <parameters>{&quot;texts&quot;:&quot;Close&quot;,&quot;expectedVisibility&quot;:&quot;ENABLED&quot;}</parameters>
-                                  <index>24</index>
+                                  <index>25</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/c01ee9c5-c05c-4b02-a358-2c0428127ae5.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>491</id>
+                                  <id>2191</id>
                                   <command>
                                     <id>43</id>
                                     <name>assertTextarea</name>
                                     <description>Check Text area value</description>
-                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[17]/command/category"/>
+                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[16]/command/category"/>
                                     <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                                       <unserializable-parents/>
                                       <vector>
@@ -11123,16 +11332,19 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                     <takeScreenshot>true</takeScreenshot>
                                   </command>
                                   <parameters>{&quot;controlId&quot;:&quot;&quot;,&quot;label&quot;:&quot;Text Area&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;elementCss&quot;:&quot;&quot;,&quot;xpath&quot;:&quot;&quot;,&quot;expectedValue&quot;:&quot;text area&quot;}</parameters>
-                                  <index>25</index>
+                                  <index>26</index>
                                   <testCase reference="../../../../../.."/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/38ec20bb-b8cf-4dd8-87be-054598ccf2a6.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>492</id>
+                                  <id>2196</id>
                                   <command>
                                     <id>44</id>
                                     <name>assertTextNotPresent</name>
                                     <description></description>
-                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[17]/command/category"/>
+                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[16]/command/category"/>
                                     <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                                       <unserializable-parents/>
                                       <vector>
@@ -11266,17 +11478,20 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   </command>
                                   <comment></comment>
                                   <parameters>{&quot;text&quot;:&quot;Not_present_Text&quot;}</parameters>
-                                  <index>26</index>
+                                  <index>27</index>
                                   <testCase reference="../../../../../.."/>
                                   <bpmUser reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[2]/bpmUser"/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/f9c45d3c-7627-4b4c-a8e4-ea66423f3c86.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>505</id>
+                                  <id>2179</id>
                                   <command>
                                     <id>45</id>
                                     <name>assertTextPresent</name>
                                     <description></description>
-                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[17]/command/category"/>
+                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[16]/command/category"/>
                                     <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                                       <unserializable-parents/>
                                       <vector>
@@ -11410,17 +11625,20 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   </command>
                                   <comment></comment>
                                   <parameters>{&quot;text&quot;:&quot;Integer&quot;}</parameters>
-                                  <index>27</index>
+                                  <index>28</index>
                                   <testCase reference="../../../../../.."/>
                                   <bpmUser reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[2]/bpmUser"/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/b875b21a-a00d-4138-839b-f8d036645611.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>498</id>
+                                  <id>2190</id>
                                   <command>
                                     <id>46</id>
                                     <name>assertValidationPassed</name>
                                     <description>Check whether the coach page is passed the validation or not</description>
-                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[17]/command/category"/>
+                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[16]/command/category"/>
                                     <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                                       <unserializable-parents/>
                                       <vector>
@@ -11554,17 +11772,20 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   </command>
                                   <comment></comment>
                                   <parameters>{}</parameters>
-                                  <index>28</index>
+                                  <index>29</index>
                                   <testCase reference="../../../../../.."/>
                                   <bpmUser reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[2]/bpmUser"/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/22a939f1-2179-450b-9037-9d93c8a23bd6.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>507</id>
+                                  <id>2202</id>
                                   <command>
                                     <id>41</id>
                                     <name>assertTableContent</name>
                                     <description>Assert Table Content</description>
-                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[17]/command/category"/>
+                                    <category reference="../../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[16]/command/category"/>
                                     <parameter class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                                       <unserializable-parents/>
                                       <vector>
@@ -11698,12 +11919,15 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   </command>
                                   <comment></comment>
                                   <parameters>{&quot;controlId&quot;:&quot;BPM_UI_Test1.Table1&quot;,&quot;columnName&quot;:&quot;First Name&quot;,&quot;columnNum&quot;:&quot;&quot;,&quot;rowNum&quot;:&quot;1&quot;,&quot;expectedValue&quot;:&quot;first name&quot;}</parameters>
-                                  <index>29</index>
+                                  <index>30</index>
                                   <testCase reference="../../../../../.."/>
                                   <bpmUser reference="../../com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[2]/bpmUser"/>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace></exceptionTrace>
+                                  <screenshotPath>data/screenshots/standalone/Project-194/case-261/b7e01c3d-370f-4dd9-9066-4b5d87107301.png</screenshotPath>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>497</id>
+                                  <id>2174</id>
                                   <command>
                                     <id>3</id>
                                     <name>debug</name>
@@ -11841,8 +12065,11 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                     <takeScreenshot>false</takeScreenshot>
                                   </command>
                                   <parameters>{}</parameters>
-                                  <index>30</index>
+                                  <index>31</index>
                                   <testCase reference="../../../../../.."/>
+                                  <testResult>{&quot;logTrace&quot;:&quot;Debug log is :null&quot;}</testResult>
+                                  <executionStatus>Passed</executionStatus>
+                                  <exceptionTrace>Debug log is :null</exceptionTrace>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                               </delegate>
                               <valueHolder class="org.eclipse.persistence.internal.indirection.UnitOfWorkQueryValueHolder">
@@ -11857,7 +12084,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   </vector>
                                   <org.eclipse.persistence.indirection.IndirectList>
                                     <default>
-                                      <initialCapacity>30</initialCapacity>
+                                      <initialCapacity>31</initialCapacity>
                                       <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
                                       <isRegistered>false</isRegistered>
                                       <useLazyInstantiation>true</useLazyInstantiation>
@@ -12285,20 +12512,20 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                     <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[16]"/>
                                   </fieldsArray>
                                   <valuesArray>
-                                    <long>65</long>
+                                    <long>261</long>
                                     <null/>
                                     <string>normalCase</string>
-                                    <sql-timestamp>2019-06-10 14:03:53.886</sql-timestamp>
-                                    <string>New</string>
+                                    <sql-timestamp>2019-06-13 16:19:46.416</sql-timestamp>
+                                    <string>Passed</string>
                                     <string>[{&quot;PROCESSNAME&quot;:&quot;Start&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;208aa5b1-75c2-437c-bc9f-31bf05cfca8f&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;StartPoint&quot;},{&quot;PROCESSNAME&quot;:&quot;Init&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.3c7c02b1-9b49-4634-8bca-6cb721bad9ff&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ScriptTask&quot;},{&quot;PROCESSNAME&quot;:&quot;Page 1&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.3c36cef0-432c-433c-87b1-f9a8f538e116&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;Page 2&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.d2431741-55f3-4368-8ff9-74be6facf9c3&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;End&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;e4783280-68ee-474a-b5b2-f47c4607391b&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ExitPoint&quot;}]</string>
                                     <string>BPM UI Test</string>
                                     <string>SERVICE</string>
-                                    <sql-timestamp>2019-06-10 14:23:12.417</sql-timestamp>
+                                    <sql-timestamp>2019-06-13 17:14:35.356</sql-timestamp>
                                     <long>1</long>
                                     <null/>
-                                    <null/>
-                                    <long>65</long>
-                                    <long>65</long>
+                                    <long>1</long>
+                                    <long>194</long>
+                                    <long>227</long>
                                     <long>1</long>
                                     <null/>
                                   </valuesArray>
@@ -12316,7 +12543,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                     </vector>
                                     <org.eclipse.persistence.indirection.IndirectList>
                                       <default>
-                                        <initialCapacity>30</initialCapacity>
+                                        <initialCapacity>31</initialCapacity>
                                         <isListOrderBrokenInDb>false</isListOrderBrokenInDb>
                                         <isRegistered>false</isRegistered>
                                         <useLazyInstantiation>true</useLazyInstantiation>
@@ -12351,6 +12578,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                           <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep reference="../../../../../../../delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[28]"/>
                                           <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep reference="../../../../../../../delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[29]"/>
                                           <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep reference="../../../../../../../delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[30]"/>
+                                          <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep reference="../../../../../../../delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[31]"/>
                                         </delegate>
                                         <valueHolder class="org.eclipse.persistence.indirection.ValueHolder">
                                           <value class="vector" reference="../../delegate"/>
@@ -12399,7 +12627,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                           </org.eclipse.persistence.indirection.IndirectList>
                         </testResult>
                         <testSuite reference="../../../../../.."/>
-                        <executionStatus>New</executionStatus>
+                        <executionStatus>Passed</executionStatus>
                         <caseHistory class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                           <unserializable-parents/>
                           <vector>
@@ -12551,8 +12779,8 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   <isCreatable>true</isCreatable>
                                   <isPrimaryKey>false</isPrimaryKey>
                                   <columnDefinition></columnDefinition>
-                                  <name>PROJECT_ID</name>
-                                  <qualifiedName>test_suite.PROJECT_ID</qualifiedName>
+                                  <name>project_id</name>
+                                  <qualifiedName>test_suite.project_id</qualifiedName>
                                   <table reference="../../org.eclipse.persistence.internal.helper.DatabaseField/table"/>
                                   <typeName>java.lang.Long</typeName>
                                   <sqlType>-5</sqlType>
@@ -12585,10 +12813,10 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                           <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[4]"/>
                         </fieldsArray>
                         <valuesArray>
-                          <long>65</long>
+                          <long>227</long>
                           <string>BPM_UI_Test</string>
                           <string>userInterfaces</string>
-                          <long>65</long>
+                          <long>194</long>
                         </valuesArray>
                       </row>
                       <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
@@ -12631,7 +12859,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
               <project reference="../../../../../.."/>
             </com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite>
             <com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite>
-              <id>66</id>
+              <id>228</id>
               <testSuiteName>File_Upload</testSuiteName>
               <testSuiteType>userInterfaces</testSuiteType>
               <testcases class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
@@ -12651,15 +12879,15 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                     <useLazyInstantiation>true</useLazyInstantiation>
                     <delegate>
                       <com.ibm.cte.sdc.bpm.testing.model.cases.TestCase>
-                        <id>66</id>
+                        <id>262</id>
                         <caseName>normalCase</caseName>
                         <flow>[{&quot;PROCESSNAME&quot;:&quot;Start&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;fb382184-f22c-4031-affd-659afd161e74&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;StartPoint&quot;},{&quot;PROCESSNAME&quot;:&quot;Coach&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.79e19621-a2b8-4486-921b-ecc8045756bb&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;End&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;5d727286-faf4-42d3-a81b-cb5e80e30979&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ExitPoint&quot;}]</flow>
                         <processType>SERVICE</processType>
                         <processName>File Upload</processName>
                         <creator reference="../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/creator"/>
                         <updater reference="../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/creator"/>
-                        <creationDate>2019-06-10 06:03:53.991 UTC</creationDate>
-                        <updateDate>2019-06-10 06:03:53.991 UTC</updateDate>
+                        <creationDate>2019-06-13 08:19:46.570 UTC</creationDate>
+                        <updateDate>2019-06-13 08:19:46.570 UTC</updateDate>
                         <project reference="../../../../../../../../../../.."/>
                         <caseSteps class="org.eclipse.persistence.indirection.IndirectList" serialization="custom">
                           <unserializable-parents/>
@@ -12678,21 +12906,21 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                               <useLazyInstantiation>true</useLazyInstantiation>
                               <delegate>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>520</id>
+                                  <id>2211</id>
                                   <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command"/>
                                   <parameters>{&quot;service&quot;:&quot;File Upload&quot;,&quot;params&quot;:&quot;&quot;,&quot;expectedOutput&quot;:null}</parameters>
                                   <index>1</index>
                                   <testCase reference="../../../../../.."/>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>515</id>
+                                  <id>2205</id>
                                   <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep/command"/>
                                   <parameters>{&quot;info&quot;:&quot;[\&quot;window-MAIN\&quot;,\&quot;iframe-0\&quot;]&quot;}</parameters>
                                   <index>2</index>
                                   <testCase reference="../../../../../.."/>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>518</id>
+                                  <id>2204</id>
                                   <command>
                                     <id>16</id>
                                     <name>file</name>
@@ -12835,7 +13063,7 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   <testCase reference="../../../../../.."/>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>521</id>
+                                  <id>2212</id>
                                   <command>
                                     <id>8</id>
                                     <name>bpmFileDropzone</name>
@@ -12978,21 +13206,21 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   <testCase reference="../../../../../.."/>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>516</id>
-                                  <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[14]/command"/>
+                                  <id>2203</id>
+                                  <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[13]/command"/>
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[3]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[2]\/button[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;button&quot;,&quot;event&quot;:&quot;mouseup&quot;,&quot;command&quot;:&quot;UI.click&quot;,&quot;value&quot;:&quot;Refresh&quot;,&quot;type&quot;:&quot;Button&quot;}</parameters>
                                   <index>5</index>
                                   <testCase reference="../../../../../.."/>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>524</id>
-                                  <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[14]/command"/>
+                                  <id>2207</id>
+                                  <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[13]/command"/>
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[3]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[3]\/button[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;button&quot;,&quot;event&quot;:&quot;mouseup&quot;,&quot;command&quot;:&quot;UI.click&quot;,&quot;value&quot;:&quot;Add...&quot;,&quot;type&quot;:&quot;Button&quot;}</parameters>
                                   <index>6</index>
                                   <testCase reference="../../../../../.."/>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>522</id>
+                                  <id>2206</id>
                                   <command>
                                     <id>9</id>
                                     <name>bpmFileUploader</name>
@@ -13135,29 +13363,29 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   <testCase reference="../../../../../.."/>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>523</id>
-                                  <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[14]/command"/>
+                                  <id>2208</id>
+                                  <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[13]/command"/>
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[3]\/div[1]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]\/div[2]\/div[1]\/div[2]\/div[1]\/div[1]\/button[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;button&quot;,&quot;event&quot;:&quot;mouseup&quot;,&quot;command&quot;:&quot;UI.click&quot;,&quot;value&quot;:&quot;Upload&quot;,&quot;type&quot;:&quot;Button&quot;}</parameters>
                                   <index>8</index>
                                   <testCase reference="../../../../../.."/>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>517</id>
-                                  <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[14]/command"/>
+                                  <id>2209</id>
+                                  <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[13]/command"/>
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[3]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[1]\/div[2]\/div[1]\/div[2]\/div[1]\/div[2]\/div[2]\/div[1]\/div[2]\/div[1]\/div[2]\/div[2]\/div[2]\/div[1]\/table[1]\/tbody[1]\/tr[1]\/td[5]\/div[1]\/div[1]\/i[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;i&quot;,&quot;event&quot;:&quot;mouseup&quot;,&quot;command&quot;:&quot;UI.click&quot;,&quot;value&quot;:&quot;&quot;,&quot;controlId&quot;:&quot;Panel3.BPM_Document_List1.Panel1.Vertical_Layout2.BPMFileList.DocListPanel.DocList&quot;}</parameters>
                                   <index>9</index>
                                   <testCase reference="../../../../../.."/>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>514</id>
-                                  <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[14]/command"/>
+                                  <id>2213</id>
+                                  <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[3]/command/groupCommands/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[13]/command"/>
                                   <parameters>{&quot;xpath&quot;:&quot;\/html[1]\/body[1]\/div[1]\/div[3]\/div[1]\/div[2]\/div[1]\/div[1]\/div[1]\/div[1]\/div[2]\/div[1]\/div[2]\/div[1]\/div[2]\/div[2]\/div[1]\/div[2]\/div[1]\/div[2]\/div[2]\/div[2]\/div[1]\/table[1]\/tbody[1]\/tr[1]\/td[5]\/div[1]\/div[1]\/i[1]&quot;,&quot;elementId&quot;:&quot;&quot;,&quot;tagName&quot;:&quot;i&quot;,&quot;event&quot;:&quot;mouseup&quot;,&quot;command&quot;:&quot;UI.click&quot;,&quot;value&quot;:&quot;&quot;,&quot;controlId&quot;:&quot;Panel3.BPM_Document_List1.Panel1.Vertical_Layout2.BPMFileList.DocListPanel.DocList&quot;}</parameters>
                                   <index>10</index>
                                   <testCase reference="../../../../../.."/>
                                 </com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
                                 <com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep>
-                                  <id>519</id>
-                                  <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[30]/command"/>
+                                  <id>2210</id>
+                                  <command reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.CaseStep[31]/command"/>
                                   <parameters>{}</parameters>
                                   <index>11</index>
                                   <testCase reference="../../../../../.."/>
@@ -13195,20 +13423,20 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                                   <nullValueInFields>false</nullValueInFields>
                                   <fieldsArray reference="../../../../../../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/delegate/com.ibm.cte.sdc.bpm.testing.model.cases.TestCase/caseSteps/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
                                   <valuesArray>
-                                    <long>66</long>
+                                    <long>262</long>
                                     <null/>
                                     <string>normalCase</string>
-                                    <sql-timestamp>2019-06-10 14:03:53.991</sql-timestamp>
+                                    <sql-timestamp>2019-06-13 16:19:46.57</sql-timestamp>
                                     <string>New</string>
                                     <string>[{&quot;PROCESSNAME&quot;:&quot;Start&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;fb382184-f22c-4031-affd-659afd161e74&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;StartPoint&quot;},{&quot;PROCESSNAME&quot;:&quot;Coach&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;2025.79e19621-a2b8-4486-921b-ecc8045756bb&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;UserTask&quot;},{&quot;PROCESSNAME&quot;:&quot;End&quot;,&quot;ID&quot;:null,&quot;BPMOBJECTID&quot;:&quot;5d727286-faf4-42d3-a81b-cb5e80e30979&quot;,&quot;ATTACHACTIVITYID&quot;:null,&quot;TASKTYPE&quot;:&quot;ExitPoint&quot;}]</string>
                                     <string>File Upload</string>
                                     <string>SERVICE</string>
-                                    <sql-timestamp>2019-06-10 14:03:53.991</sql-timestamp>
+                                    <sql-timestamp>2019-06-13 16:19:46.57</sql-timestamp>
                                     <long>1</long>
                                     <null/>
                                     <null/>
-                                    <long>65</long>
-                                    <long>66</long>
+                                    <long>194</long>
+                                    <long>228</long>
                                     <long>1</long>
                                     <null/>
                                   </valuesArray>
@@ -13354,10 +13582,10 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                         <nullValueInFields>false</nullValueInFields>
                         <fieldsArray reference="../../../../../../../com.ibm.cte.sdc.bpm.testing.model.cases.TestSuite/testcases/org.eclipse.persistence.indirection.IndirectList/default/valueHolder/row/fieldsArray"/>
                         <valuesArray>
-                          <long>66</long>
+                          <long>228</long>
                           <string>File_Upload</string>
                           <string>userInterfaces</string>
-                          <long>65</long>
+                          <long>194</long>
                         </valuesArray>
                       </row>
                       <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
@@ -13635,8 +13863,8 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
                       <isCreatable>true</isCreatable>
                       <isPrimaryKey>false</isPrimaryKey>
                       <columnDefinition></columnDefinition>
-                      <name>project_id</name>
-                      <qualifiedName>external_test_data.project_id</qualifiedName>
+                      <name>PROJECT_ID</name>
+                      <qualifiedName>external_test_data.PROJECT_ID</qualifiedName>
                       <table reference="../../org.eclipse.persistence.internal.helper.DatabaseField/table"/>
                       <typeName>java.lang.Long</typeName>
                       <sqlType>-5</sqlType>
@@ -13669,14 +13897,14 @@ Ncw2OoQzoUuWSxWI/5C2YU0bk0vitgPE+tsQos/Beo+8G+J5KM6tqA==
               <org.eclipse.persistence.internal.helper.DatabaseField reference="../../fields/vector/default/elementData/org.eclipse.persistence.internal.helper.DatabaseField[5]"/>
             </fieldsArray>
             <valuesArray>
-              <long>65</long>
+              <long>129</long>
               <string>&quot;datasetName&quot;,&quot;requester&quot;,&quot;approver&quot;,&quot;managerName&quot;,&quot;num&quot;,&quot;title&quot;
 &quot;dataset1&quot;,&quot;hrm1&quot;,&quot;gm1&quot;,&quot;Sam&quot;,&quot;9&quot;,&quot;Dev&quot;
 &quot;dataset2&quot;,&quot;hrm1&quot;,&quot;gm1&quot;,&quot;Sam&quot;,&quot;19&quot;,&quot;Test&quot;
 </string>
               <string>sample_data1.csv</string>
               <string>csv</string>
-              <long>65</long>
+              <long>194</long>
             </valuesArray>
           </row>
           <isCoordinatedWithProperty>false</isCoordinatedWithProperty>
