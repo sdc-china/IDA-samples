@@ -1,0 +1,6 @@
+- Install VS Code.
+- Install VS Code plugin Scala (Metals)
+- Enable "Format on Save" in Settings.
+- Update JAVA_HOME and GATLING_HOME in "checkEnv.bat" file.
+- Execute "run.bat LoginSimulation"
+- View the result in the results folder.
