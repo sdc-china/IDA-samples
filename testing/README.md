@@ -20,7 +20,7 @@
 
     1. Import the {TWX}/(Sample_TWX_file).twx file to IBM IBM Process Center.
     2. Zip the Sample project folder to a zip format file like Sample_Project.zip
-    3. After importing the Sample_Project.zip to Keter Web, you could run the built in test cases. 
+    3. After importing the Sample_Project.zip to IDA Web, you could run the built in test cases. 
 
 ## Headless Sample
 
