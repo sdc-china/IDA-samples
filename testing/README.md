@@ -2,19 +2,21 @@
 
 ### Projects
 
-    1. IDA Sample - IDA Sample
-    2. UI command sample for BP3 toolkit - BP3 Sample
-    3. Headless sample - Headless Sample
-    4. BPMoC sample - BPMoC Sample
+    1. Process App - IDA Sample App
+    2. Case Solution - Customer Complaints Sample
+    3. UI command sample for BP3 toolkit - BP3 Sample
+    4. Headless sample - Headless Sample
+    5. BPMoC sample - BPMoC Sample
 
 ### Resources
 
     - TWX - IDA Sample App.twx
+    - TWX - Customer_Complaints_Sample.twx
 
 ## Installation and Getting Started
 
     1. Import the {TWX}/(Sample_TWX_file).twx file to IBM IBM Process Center.
-    2. Zip the Sample project folder to a zip format file like Sample_Project.zip
+    2. Import Sample_Project.zip to IDA Web
     3. After importing the Sample_Project.zip to IDA Web, you could run the built in test cases.
 
 ## Headless Sample
